@@ -9,27 +9,24 @@ import "server-only";
 import proposalsRaw from "@/data/proposals.json";
 import orgsRaw from "@/data/orgs.json";
 import techTagsRaw from "@/data/tech-tags.json";
-import sponsorsRaw from "@/data/sponsors.json";
 
 import {
   type Organization,
   OrganizationSchema,
   type Proposal,
   ProposalSchema,
-  type Sponsor,
-  type SponsorsConfig,
-  SponsorsConfigSchema,
   type TechTag,
   TechTagSchema,
   type Tip,
   TipFrontmatterSchema,
 } from "@/lib/schema";
 
+export { getSponsorsConfig, pickSponsor } from "@/lib/sponsors";
+
 // ---- Memoization ----
 let _proposals: Proposal[] | null = null;
 let _orgs: Organization[] | null = null;
 let _techTags: TechTag[] | null = null;
-let _sponsors: SponsorsConfig | null = null;
 let _tips: Tip[] | null = null;
 
 export function getAllProposals(): Proposal[] {
@@ -56,12 +53,6 @@ export function getAllTechTags(): TechTag[] {
   if (_techTags) return _techTags;
   _techTags = TechTagSchema.array().parse(techTagsRaw);
   return _techTags;
-}
-
-export function getSponsorsConfig(): SponsorsConfig {
-  if (_sponsors) return _sponsors;
-  _sponsors = SponsorsConfigSchema.parse(sponsorsRaw);
-  return _sponsors;
 }
 
 // ---- Lookups ----
@@ -198,27 +189,6 @@ export function getTopTechTags(n: number): Array<{ tag: TechTag; count: number }
     .filter((r): r is { tag: TechTag; count: number } => r !== null)
     .sort((a, b) => b.count - a.count)
     .slice(0, n);
-}
-
-// ---- Sponsor selection ----
-export function pickSponsor(seed?: string): Sponsor | null {
-  const cfg = getSponsorsConfig();
-  if (cfg.active.length > 0) {
-    if (!seed) return cfg.active[0]!;
-    let h = 0;
-    for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) | 0;
-    return cfg.active[Math.abs(h) % cfg.active.length] ?? null;
-  }
-  // Fall back to placeholders so the surface is never empty —
-  // the slot is still labeled "Sponsored" + ctaUrl is REPLACE_REF
-  // so the owner can immediately spot what needs filling.
-  if (cfg.placeholders.length > 0) {
-    if (!seed) return cfg.placeholders[0]!;
-    let h = 0;
-    for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) | 0;
-    return cfg.placeholders[Math.abs(h) % cfg.placeholders.length] ?? null;
-  }
-  return null;
 }
 
 // ---- Tips (MDX) ----
