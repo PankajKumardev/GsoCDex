@@ -1,0 +1,88 @@
+---
+title: How to pick a GSoC organization that's actually a good fit
+summary: A practical, opinionated playbook for choosing one of the ~180+ GSoC mentor orgs — based on what works, not what looks impressive.
+author: GSoCDex Editors
+lastUpdated: 2026-04-15
+tags: [planning, beginner]
+sponsored: false
+---
+
+Every January, the same thing happens. The GSoC organization list drops, and a few thousand students start frantically scrolling through 180+ orgs trying to figure out where to apply. By the time the application window closes, most of them have wasted weeks on orgs that were never going to accept them, and missed the orgs that would have been perfect.
+
+Here's the thing nobody tells you: **picking the right org matters more than writing a great proposal**. A great proposal to the wrong org gets rejected. A merely-okay proposal to the right org — where you've been contributing for two months and the maintainers know your name — gets accepted.
+
+This guide is the playbook we wish someone had handed us before our first GSoC application. It's opinionated. Some of it will sound counter-intuitive. Trust us anyway.
+
+## Step 1: Filter the list down to 10 orgs in 30 minutes
+
+Don't read the entire 180-org list. You'll burn out. Instead, do a fast first-pass filter:
+
+1. **Open the official mentor-org list.** Skim only the names and one-line summaries.
+2. **Mark any org that uses a language you've actually shipped code in.** Not "I did a tutorial in Rust last summer" — actual shipped code, even a tiny side project.
+3. **Cross out any org that uses tools you don't have.** No Mac? Skip iOS-heavy orgs. Slow internet? Skip orgs that require multi-GB Docker images.
+4. **Cross out any org whose problem domain bores you.** This is the part students skip. If you read the org's description and feel nothing, you'll struggle to stay motivated for 12 weeks.
+
+You should end up with 10–15 orgs. If you end up with 50, your filter wasn't strict enough.
+
+## Step 2: Run the "first PR" test on your shortlist
+
+For each of your 10–15 finalists, spend 30 minutes:
+
+- Open their main GitHub repo.
+- Read the last 5 merged PRs by external contributors.
+- Find their "good first issue" or "help wanted" label.
+- Skim their contribution guide.
+
+Now ask yourself three brutal questions:
+
+1. **Could I plausibly file a small PR within 7 days?** If you can't even understand the build system, this org is too advanced for your current skill level. That's not a judgment of you — it's information. Filter it out.
+2. **Are mentors actively reviewing PRs from new contributors?** Look at the PRs, not the issues. Active mentor review is the single biggest predictor of GSoC selection. Orgs where the last external PR was merged 4 months ago will not select you.
+3. **Is the project active right now?** Check the most recent commits on `main`. An org with no commits for two months is not going to pull off a GSoC project this summer.
+
+You should end up with 3–5 orgs that pass all three tests. These are your actual candidates.
+
+## Step 3: Rank by "where am I a known quantity by week 6"
+
+Now rank your 3–5 finalists by one criterion only: **where can I become a known contributor before the application deadline?**
+
+The harsh truth of GSoC: orgs receive 50–500 proposals per slot. Mentors do not have time to read all of them carefully. They read carefully when they recognize the contributor's name from the issue tracker, mailing list, or recent PR queue. Everyone else gets a 30-second skim.
+
+So your strategy isn't "write the best proposal." Your strategy is: **be a face mentors recognize before they ever read your proposal.**
+
+That means picking 1, maybe 2, orgs and going deep. Not 5 orgs and going shallow. Most accepted students focused on a single org for at least 6 weeks before submitting.
+
+## Step 4: The "is this org beginner-friendly" red flags
+
+Some orgs are notorious for being terrible for first-time GSoC contributors, even if their projects look exciting. Watch for these red flags during your shortlisting:
+
+- **No explicit "good first issue" tagging.** Means new contributors are on their own to find work.
+- **Fewer than 3 mentors listed.** A single overworked maintainer will almost certainly burn out mid-summer.
+- **Required tooling that costs money.** If you need a paid IDE, paid cloud account, or commercial license to even build the project, find another org.
+- **Contribution guide hasn't been updated since 2019.** Means the workflow has drifted from what's documented. You'll spend a week debugging build errors that the docs don't acknowledge.
+- **All recent merged PRs are from existing maintainers.** External contributions get rejected, ghosted, or sit for months. Hard pass.
+
+## Step 5: The "secret weapon" orgs nobody applies to
+
+There's a class of orgs that are simultaneously high-quality, mentor-rich, and severely under-applied-to. Examples (these change yearly): obscure scientific-computing libraries, niche developer-tooling projects, accessibility-focused orgs, and meta-orgs that span 5–20 sub-projects.
+
+These orgs are gold for first-time GSoC applicants. Lower competition (sometimes 2–5 proposals per slot instead of 30+), engaged mentors who actually want help, and the work is often deeper than the flagship orgs.
+
+How to find them: filter the mentor-org list for ones you'd never heard of before, in problem domains you actually care about. Then apply the Step 2 first-PR test. If they pass, prioritize them.
+
+## Step 6: Don't apply to multiple slots at the same org unless told to
+
+This is GSoC-specific lore that catches students out every year. Most orgs explicitly prefer one proposal per applicant. If you submit three different proposals to the same org, mentors will read the first one, reject all three, and move on. Apply to a maximum of one project per org, ideally one project total across all orgs you're targeting.
+
+## A note on impostor syndrome
+
+Every applicant — every single one, including the ones who get accepted — feels like they're not good enough for GSoC. That feeling is not information. It is the default state of being 19 years old reading the contribution guide of a major open-source project for the first time.
+
+The people who get accepted are not the ones who don't feel impostor syndrome. They're the ones who applied anyway.
+
+## Where to go from here
+
+- Read [Proposal structure explained](/tips/proposal-structure-explained) for the actual proposal format.
+- Browse [accepted proposals](/browse) to see what successful applicants wrote.
+- Read [Mentor communication tips](/tips/mentor-communication-tips) for the highest-leverage pre-submission move.
+
+Good luck. Pick an org you actually like, send small PRs, talk to mentors, write your proposal early.

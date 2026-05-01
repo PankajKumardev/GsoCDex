@@ -6,7 +6,6 @@ import { ProposalCard } from "@/components/ProposalCard";
 import { SponsorSlot } from "@/components/SponsorSlot";
 import {
   getAllOrgs,
-  getAllProposals,
   getAllTechTags,
   getProposalsByYear,
   getYearsCovered,

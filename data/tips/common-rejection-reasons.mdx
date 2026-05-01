@@ -1,0 +1,106 @@
+---
+title: The 8 most common GSoC rejection reasons
+summary: After reviewing hundreds of accepted and rejected proposals, the rejection patterns repeat. Here are the 8 most common ones and how to fix each.
+author: GSoCDex Editors
+lastUpdated: 2026-04-25
+tags: [proposal-writing, debugging]
+sponsored: false
+---
+
+GSoC rejection feedback is rarely detailed. Mentors are volunteers, the slot count is fixed, and most rejected proposals get a polite "we received many strong applications, unfortunately yours wasn't selected this year" — which tells the applicant exactly nothing about what went wrong.
+
+After reading hundreds of accepted and rejected proposals across many years, the rejection patterns repeat. Here are the 8 most common ones, with concrete advice on how to avoid each.
+
+## 1. The proposal restates the project description without adding insight
+
+The single most common pattern. The org publishes a project idea: "Add support for feature X to subsystem Y." The applicant writes a 12-page proposal that essentially expands those 8 words into 12 pages without adding any new information. Mentors finish the proposal knowing nothing about the applicant's understanding of the problem.
+
+**Fix:** the proposal must demonstrate *your* understanding of the problem, not just restate what the org told you. Read the relevant code. Cite specific files. Identify edge cases the project description didn't mention. Propose a concrete approach that wasn't in the original idea.
+
+## 2. No prior contributions to the org
+
+Mentors evaluate two questions: "Is this a strong proposal?" and "Do I trust this person to follow through for 12 weeks?"
+
+The second question is hard to answer from a proposal alone. Prior contributions — even tiny ones — are the easiest way to answer it. A merged PR fixing a typo is more trust-building than a 20-page perfect proposal from a stranger.
+
+**Fix:** open at least 1–2 small PRs to the org *before* submitting the proposal. Goal isn't to do impressive work — it's to be a name the mentors recognize when they read your proposal.
+
+## 3. Unrealistic timeline
+
+The applicant proposes 5 components in 12 weeks when 2 components is the realistic scope. Or the timeline has 100% utilization with no buffer. Or implementation starts in coding week 1 with no design phase. Mentors see this all the time and recognize it instantly.
+
+**Fix:** propose less. The strongest proposals are the ones where mentors think "I'd budget 14 weeks for this, but they're claiming 12 weeks with a 2-week buffer — that's realistic." Underpromise.
+
+## 4. Vague language
+
+Phrases like "I will leverage modern best practices to enhance the user experience" or "I plan to optimize performance using cutting-edge techniques" are red flags. They sound impressive but say nothing.
+
+Mentors want concrete:
+
+- "I will implement caching at layer X using strategy Y, expected 2× speedup on benchmark Z."
+- "I'll refactor the authentication module from callback-based to async/await, in 3 PRs of ~400 lines each, with backward-compat shims for downstream consumers."
+
+If you can swap any noun in your sentence for any other noun and the sentence still sounds equally plausible, it's vague. Rewrite it.
+
+## 5. AI-written tone
+
+This category has exploded since 2023. Many submitted proposals read like ChatGPT output: long, padded paragraphs with no specifics, a bulleted "key benefits" section, and concluding paragraphs that summarize what was just said. Mentors recognize this immediately and reject hard.
+
+Even if you didn't use AI, *don't write like AI does*. Specifically:
+
+- Cut redundant phrases ("It is worth noting that...", "Furthermore, it should be mentioned that...").
+- Cut concluding paragraphs that summarize what was just said.
+- Avoid bullet points stuffed with adjective-heavy phrases ("seamless integration," "robust architecture").
+- Write in your own voice. If a friend read your proposal, would they recognize it as yours?
+
+## 6. Missing or weak problem statement
+
+Many proposals jump straight from "personal info" to "implementation plan" without explaining *why* the work needs to happen. Mentors care about why. Without a problem statement, the proposal reads as a generic implementation plan that could be written by anyone.
+
+**Fix:** the problem statement section is the most important section of the proposal. Spend 1–2 pages on it. Cite the relevant GitHub issues, mailing-list discussions, or roadmap entries. Explain who's affected and why the org cares. Make the case before you propose the solution.
+
+## 7. Applying to too many slots
+
+Applying to 3 different projects across 3 different orgs spreads you too thin. Each application gets less of your attention. Each org sees a generic-feeling proposal instead of one that's genuinely tailored to them. And mentors of overlapping orgs sometimes compare notes — "this person also applied to org Y" — which can hurt.
+
+**Fix:** apply to 1, maybe 2 projects total. Pour your full energy into them. If you've been contributing to one org for 6 weeks, the choice is obvious.
+
+## 8. No mid-project communication plan
+
+The proposal describes the implementation work but says nothing about how mentor communication will work during the 12-week coding period. Mentors interpret this as "I haven't thought about how this will run."
+
+**Fix:** include an explicit communication plan in the proposal. "I'll post weekly status updates every Monday on the org's mailing list. I'll be reachable on the org's Discord during weekday afternoons (UTC). Expect a response within 24 hours during the work week, 48 hours on weekends."
+
+This sounds bureaucratic but mentors weight it heavily. It's a proxy for how reliable you'll be over the long haul.
+
+## Less common but still important
+
+A few more rejection reasons that don't make the top 8 but are worth flagging:
+
+- **Scope mismatch with track length.** Proposing a 350-hour project on the 175-hour track, or vice versa. Mentors will reject.
+- **No backup plan for blocked work.** If your project has a hard external dependency (a library upgrade, a hardware vendor, a third-party API), mentors want to see contingency. "If X is delayed, I'll work on Y in parallel."
+- **Disclosing too much.** Listing every minor side project on your CV. Mentors only care about the ones relevant to the proposal.
+- **No demo at midterm.** If your project produces something visible (UI, library, API), the proposal should commit to a working demo at midterm. Mentors love demos because they make evaluation easy.
+- **Ignoring feedback from earlier conversations.** If you talked to mentors in the project channel and got pushback on an idea, the proposal should reflect that conversation. If it doesn't, mentors notice.
+
+## How to debug a rejected proposal
+
+If you've been rejected and want to understand why (and improve for next year), here's the diagnostic:
+
+1. **Re-read your proposal as a stranger.** Specifically, read the problem-statement section. Does it teach you something about the codebase you didn't already know? If not, that's likely the issue.
+2. **Look at your prior-contributions section.** How many merged PRs to that org did you have at submission time? Zero? That's likely the issue.
+3. **Look at your timeline.** Does it have buffer? Does it map to the official GSoC calendar? Does it have explicit milestones? If any of those are missing, that's likely the issue.
+4. **Look at your tone.** Read the proposal out loud. Does it sound like you, or does it sound generic? If generic, that's likely the issue.
+
+## Try again next year
+
+GSoC rejection is not a permanent verdict on you as an engineer. Many of the strongest open-source contributors got rejected the first time they applied. The people who succeed are the ones who treat rejection as data, debug what went wrong, and apply again the following year.
+
+If you got rejected this year: spend the next 6 months contributing to the org you wanted. By the time the next application opens, you'll be a known contributor with a strong track record. Same proposal, different mentor reading experience.
+
+## See also
+
+- [How to pick a GSoC organization](/tips/how-to-pick-a-gsoc-org)
+- [Proposal structure explained](/tips/proposal-structure-explained)
+- [Mentor communication tips](/tips/mentor-communication-tips)
+- [Timeline template](/tips/timeline-template)

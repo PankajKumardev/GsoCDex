@@ -1,0 +1,157 @@
+---
+title: A GSoC timeline template that mentors actually like
+summary: A week-by-week timeline template grounded in real accepted proposals — with notes on where to add buffer and how to map milestones to the official GSoC calendar.
+author: GSoCDex Editors
+lastUpdated: 2026-04-22
+tags: [proposal-writing, planning]
+sponsored: false
+---
+
+The timeline section of a GSoC proposal is where most students lose mentors. The proposal is otherwise solid — interesting problem, good approach, clear writing — and then the timeline is "Week 1: write code. Week 2: write code. Week 12: write tests." Mentors close the tab. They've seen this 200 times.
+
+A good timeline does three things:
+
+1. **Maps work to the official GSoC calendar** so mentors can see exactly when you'll deliver what.
+2. **Includes explicit milestones** mentors can use as evaluation criteria.
+3. **Builds in real buffer** for when things go wrong — which they always do.
+
+Below is a template that mirrors what the strongest accepted proposals use. Adapt it; don't copy it verbatim. Mentors will spot template-stuffing.
+
+## The official GSoC calendar (standard track)
+
+The exact dates change every year, but the structure is roughly:
+
+- **Application period:** ~3 weeks in March/April
+- **Acceptance announced:** late April or early May
+- **Community bonding:** ~3–4 weeks (early May to early June)
+- **Coding starts:** early June
+- **Midterm evaluation:** ~6 weeks into coding (mid-July)
+- **Coding ends:** late August or early September
+- **Final evaluation:** ~2 weeks after coding ends
+
+Your timeline should map to *this* calendar — not a generic "12-week" schedule.
+
+## The template
+
+```
+Phase 1 — Community bonding (3–4 weeks before coding starts)
+  Week 1: Set up dev environment, build the project from source, run the
+          existing test suite. Confirm I can reproduce bug X and observe
+          behavior Y. Open one small "starter" PR.
+  Week 2: Write a 2-page design document for the architecture proposed in
+          this proposal. Share with mentors for review. Iterate on
+          feedback.
+  Week 3: Implement a small proof-of-concept of the riskiest part of the
+          architecture. Verify the approach works on toy inputs.
+  Week 4: Set up CI for my work branch. Write the first test scaffold.
+          Sync with mentors on final scope adjustments.
+
+Phase 2 — Coding period, weeks 1–4 (Component A)
+  Week 1: Implement skeleton of Component A. Open Draft PR. (Milestone M1)
+  Week 2: Flesh out happy-path logic. Add unit tests. (Milestone M2)
+  Week 3: Address edge cases identified during PR review. Performance
+          benchmarks if relevant. (Milestone M3)
+  Week 4: PR ready for merge. Documentation page added to docs site.
+          Component A SHIPPED. (Milestone M4)
+
+Phase 3 — Midterm evaluation week
+  Week 5: Buffer week. Catch up if Phase 2 slipped. Otherwise: write
+          midterm progress report, integration-test Component A against
+          Component B's expected interface.
+
+Phase 4 — Coding period, weeks 6–9 (Component B)
+  Week 6: Implement skeleton of Component B. Open Draft PR. (Milestone M5)
+  Week 7: Wire Component B to Component A. Integration tests.
+          (Milestone M6)
+  Week 8: Address review feedback. Edge cases. Performance.
+          (Milestone M7)
+  Week 9: PR ready for merge. Documentation. Component B SHIPPED.
+          (Milestone M8)
+
+Phase 5 — Coding weeks 10–11 (Polish + ship)
+  Week 10: End-to-end testing. Documentation polish. Migration guide
+           for existing users. Bug fixes from community testing.
+  Week 11: Final PR review pass. Address any final mentor concerns.
+
+Phase 6 — Buffer + final evaluation
+  Week 12: Buffer for unexpected issues. Write final report. Record
+           a 5-minute demo video. Submit final eval.
+```
+
+This template is intentionally aggressive about milestones (M1 through M8). Mentors love this. Each milestone is a checkpoint where the mentor can say "yes, this is on track" or "no, we need to adjust scope."
+
+## Common mistakes
+
+### 1. No community bonding plan
+
+A surprising number of proposals start the timeline at "Week 1 of coding" with no community bonding section. Mentors interpret this as "I haven't thought about the prep work." Always include 3–4 weeks of explicit pre-coding tasks.
+
+### 2. Implementation starting in week 1 with no design phase
+
+The strongest proposals build in 1–2 weeks of explicit design / proof-of-concept work *before* full implementation starts. Implementation that begins immediately reads as "I'm going to figure out the design as I code," which is risky for a 12-week project.
+
+### 3. 100% packed timeline
+
+If every week is "implement X, write tests for Y," mentors know you have no buffer. Real projects always slip. The strongest timelines explicitly say "Week N: buffer / catch-up / integration testing." This signals you understand schedule risk.
+
+### 4. Vague descriptions
+
+"Week 4: Improve performance." vs "Week 4: Add caching layer for the X lookup, target 2x speedup on the Y benchmark, PR ready for review by end of week."
+
+The second one is what mentors want. Specific, measurable, demonstrable.
+
+### 5. Ignoring exam periods, conferences, internships
+
+If you have an exam period mid-project, build it into the timeline explicitly. "Weeks 6–7: reduced hours due to university exams, 10 hours/week instead of 18. Component B work is descoped to documentation only during this window. Catch-up in Week 8."
+
+Hiding conflicts and then disappearing is the #1 cause of GSoC failure-to-complete. Mentors know this. Disclosing conflicts up front is a *strength*, not a weakness.
+
+### 6. No final-week plan
+
+The last week of coding is critical. It's also when most students panic. Build in 2 weeks of buffer at the end specifically for: integration testing, documentation, demo video, final eval write-up.
+
+## How to budget hours
+
+GSoC standard track is ~175 hours of work over the coding period. The long track is ~350 hours. Both are over roughly 12 weeks.
+
+That's 14 hours/week for the standard track and 28 hours/week for the long track. Sit with those numbers. If you have full-time university classes during the coding period, 14 hours/week is realistic. 28 hours/week + classes is hard.
+
+Be honest in the proposal. Mentors prefer "I have 14 productive hours per week" over "I have 30 productive hours per week" if the second one is a lie.
+
+## How to write the timeline section
+
+Format-wise: the strongest proposals use a markdown table or a numbered list. Avoid Gantt charts unless you actually use them (most students paste a screenshot of a Gantt chart they made for the proposal and never look at it again).
+
+Each row of the timeline should have:
+
+- The week number (mapped to the GSoC calendar)
+- The phase / overall theme
+- Specific deliverables with milestone markers
+- Expected hours (if it varies by week)
+- Any conflicts or context
+
+## A worked example (1-week zoom-in)
+
+Here's how week 2 of Phase 2 might look in a real proposal:
+
+```
+Week 2 (Coding, June 16–22):
+  - Goal: Component A happy-path logic complete with unit tests.
+  - Hours: 18
+  - Tasks:
+    - Mon-Tue: Implement core algorithm (estimate 8h)
+    - Wed: Write unit tests for happy path (estimate 4h)
+    - Thu: PR review iteration with mentor (estimate 2h)
+    - Fri: Address review comments + edge cases (estimate 4h)
+  - Milestone M2: Component A happy path tests pass on CI.
+  - Risk: New algorithm may have subtle correctness issues. Mitigation:
+    write property-based tests in addition to unit tests.
+```
+
+You don't need to do this level of detail for every week — the cost-benefit isn't there. But doing it for 2–3 representative weeks shows mentors you've actually thought about how the work breaks down.
+
+## See also
+
+- [Proposal structure explained](/tips/proposal-structure-explained)
+- [How to pick a GSoC organization](/tips/how-to-pick-a-gsoc-org)
+- [Common rejection reasons](/tips/common-rejection-reasons)

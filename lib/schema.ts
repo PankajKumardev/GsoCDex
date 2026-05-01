@@ -62,7 +62,10 @@ export const TipFrontmatterSchema = z.object({
   title: z.string(),
   summary: z.string(),
   author: z.string().default("GSoCDex Editors"),
-  lastUpdated: z.string(),
+  // gray-matter parses YAML dates as Date objects; normalize to ISO strings.
+  lastUpdated: z
+    .union([z.string(), z.date()])
+    .transform((v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v)),
   tags: z.array(z.string()).default([]),
   sponsored: z.boolean().default(false),
   sponsorName: z.string().optional(),

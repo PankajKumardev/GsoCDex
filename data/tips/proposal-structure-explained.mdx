@@ -1,0 +1,139 @@
+---
+title: GSoC proposal structure, explained
+summary: The exact section-by-section template the strongest accepted GSoC proposals use, with explanations of what each section is actually for.
+author: GSoCDex Editors
+lastUpdated: 2026-04-18
+tags: [proposal-writing, structure]
+sponsored: false
+---
+
+After reading hundreds of accepted GSoC proposals, the structure becomes obvious. Most of the strongest ones use a near-identical skeleton. The skeleton is not magic. It exists because mentors have specific questions they need answered, in a specific order, and the structure below answers each of those questions efficiently.
+
+Here is the section-by-section template, with notes on what each section is *actually* for and how to write it well.
+
+## 1. Personal info (≤ ½ page)
+
+The opening section is logistics. Get it out of the way fast.
+
+- Full name
+- University and year
+- Time zone
+- Available hours per week (be honest)
+- Programming experience summary (3 lines max)
+- Existing contributions to this org (link to merged PRs and issues you've engaged on)
+
+The last bullet is the most important one. Mentors scan for it first. If you have prior contributions, this section is your strongest asset. If you don't, this section will not save you — but it also won't sink you.
+
+## 2. Project abstract (1 paragraph)
+
+A one-paragraph summary of what you're going to build, why it matters to the org, and how you'll know you're done. Three sentences if you can.
+
+The test for whether your abstract is good: read it out loud. If a friend asked "what's your GSoC project?", would you answer with this paragraph? If not, rewrite.
+
+## 3. Problem statement (1–2 pages)
+
+This is where most weak proposals collapse. The section is not "what I want to build." It's "what is broken or missing in this codebase right now."
+
+Strong problem statements:
+
+- Cite specific GitHub issues, mailing-list discussions, or roadmap entries.
+- Show that you understand the *current* state of the relevant subsystem (with code references).
+- Explain *why* the current state is a problem and what the impact is.
+- Describe what success looks like in concrete user-facing terms.
+
+Weak problem statements:
+
+- Restate what's already in the project idea description.
+- Talk in generalities ("the codebase has performance issues").
+- Have no code references at all.
+- Don't explain why the org should care.
+
+The mentor reading your proposal already knows the project ideas. They want to see whether *you* understand the problem.
+
+## 4. Proposed solution (2–4 pages)
+
+The body of the proposal. Here you describe what you'll build.
+
+Structure:
+
+1. **Architecture / approach** — high-level diagram or bullet list of the moving parts. One paragraph.
+2. **Per-component breakdown** — for each new module, class, or change, describe its responsibilities, the API it exposes, and how it interacts with existing code.
+3. **Edge cases and trade-offs** — what's the hardest part? What did you consider and reject? Mentors look for this section to see whether you've actually thought it through.
+4. **Testing strategy** — what tests will you write? What manual validation? Be concrete.
+
+The most underrated tool here is **showing you've read the existing code**. Quote relevant function names. Reference existing patterns the org uses. Mention how your change fits the existing style.
+
+## 5. Timeline (2–3 pages)
+
+The single most-judged section. A weak timeline is the most common reason for proposal rejection.
+
+Build your timeline week-by-week, mapped to the GSoC calendar. The strongest timelines look like:
+
+- **Community bonding (3 weeks)** — concrete tasks: setup dev env, ship one small PR per week, write design doc, get sign-off from mentors.
+- **Coding period weeks 1–4** — "Implement component X, with milestones M1 (PR opened), M2 (review pass), M3 (merged)."
+- **Mid-term evaluation week** — buffer + integration testing.
+- **Coding period weeks 7–10** — next chunk, same milestone format.
+- **Final 2 weeks** — buffer (for unexpected things) + final tests + documentation + final report.
+
+Anti-patterns:
+
+- "Week 4: write code." (Says nothing.)
+- 100% packed timeline with no buffer. (Mentors know real projects slip.)
+- Implementation starting in week 1 of the coding period with no design phase. (Reads as not having thought about it.)
+
+## 6. Deliverables and milestones
+
+A bullet list of what mentors will see at midterm and final eval. Be specific: "Midterm: feature X merged into main, full test coverage. Final: feature Y merged, documentation page in the official docs."
+
+Mentors will use this list as the evaluation rubric. Make it easy for them to say "yes, you delivered."
+
+## 7. Why me
+
+A short section — half a page max — explaining why you, specifically, can pull this off.
+
+- Relevant prior projects with links
+- Prior open-source contributions (especially to this org)
+- Coursework that's directly relevant
+- Specific technical skills the project requires
+
+Don't oversell. Don't list every class you've ever taken. List the 3–5 things that genuinely connect to the project.
+
+## 8. Time commitment and conflicts
+
+GSoC asks for ~175 hours over the coding period (or ~350 for the long track). Be honest about your schedule. If you have an internship, exam period, or family commitment that conflicts with part of the timeline, *mention it explicitly* and explain how you'll handle it.
+
+Mentors much prefer a candidate who says "I have a 2-week exam period in July, here's how I'll catch up" over a candidate who hides it and then disappears for 2 weeks.
+
+## 9. Communication plan
+
+Half a page. Where you'll be reachable, how often you'll post status updates, expected response time.
+
+Concretely: "I'll post a weekly status update every Monday on the org's mailing list. I'll be on the org's IRC channel during weekdays 14:00–18:00 UTC. Mentors can expect a response within 24 hours during the work week."
+
+This section reads as a formality but mentors actually weight it heavily — it's a proxy for how reliable you'll be as a communicator over 12 weeks.
+
+## 10. References
+
+Links to the issues, design docs, code paths, and prior art you cited throughout. Hyperlinked, not just listed.
+
+## What's not in a great proposal
+
+- A long autobiography
+- Vague language ("I will leverage AI to enhance...")
+- Promises that exceed the time available
+- Claims of expertise without links to prove it
+- Padding to hit a page count
+
+Most accepted proposals are 8–14 pages. If yours is 25, you've probably padded it.
+
+## A meta-point
+
+The proposal is not the work. It's a *plan* for the work. The strongest proposals are the ones that look most like an internal engineering design doc — concrete, specific, citing existing code, owning trade-offs, and built around a realistic timeline.
+
+When in doubt, ask yourself: "If I were a mentor reviewing 50 of these, would mine be the one that's easiest to say yes to?"
+
+## See also
+
+- [How to pick a GSoC organization](/tips/how-to-pick-a-gsoc-org)
+- [Mentor communication tips](/tips/mentor-communication-tips)
+- [Common rejection reasons](/tips/common-rejection-reasons)
