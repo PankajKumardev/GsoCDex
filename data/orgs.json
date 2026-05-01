@@ -1,1 +1,685 @@
-[]
+[
+  {
+    "slug": "52north",
+    "name": "52north",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "alaska",
+    "name": "Alaska",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "ankidroid",
+    "name": "AnkiDroid",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "aossie",
+    "name": "AOSSIE",
+    "yearsParticipated": [
+      2024,
+      2025
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "apertium",
+    "name": "Apertium",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "apertus-association",
+    "name": "apertus° Association",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "ardupilot",
+    "name": "Ardupilot",
+    "yearsParticipated": [
+      2021,
+      2023
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "beagleboard",
+    "name": "BeagleBoard",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "beagleboard-org",
+    "name": "BeagleBoard.org",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "boost",
+    "name": "Boost",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "c2si",
+    "name": "C2SI",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "casbin",
+    "name": "Casbin",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "castor-software",
+    "name": "CASTOR-Software",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "catrobat",
+    "name": "Catrobat",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "cbioportal-for-cancer-genomics",
+    "name": "cBioPortal for Cancer Genomics",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "cc-extractor",
+    "name": "CC Extractor",
+    "yearsParticipated": [
+      2022
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "cdli",
+    "name": "CDLI",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "cern-hsf",
+    "name": "CERN-HSF",
+    "yearsParticipated": [
+      2023
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "chaoss",
+    "name": "CHAOSS",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "chromium",
+    "name": "Chromium",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "circuitverse",
+    "name": "CircuitVerse",
+    "yearsParticipated": [
+      2023,
+      2024
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "circuitverse-org",
+    "name": "CircuitVerse.org",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "cloudcv",
+    "name": "CloudCV",
+    "yearsParticipated": [
+      2023
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "cncf",
+    "name": "CNCF",
+    "yearsParticipated": [
+      2025,
+      2026
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "dbpedia",
+    "name": "DBpedia",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "debian",
+    "name": "Debian",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "digital-impact-alliance-dial-at-un-foundation",
+    "name": "Digital Impact Alliance (DIAL) at UN Foundation",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "drupal-association",
+    "name": "Drupal Association",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "flare",
+    "name": "FLARE",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "fossasia",
+    "name": "FOSSASIA",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "gcc",
+    "name": "GCC",
+    "yearsParticipated": [
+      2023
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "gfoss-open-technology-alliance",
+    "name": "GFOSS Open Technology Alliance",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "gnome",
+    "name": "GNOME",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "google-deepmind",
+    "name": "Google DeepMind",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 4
+  },
+  {
+    "slug": "haskell",
+    "name": "Haskell",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "human-ai",
+    "name": "Human AI",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "jderobot",
+    "name": "JdeRobot",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "joomla",
+    "name": "Joomla",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "kde",
+    "name": "KDE",
+    "yearsParticipated": [
+      2021,
+      2023
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "kiwix",
+    "name": "Kiwix",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "kornia",
+    "name": "Kornia",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "kro",
+    "name": "kro",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "learning-equality",
+    "name": "Learning Equality",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "learningequaliity",
+    "name": "LearningEqualiity",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "libcamera",
+    "name": "libcamera",
+    "yearsParticipated": [
+      2021,
+      2022
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "librecube-initiative",
+    "name": "LibreCube-Initiative",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "librehealth",
+    "name": "LibreHealth",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "machine-learning-for-science-ml4sci",
+    "name": "Machine Learning for Science (ML4SCI)",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "mathesar",
+    "name": "Mathesar",
+    "yearsParticipated": [
+      2023
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "mesa",
+    "name": "Mesa",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "metabrainz",
+    "name": "MetaBrainz",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "ml4sci",
+    "name": "ML4SCI",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "mlpack",
+    "name": "mlpack",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 3
+  },
+  {
+    "slug": "nrnb",
+    "name": "NRNB",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "numfocus",
+    "name": "NumFOCUS",
+    "yearsParticipated": [
+      2021,
+      2026
+    ],
+    "proposalCount": 3
+  },
+  {
+    "slug": "omegaup",
+    "name": "omegaUp",
+    "yearsParticipated": [
+      2024,
+      2025
+    ],
+    "proposalCount": 3
+  },
+  {
+    "slug": "open-science-initiative-for-perfusion-imaging",
+    "name": "Open Science Initiative for Perfusion Imaging",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "openastronomy",
+    "name": "OpenAstronomy",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "openwisp",
+    "name": "OpenWISP",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "oppia",
+    "name": "Oppia",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "owasp",
+    "name": "OWASP",
+    "yearsParticipated": [
+      2026
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "owasp-foundation",
+    "name": "OWASP Foundation",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "pharo-consortium",
+    "name": "Pharo Consortium",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "processingfoundation",
+    "name": "ProcessingFoundation",
+    "yearsParticipated": [
+      2020
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "project-mesa",
+    "name": "Project Mesa",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "python-software-foundation",
+    "name": "Python Software Foundation",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "robocomp",
+    "name": "RoboComp",
+    "yearsParticipated": [
+      2020
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "rocket-chat",
+    "name": "Rocket.chat",
+    "yearsParticipated": [
+      2025,
+      2026
+    ],
+    "proposalCount": 5
+  },
+  {
+    "slug": "score-lab",
+    "name": "SCoRe Lab",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "society-for-arts-and-technology-sat",
+    "name": "Society for Arts and Technology (SAT)",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "submitty",
+    "name": "Submitty",
+    "yearsParticipated": [
+      2023
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "sugar-labs",
+    "name": "Sugar Labs",
+    "yearsParticipated": [
+      2022
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "sugarlabs",
+    "name": "Sugarlabs",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "sympy",
+    "name": "SymPy",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "tardis-sn",
+    "name": "TARDIS-SN",
+    "yearsParticipated": [
+      2021,
+      2025
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "tensorflow",
+    "name": "TensorFlow",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "the-apache-software-foundation",
+    "name": "The Apache Software Foundation",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "the-jpf-team",
+    "name": "The JPF team",
+    "yearsParticipated": [
+      2024,
+      2025
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "the-julia-language",
+    "name": "The Julia Language",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "the-linux-foundation",
+    "name": "The Linux Foundation",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "thehoneynetproject",
+    "name": "TheHoneynetProject",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "videolan",
+    "name": "VideoLAN",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "wikimedia-foundation",
+    "name": "Wikimedia Foundation",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "zulip",
+    "name": "Zulip",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  }
+]

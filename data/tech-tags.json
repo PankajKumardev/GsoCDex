@@ -73,7 +73,7 @@
     "slug": "haskell",
     "label": "Haskell",
     "description": "Haskell appears in compiler / proof-assistant GSoC proposals where strong static guarantees matter.",
-    "aliases": ["haskell", "ghc", "cabal", "stack"],
+    "aliases": ["haskell", "ghc ", "ghci", "cabal"],
     "category": "language"
   },
   {

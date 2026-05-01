@@ -1,1 +1,2622 @@
-[]
+[
+  {
+    "slug": "2026-c2si-anonymous-contributor",
+    "title": "GSoC 2026 C2SI proposal · Anonymous Contributor",
+    "year": 2026,
+    "organization": "C2SI",
+    "orgSlug": "c2si",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2026/C2SI/2026-c2si-anonymous-contributor.pdf",
+    "pdfPages": 19,
+    "pdfSizeKB": 742,
+    "techTags": [
+      "docker",
+      "flask",
+      "os-systems",
+      "security",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/C2SI/GDB_UI_Proposal_final%20(1).pdf",
+    "addedAt": "2026-05-01T19:06:41.135Z"
+  },
+  {
+    "slug": "2026-cncf-anonymous-contributor",
+    "title": "GSoC 2026 CNCF proposal · Anonymous Contributor",
+    "year": 2026,
+    "organization": "CNCF",
+    "orgSlug": "cncf",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2026/CNCF/2026-cncf-anonymous-contributor.pdf",
+    "pdfPages": 39,
+    "pdfSizeKB": 484,
+    "techTags": [
+      "cloud",
+      "documentation",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/CNCF/Accepted/Reactive_Agents_With_Drasi_And_Dapr_JeffreyJPZ.pdf",
+    "addedAt": "2026-05-01T19:06:41.332Z"
+  },
+  {
+    "slug": "2026-flare-quantumstrand-lakshit",
+    "title": "GSoC 2026 FLARE proposal · Quantumstrand Lakshit",
+    "year": 2026,
+    "organization": "FLARE",
+    "orgSlug": "flare",
+    "contributor": {
+      "displayName": "Quantumstrand Lakshit"
+    },
+    "pdfPath": "/proposals/2026/FLARE/2026-flare-quantumstrand-lakshit.pdf",
+    "pdfPages": 20,
+    "pdfSizeKB": 880,
+    "techTags": [
+      "devops",
+      "graphics",
+      "os-systems",
+      "rust",
+      "security",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/FLARE/Accepted/quantumstrand-vee1e-proposal.pdf",
+    "addedAt": "2026-05-01T19:06:41.387Z"
+  },
+  {
+    "slug": "2026-fossasia-mateeb-haider",
+    "title": "Mateeb-Haider (Cross-Platform SCM Support for Scrum Helper)",
+    "year": 2026,
+    "organization": "FOSSASIA",
+    "orgSlug": "fossasia",
+    "contributor": {
+      "displayName": "Mateeb Haider"
+    },
+    "pdfPath": "/proposals/2026/FOSSASIA/2026-fossasia-mateeb-haider.pdf",
+    "pdfPages": 3,
+    "pdfSizeKB": 186,
+    "techTags": [
+      "documentation"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/FOSSASIA/Cross-Platform%20SCM%20Support%20for%20Scrum%20Helper_mateeb-haider.pdf",
+    "addedAt": "2026-05-01T19:06:41.432Z"
+  },
+  {
+    "slug": "2026-haskell-anonymous-contributor",
+    "title": "GSoC 2026 Haskell proposal · Anonymous Contributor",
+    "year": 2026,
+    "organization": "Haskell",
+    "orgSlug": "haskell",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2026/Haskell/2026-haskell-anonymous-contributor.pdf",
+    "pdfPages": 10,
+    "pdfSizeKB": 267,
+    "techTags": [
+      "cpp",
+      "embedded",
+      "haskell",
+      "javascript",
+      "python",
+      "typescript"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/Haskell/Goto_Dependency_Defination.pdf",
+    "addedAt": "2026-05-01T19:06:41.477Z"
+  },
+  {
+    "slug": "2026-human-ai-anonymous-contributor",
+    "title": "GSoC 2026 Human AI proposal · Anonymous Contributor",
+    "year": 2026,
+    "organization": "Human AI",
+    "orgSlug": "human-ai",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2026/Human%20AI/2026-human-ai-anonymous-contributor.pdf",
+    "pdfPages": 10,
+    "pdfSizeKB": 258,
+    "techTags": [
+      "ml"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/Human%20AI/AI-Powered%20Behavioral%20Analysis%20for%20Suicide%20Prevention_gokulan006.pdf",
+    "addedAt": "2026-05-01T19:06:41.543Z"
+  },
+  {
+    "slug": "2026-kiwix-jotaro-kujo",
+    "title": "Google Summer of Code - 2026",
+    "year": 2026,
+    "organization": "Kiwix",
+    "orgSlug": "kiwix",
+    "contributor": {
+      "displayName": "Jotaro Kujo"
+    },
+    "pdfPath": "/proposals/2026/Kiwix/2026-kiwix-jotaro-kujo.pdf",
+    "pdfPages": 47,
+    "pdfSizeKB": 2272,
+    "techTags": [
+      "javascript",
+      "networking",
+      "nodejs",
+      "python",
+      "vue",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/Kiwix/Architectural%20Refactoring%20of%20MWoffliner_VikramAditya33.pdf",
+    "addedAt": "2026-05-01T19:06:41.648Z"
+  },
+  {
+    "slug": "2026-mesa-anonymous-contributor",
+    "title": "GSoC 2026 Mesa proposal · Anonymous Contributor",
+    "year": 2026,
+    "organization": "Mesa",
+    "orgSlug": "mesa",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2026/Mesa/2026-mesa-anonymous-contributor.pdf",
+    "pdfPages": 29,
+    "pdfSizeKB": 867,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/Mesa/Accepted/Meta_Agents_Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:41.821Z"
+  },
+  {
+    "slug": "2026-ml4sci-lensing-metrex-nova",
+    "title": "GSoC 2026 ML4SCI proposal · Lensing Metrex Nova",
+    "year": 2026,
+    "organization": "ML4SCI",
+    "orgSlug": "ml4sci",
+    "contributor": {
+      "displayName": "Lensing Metrex Nova"
+    },
+    "pdfPath": "/proposals/2026/ML4SCI/2026-ml4sci-lensing-metrex-nova.pdf",
+    "pdfPages": 42,
+    "pdfSizeKB": 4253,
+    "techTags": [
+      "deep-learning",
+      "kubernetes",
+      "ml"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/ML4SCI/Neural%20Operators%20for%20Fast%20Simulation%20of%20Strong%20Gravitational%20Lensing_Metrex-Nova.pdf",
+    "addedAt": "2026-05-01T19:06:41.715Z"
+  },
+  {
+    "slug": "2026-ml4sci-ria-khatoniar",
+    "title": "GSoC 2026 ML4SCI proposal · Ria Khatoniar",
+    "year": 2026,
+    "organization": "ML4SCI",
+    "orgSlug": "ml4sci",
+    "contributor": {
+      "displayName": "Ria Khatoniar"
+    },
+    "pdfPath": "/proposals/2026/ML4SCI/2026-ml4sci-ria-khatoniar.pdf",
+    "pdfPages": 18,
+    "pdfSizeKB": 645,
+    "techTags": [
+      "deep-learning",
+      "documentation",
+      "ml",
+      "nlp"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/ML4SCI/Physics-Informed%20Models%20for%20Squared%20Amplitude%20Calculation.pdf",
+    "addedAt": "2026-05-01T19:06:41.756Z"
+  },
+  {
+    "slug": "2026-numfocus-anonymous-contributor",
+    "title": "proposal-for-project-2-satwiksps",
+    "year": 2026,
+    "organization": "NumFOCUS",
+    "orgSlug": "numfocus",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2026/NumFOCUS/2026-numfocus-anonymous-contributor.pdf",
+    "pdfPages": 18,
+    "pdfSizeKB": 385,
+    "techTags": [
+      "data-science",
+      "deep-learning",
+      "devops",
+      "documentation",
+      "networking",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/NumFOCUS/Accepted/sbi_Neural%20Network%20Builder%20API%20Refactor_satwiksps.pdf",
+    "addedAt": "2026-05-01T19:06:41.890Z"
+  },
+  {
+    "slug": "2026-openwisp-pushpit-kamboj",
+    "title": "GSoC 2026 OpenWISP proposal · Pushpit Kamboj",
+    "year": 2026,
+    "organization": "OpenWISP",
+    "orgSlug": "openwisp",
+    "contributor": {
+      "displayName": "Pushpit Kamboj"
+    },
+    "pdfPath": "/proposals/2026/OpenWISP/2026-openwisp-pushpit-kamboj.pdf",
+    "pdfPages": 23,
+    "pdfSizeKB": 2240,
+    "techTags": [
+      "databases",
+      "documentation",
+      "typescript"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/OpenWISP/accepted/OpenWISP_GSOC_Pushpit_proposal_final%20(7).pdf",
+    "addedAt": "2026-05-01T19:06:42.149Z"
+  },
+  {
+    "slug": "2026-owasp-abhishek-kumar",
+    "title": "GSoC 2026 OWASP proposal · Abhishek Kumar",
+    "year": 2026,
+    "organization": "OWASP",
+    "orgSlug": "owasp",
+    "contributor": {
+      "displayName": "Abhishek Kumar"
+    },
+    "pdfPath": "/proposals/2026/OWASP/2026-owasp-abhishek-kumar.pdf",
+    "pdfPages": 36,
+    "pdfSizeKB": 10893,
+    "techTags": [
+      "security",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/OWASP/Blt%20University%20%20security%20focused%20platform_e-esakman.pdf",
+    "addedAt": "2026-05-01T19:06:42.089Z"
+  },
+  {
+    "slug": "2026-owasp-anonymous-contributor",
+    "title": "BLT-NEXT-GSoC-26",
+    "year": 2026,
+    "organization": "OWASP",
+    "orgSlug": "owasp",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2026/OWASP/2026-owasp-anonymous-contributor.pdf",
+    "pdfPages": 69,
+    "pdfSizeKB": 27444,
+    "techTags": [
+      "django",
+      "documentation",
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/OWASP/BLT%20NEXT_mdkaifansari04.pdf",
+    "addedAt": "2026-05-01T19:06:41.987Z"
+  },
+  {
+    "slug": "2026-rocket-chat-anonymous-contributor",
+    "title": "Room Header Buttons Ordering",
+    "year": 2026,
+    "organization": "Rocket.chat",
+    "orgSlug": "rocket-chat",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2026/Rocket.chat/2026-rocket-chat-anonymous-contributor.pdf",
+    "pdfPages": 13,
+    "pdfSizeKB": 379,
+    "techTags": [
+      "typescript",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/Rocket.chat/Room%20Header%20Buttons%20Ordering_TheRazorbill.pdf",
+    "addedAt": "2026-05-01T19:06:42.271Z"
+  },
+  {
+    "slug": "2026-rocket-chat-aryan-verma",
+    "title": "RC - Embedded Chat 2026 Proposal - Aryan Verma",
+    "year": 2026,
+    "organization": "Rocket.chat",
+    "orgSlug": "rocket-chat",
+    "contributor": {
+      "displayName": "Aryan Verma"
+    },
+    "pdfPath": "/proposals/2026/Rocket.chat/2026-rocket-chat-aryan-verma.pdf",
+    "pdfPages": 28,
+    "pdfSizeKB": 1919,
+    "techTags": [
+      "accessibility",
+      "documentation",
+      "embedded",
+      "nodejs"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/Rocket.chat/RC%20-%20Embedded%20Chat%202026%20Proposal%20-%20Aryan%20Verma.pdf",
+    "addedAt": "2026-05-01T19:06:42.233Z"
+  },
+  {
+    "slug": "2026-rocket-chat-meet-jain",
+    "title": "Google Summer Of Code 2026 - Proposal - Meet jain",
+    "year": 2026,
+    "organization": "Rocket.chat",
+    "orgSlug": "rocket-chat",
+    "contributor": {
+      "displayName": "Meet Jain"
+    },
+    "pdfPath": "/proposals/2026/Rocket.chat/2026-rocket-chat-meet-jain.pdf",
+    "pdfPages": 21,
+    "pdfSizeKB": 1270,
+    "techTags": [
+      "documentation",
+      "nlp"
+    ],
+    "status": "accepted",
+    "sourceRepo": "satwiksps/GSoC_archive_2026",
+    "sourceUrl": "https://github.com/satwiksps/GSoC_archive_2026/blob/HEAD/Rocket.chat/New_Users_Anti_Spammer_System_meet_jain.pdf",
+    "addedAt": "2026-05-01T19:06:42.184Z"
+  },
+  {
+    "slug": "2025-alaska-gauri-ket-contributor",
+    "title": "GSoC UAF- Developing Distributed Algorithm for Metagenomic Error Correction and Assembly",
+    "year": 2025,
+    "organization": "Alaska",
+    "orgSlug": "alaska",
+    "contributor": {
+      "displayName": "Gauri Ket Contributor"
+    },
+    "pdfPath": "/proposals/2025/Alaska/2025-alaska-gauri-ket-contributor.pdf",
+    "pdfPages": 17,
+    "pdfSizeKB": 380,
+    "techTags": [
+      "accessibility",
+      "ml"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Alaska/GSoC%20%20UAF-%20Developing%20Distributed%20Algorithm%20for%20Metagenomic%20Error%20Correction%20and%20Assembly.pdf",
+    "addedAt": "2026-05-01T19:06:38.666Z"
+  },
+  {
+    "slug": "2025-alaska-ishaan-gupta-beehive",
+    "title": "Alaska-Beehive Proposal",
+    "year": 2025,
+    "organization": "Alaska",
+    "orgSlug": "alaska",
+    "contributor": {
+      "displayName": "Ishaan Gupta Beehive"
+    },
+    "pdfPath": "/proposals/2025/Alaska/2025-alaska-ishaan-gupta-beehive.pdf",
+    "pdfPages": 23,
+    "pdfSizeKB": 1893,
+    "techTags": [
+      "devops",
+      "docker",
+      "graphics",
+      "mobile",
+      "react",
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Alaska/Ishaan%20Gupta%20-%20Alaska%20Beehive%20Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:38.745Z"
+  },
+  {
+    "slug": "2025-ankidroid-anonymous-contributor",
+    "title": "haz3-jolt's GSoC 2025 Proposal",
+    "year": 2025,
+    "organization": "AnkiDroid",
+    "orgSlug": "ankidroid",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/AnkiDroid/2025-ankidroid-anonymous-contributor.pdf",
+    "pdfPages": 28,
+    "pdfSizeKB": 1665,
+    "techTags": [
+      "android",
+      "kotlin",
+      "testing"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/AnkiDroid/haz3-jolt's%20GSoC%202025%20Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:38.823Z"
+  },
+  {
+    "slug": "2025-aossie-anonymous-contributor",
+    "title": "GSoC'25 Proposal Updated",
+    "year": 2025,
+    "organization": "AOSSIE",
+    "orgSlug": "aossie",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/AOSSIE/2025-aossie-anonymous-contributor.pdf",
+    "pdfPages": 39,
+    "pdfSizeKB": 12222,
+    "techTags": [
+      "devops",
+      "javascript",
+      "python",
+      "typescript",
+      "vue",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/AOSSIE/GSoC'25_RahulHarpal.pdf",
+    "addedAt": "2026-05-01T19:06:38.598Z"
+  },
+  {
+    "slug": "2025-beagleboard-org-anonymous-contributor",
+    "title": "GSoC 2025 BeagleBoard.org proposal · Anonymous Contributor",
+    "year": 2025,
+    "organization": "BeagleBoard.org",
+    "orgSlug": "beagleboard-org",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/BeagleBoard.org/2025-beagleboard-org-anonymous-contributor.pdf",
+    "pdfPages": 19,
+    "pdfSizeKB": 362,
+    "techTags": [
+      "computer-vision",
+      "documentation",
+      "embedded",
+      "os-systems"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/BeagleBoard.org/BeagleBoard.org%20-%20Update%20beagle-tester%20for%20mainline%20testing.pdf",
+    "addedAt": "2026-05-01T19:06:38.885Z"
+  },
+  {
+    "slug": "2025-cbioportal-for-cancer-genomics-rishi-sulakhe",
+    "title": "GSoC 2025 cBioPortal for Cancer Genomics proposal · Rishi Sulakhe",
+    "year": 2025,
+    "organization": "cBioPortal for Cancer Genomics",
+    "orgSlug": "cbioportal-for-cancer-genomics",
+    "contributor": {
+      "displayName": "Rishi Sulakhe"
+    },
+    "pdfPath": "/proposals/2025/cBioPortal%20for%20Cancer%20Genomics/2025-cbioportal-for-cancer-genomics-rishi-sulakhe.pdf",
+    "pdfPages": 28,
+    "pdfSizeKB": 779,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/cBioPortal%20for%20Cancer%20Genomics/cBioPortal_rishisulakhe.pdf",
+    "addedAt": "2026-05-01T19:06:40.718Z"
+  },
+  {
+    "slug": "2025-chaoss-akshat-baranwal",
+    "title": "Conversion Rate Metric in CHAOSS",
+    "year": 2025,
+    "organization": "CHAOSS",
+    "orgSlug": "chaoss",
+    "contributor": {
+      "displayName": "Akshat Baranwal"
+    },
+    "pdfPath": "/proposals/2025/CHAOSS/2025-chaoss-akshat-baranwal.pdf",
+    "pdfPages": 18,
+    "pdfSizeKB": 1464,
+    "techTags": [
+      "accessibility",
+      "documentation",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/CHAOSS/_Conversion%20Rate%20Metric%20in%20CHAOSS.pdf",
+    "addedAt": "2026-05-01T19:06:38.996Z"
+  },
+  {
+    "slug": "2025-chaoss-asish-kumar",
+    "title": "GSoC Proposal - Asish Kumar - CHAOSS - without personal details",
+    "year": 2025,
+    "organization": "CHAOSS",
+    "orgSlug": "chaoss",
+    "contributor": {
+      "displayName": "Asish Kumar"
+    },
+    "pdfPath": "/proposals/2025/CHAOSS/2025-chaoss-asish-kumar.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 373,
+    "techTags": [
+      "documentation"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/CHAOSS/GSoC%20Proposal%20-%20Asish%20Kumar%20-%20CHAOSS.pdf",
+    "addedAt": "2026-05-01T19:06:38.956Z"
+  },
+  {
+    "slug": "2025-chromium-anonymous-contributor",
+    "title": "Chromium GSoC Contributor Proposal - Murphy Tian",
+    "year": 2025,
+    "organization": "Chromium",
+    "orgSlug": "chromium",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/Chromium/2025-chromium-anonymous-contributor.pdf",
+    "pdfPages": 7,
+    "pdfSizeKB": 401,
+    "techTags": [
+      "android",
+      "cpp",
+      "go",
+      "os-systems",
+      "security",
+      "testing"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Chromium/chromium-farfetch-Murphy%20Tian.pdf",
+    "addedAt": "2026-05-01T19:06:39.210Z"
+  },
+  {
+    "slug": "2025-chromium-jay-kapadia",
+    "title": "GSoC proposal - Jay Kapadia",
+    "year": 2025,
+    "organization": "Chromium",
+    "orgSlug": "chromium",
+    "contributor": {
+      "displayName": "Jay Kapadia"
+    },
+    "pdfPath": "/proposals/2025/Chromium/2025-chromium-jay-kapadia.pdf",
+    "pdfPages": 19,
+    "pdfSizeKB": 1649,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Chromium/GSoC%20proposal%20-%20Jay%20Kapadia%20.pdf",
+    "addedAt": "2026-05-01T19:06:39.130Z"
+  },
+  {
+    "slug": "2025-circuitverse-org-harsh-rao",
+    "title": "Project 2 CV Proposal",
+    "year": 2025,
+    "organization": "CircuitVerse.org",
+    "orgSlug": "circuitverse-org",
+    "contributor": {
+      "displayName": "Harsh Rao"
+    },
+    "pdfPath": "/proposals/2025/CircuitVerse.org/2025-circuitverse-org-harsh-rao.pdf",
+    "pdfPages": 15,
+    "pdfSizeKB": 714,
+    "techTags": [
+      "cpp",
+      "javascript",
+      "ruby",
+      "rust",
+      "typescript",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/CircuitVerse.org/Circuitverse%20-%20Harsh%20Rao%20-%20Desktop%20Application%20and%20Web%20Simulator.pdf",
+    "addedAt": "2026-05-01T19:06:39.285Z"
+  },
+  {
+    "slug": "2025-cncf-anonymous-contributor",
+    "title": "Gsoc Proposal Knative",
+    "year": 2025,
+    "organization": "CNCF",
+    "orgSlug": "cncf",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/CNCF/2025-cncf-anonymous-contributor.pdf",
+    "pdfPages": 11,
+    "pdfSizeKB": 603,
+    "techTags": [
+      "cloud",
+      "docker",
+      "go",
+      "nlp",
+      "python",
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/CNCF/CNCF%20-%20Knative%20-%20Functions%20AI%20Agent%20Callbacks.pdf",
+    "addedAt": "2026-05-01T19:06:39.058Z"
+  },
+  {
+    "slug": "2025-debian-anonymous-contributor",
+    "title": "GSoC 2025 Debian proposal · Anonymous Contributor",
+    "year": 2025,
+    "organization": "Debian",
+    "orgSlug": "debian",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/Debian/2025-debian-anonymous-contributor.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 209,
+    "techTags": [
+      "documentation"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Debian/Debian_GSoC_2025_Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:39.330Z"
+  },
+  {
+    "slug": "2025-drupal-association-rajas-samse",
+    "title": "GSoC 2025 Drupal Association proposal · Rajas Samse",
+    "year": 2025,
+    "organization": "Drupal Association",
+    "orgSlug": "drupal-association",
+    "contributor": {
+      "displayName": "Rajas Samse"
+    },
+    "pdfPath": "/proposals/2025/Drupal%20Association/2025-drupal-association-rajas-samse.pdf",
+    "pdfPages": 10,
+    "pdfSizeKB": 274,
+    "techTags": [
+      "documentation",
+      "ml",
+      "os-systems",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Drupal%20Association/Drupal_proposal.pdf",
+    "addedAt": "2026-05-01T19:06:39.429Z"
+  },
+  {
+    "slug": "2025-drupal-association-ritesh-kumar-singh",
+    "title": "Appwrite Integration for Drupal GSOC Proposal- Ritesh Kumar Singh",
+    "year": 2025,
+    "organization": "Drupal Association",
+    "orgSlug": "drupal-association",
+    "contributor": {
+      "displayName": "Ritesh Kumar Singh"
+    },
+    "pdfPath": "/proposals/2025/Drupal%20Association/2025-drupal-association-ritesh-kumar-singh.pdf",
+    "pdfPages": 22,
+    "pdfSizeKB": 421,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Drupal%20Association/Appwrite%20Integration%20for%20Drupal%20GSOC%20Proposal-%20Ritesh%20Kumar%20Singh.pdf",
+    "addedAt": "2026-05-01T19:06:39.374Z"
+  },
+  {
+    "slug": "2025-google-deepmind-anonymous-contributor",
+    "title": "GSoC 2025 Google DeepMind proposal · Anonymous Contributor",
+    "year": 2025,
+    "organization": "Google DeepMind",
+    "orgSlug": "google-deepmind",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/Google%20DeepMind/2025-google-deepmind-anonymous-contributor.pdf",
+    "pdfPages": 26,
+    "pdfSizeKB": 2533,
+    "techTags": [
+      "docker",
+      "nodejs",
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Google%20DeepMind/GoogleDeepMind_StreamlineOFG.pdf",
+    "addedAt": "2026-05-01T19:06:39.652Z"
+  },
+  {
+    "slug": "2025-google-deepmind-gemini-example-apps",
+    "title": "GSoC 2025 Google DeepMind proposal · Gemini Example Apps",
+    "year": 2025,
+    "organization": "Google DeepMind",
+    "orgSlug": "google-deepmind",
+    "contributor": {
+      "displayName": "Gemini Example Apps"
+    },
+    "pdfPath": "/proposals/2025/Google%20DeepMind/2025-google-deepmind-gemini-example-apps.pdf",
+    "pdfPages": 8,
+    "pdfSizeKB": 143,
+    "techTags": [
+      "data-science",
+      "devops",
+      "javascript",
+      "os-systems",
+      "python",
+      "typescript"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Google%20DeepMind/Google%20DeepMind%20-%20Open-source%20Gemini%20Example%20Apps.pdf",
+    "addedAt": "2026-05-01T19:06:39.551Z"
+  },
+  {
+    "slug": "2025-google-deepmind-hailey-cheng",
+    "title": "GSoC 2025 Google DeepMind proposal · Hailey Cheng",
+    "year": 2025,
+    "organization": "Google DeepMind",
+    "orgSlug": "google-deepmind",
+    "contributor": {
+      "displayName": "Hailey Cheng"
+    },
+    "pdfPath": "/proposals/2025/Google%20DeepMind/2025-google-deepmind-hailey-cheng.pdf",
+    "pdfPages": 15,
+    "pdfSizeKB": 1118,
+    "techTags": [
+      "deep-learning",
+      "documentation",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Google%20DeepMind/Google%20DeepMind%20-%20Comprehensive%20Benchmark%20Suite%20for%20Evaluating%20Gemma%20Models.pdf",
+    "addedAt": "2026-05-01T19:06:39.473Z"
+  },
+  {
+    "slug": "2025-google-deepmind-vansh-kumar-singh",
+    "title": "Batch Prediction with Long Context and Context Caching Code Sample",
+    "year": 2025,
+    "organization": "Google DeepMind",
+    "orgSlug": "google-deepmind",
+    "contributor": {
+      "displayName": "Vansh Kumar Singh"
+    },
+    "pdfPath": "/proposals/2025/Google%20DeepMind/2025-google-deepmind-vansh-kumar-singh.pdf",
+    "pdfPages": 14,
+    "pdfSizeKB": 1035,
+    "techTags": [
+      "cloud",
+      "data-science",
+      "embedded",
+      "nlp",
+      "python",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Google%20DeepMind/Google%20DeepMind%20-%20Long%20Context%20and%20Context%20Caching.pdf",
+    "addedAt": "2026-05-01T19:06:39.522Z"
+  },
+  {
+    "slug": "2025-jderobot-sakhineti-praveena",
+    "title": "GSoC Proposal 2025",
+    "year": 2025,
+    "organization": "JdeRobot",
+    "orgSlug": "jderobot",
+    "contributor": {
+      "displayName": "Sakhineti Praveena"
+    },
+    "pdfPath": "/proposals/2025/JdeRobot/2025-jderobot-sakhineti-praveena.pdf",
+    "pdfPages": 29,
+    "pdfSizeKB": 1232,
+    "techTags": [
+      "computer-vision",
+      "deep-learning",
+      "nlp",
+      "python",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/JdeRobot/GSoC25%20-%20JdeRobot%20-%20Sakhineti%20Praveena.pdf",
+    "addedAt": "2026-05-01T19:06:39.693Z"
+  },
+  {
+    "slug": "2025-kornia-aditya-kumar",
+    "title": "GSoC 2025 Kornia proposal · Aditya Kumar",
+    "year": 2025,
+    "organization": "Kornia",
+    "orgSlug": "kornia",
+    "contributor": {
+      "displayName": "Aditya Kumar"
+    },
+    "pdfPath": "/proposals/2025/Kornia/2025-kornia-aditya-kumar.pdf",
+    "pdfPages": 16,
+    "pdfSizeKB": 1072,
+    "techTags": [
+      "computer-vision",
+      "robotics"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Kornia/April%20Tag%20and%20Calibration%20Detectors.pdf",
+    "addedAt": "2026-05-01T19:06:39.729Z"
+  },
+  {
+    "slug": "2025-kro-dhairya-majmudar-cli",
+    "title": "CLI for kro Resource Management",
+    "year": 2025,
+    "organization": "kro",
+    "orgSlug": "kro",
+    "contributor": {
+      "displayName": "Dhairya Majmudar Cli"
+    },
+    "pdfPath": "/proposals/2025/kro/2025-kro-dhairya-majmudar-cli.pdf",
+    "pdfPages": 10,
+    "pdfSizeKB": 854,
+    "techTags": [
+      "go",
+      "kubernetes"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/kro/GSoC'25-Dhairya-Majmudar-kro-cli-Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:40.763Z"
+  },
+  {
+    "slug": "2025-learning-equality-habiba-ayman-s-kolibri-s",
+    "title": "Habiba Ayman's GSOC 2025 Proposal",
+    "year": 2025,
+    "organization": "Learning Equality",
+    "orgSlug": "learning-equality",
+    "contributor": {
+      "displayName": "Habiba Ayman's Kolibri's"
+    },
+    "pdfPath": "/proposals/2025/Learning%20Equality/2025-learning-equality-habiba-ayman-s-kolibri-s.pdf",
+    "pdfPages": 15,
+    "pdfSizeKB": 652,
+    "techTags": [
+      "accessibility",
+      "android",
+      "embedded",
+      "graphics"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Learning%20Equality/Habiba%20Ayman's%20Kolibri's%20GSOC%202025%20Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:39.771Z"
+  },
+  {
+    "slug": "2025-machine-learning-for-science-ml4sci-anonymous-contributor",
+    "title": "GSoC 2025 Machine Learning for Science (ML4SCI) proposal · Anonymous Contributor",
+    "year": 2025,
+    "organization": "Machine Learning for Science (ML4SCI)",
+    "orgSlug": "machine-learning-for-science-ml4sci",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/Machine%20Learning%20for%20Science%20(ML4SCI)/2025-machine-learning-for-science-ml4sci-anonymous-contributor.pdf",
+    "pdfPages": 13,
+    "pdfSizeKB": 207,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Machine%20Learning%20for%20Science%20(ML4SCI)/diffusion_proposal_hamees.pdf",
+    "addedAt": "2026-05-01T19:06:39.833Z"
+  },
+  {
+    "slug": "2025-omegaup-anas-iqbal",
+    "title": "Public courses",
+    "year": 2025,
+    "organization": "omegaUp",
+    "orgSlug": "omegaup",
+    "contributor": {
+      "displayName": "Anas Iqbal"
+    },
+    "pdfPath": "/proposals/2025/omegaUp/2025-omegaup-anas-iqbal.pdf",
+    "pdfPages": 17,
+    "pdfSizeKB": 673,
+    "techTags": [
+      "cloud",
+      "cpp",
+      "devops",
+      "docker",
+      "flask",
+      "nodejs"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/omegaUp/Public%20courses_Anas%20Iqbal.pdf",
+    "addedAt": "2026-05-01T19:06:40.899Z"
+  },
+  {
+    "slug": "2025-omegaup-anonymous-contributor",
+    "title": "GSoC-proposal-AI-Teaching-Assistant",
+    "year": 2025,
+    "organization": "omegaUp",
+    "orgSlug": "omegaup",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/omegaUp/2025-omegaup-anonymous-contributor.pdf",
+    "pdfPages": 25,
+    "pdfSizeKB": 2035,
+    "techTags": [
+      "computer-vision",
+      "deep-learning",
+      "ml"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/omegaUp/AI-Teaching-Assistant_Nandini.pdf",
+    "addedAt": "2026-05-01T19:06:40.828Z"
+  },
+  {
+    "slug": "2025-open-science-initiative-for-perfusion-imaging-ibrahim-abdelazim",
+    "title": "GSoC 2025 Open Science Initiative for Perfusion Imaging proposal · Ibrahim Abdelazim",
+    "year": 2025,
+    "organization": "Open Science Initiative for Perfusion Imaging",
+    "orgSlug": "open-science-initiative-for-perfusion-imaging",
+    "contributor": {
+      "displayName": "Ibrahim Abdelazim"
+    },
+    "pdfPath": "/proposals/2025/Open%20Science%20Initiative%20for%20Perfusion%20Imaging/2025-open-science-initiative-for-perfusion-imaging-ibrahim-abdelazim.pdf",
+    "pdfPages": 6,
+    "pdfSizeKB": 125,
+    "techTags": [
+      "django",
+      "documentation",
+      "python",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Open%20Science%20Initiative%20for%20Perfusion%20Imaging/Methods%20section%20generator%20for%20ASL%20-%20Ibrahim%20Abdelazim.pdf",
+    "addedAt": "2026-05-01T19:06:39.939Z"
+  },
+  {
+    "slug": "2025-openastronomy-darshan-patil",
+    "title": "GSoC 2025 OpenAstronomy proposal · Darshan Patil",
+    "year": 2025,
+    "organization": "OpenAstronomy",
+    "orgSlug": "openastronomy",
+    "contributor": {
+      "displayName": "Darshan Patil"
+    },
+    "pdfPath": "/proposals/2025/OpenAstronomy/2025-openastronomy-darshan-patil.pdf",
+    "pdfPages": 19,
+    "pdfSizeKB": 491,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/OpenAstronomy/OpenAstronomy%20-%20Darshan%20Patil.pdf",
+    "addedAt": "2026-05-01T19:06:39.986Z"
+  },
+  {
+    "slug": "2025-owasp-foundation-anonymous-contributor",
+    "title": "OWASP AI NEST BOT ASSISTANCE",
+    "year": 2025,
+    "organization": "OWASP Foundation",
+    "orgSlug": "owasp-foundation",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/OWASP%20Foundation/2025-owasp-foundation-anonymous-contributor.pdf",
+    "pdfPages": 20,
+    "pdfSizeKB": 1034,
+    "techTags": [
+      "django",
+      "documentation",
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/OWASP%20Foundation/OWASP%20AI%20NEST%20BOT%20ASSISTANCE.pdf",
+    "addedAt": "2026-05-01T19:06:39.894Z"
+  },
+  {
+    "slug": "2025-pharo-consortium-anonymous-contributor",
+    "title": "GSoC Proposal : Pharo TTS",
+    "year": 2025,
+    "organization": "Pharo Consortium",
+    "orgSlug": "pharo-consortium",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/Pharo%20Consortium/2025-pharo-consortium-anonymous-contributor.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 1088,
+    "techTags": [
+      "javascript"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Pharo%20Consortium/GSoC%20Proposal%20_%20Pharo%20TTS%20.pdf",
+    "addedAt": "2026-05-01T19:06:40.034Z"
+  },
+  {
+    "slug": "2025-project-mesa-anonymous-contributor",
+    "title": "GSoC 2025 Project Mesa proposal · Anonymous Contributor",
+    "year": 2025,
+    "organization": "Project Mesa",
+    "orgSlug": "project-mesa",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/Project%20Mesa/2025-project-mesa-anonymous-contributor.pdf",
+    "pdfPages": 27,
+    "pdfSizeKB": 1540,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Project%20Mesa/MesaLLM_ColinFRISCH.pdf",
+    "addedAt": "2026-05-01T19:06:40.109Z"
+  },
+  {
+    "slug": "2025-rocket-chat-anonymous-contributor",
+    "title": "GSoC Rocket.Chat Rich Text Editor Proposal",
+    "year": 2025,
+    "organization": "Rocket.Chat",
+    "orgSlug": "rocket-chat",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/Rocket.Chat/2025-rocket-chat-anonymous-contributor.pdf",
+    "pdfPages": 14,
+    "pdfSizeKB": 716,
+    "techTags": [
+      "accessibility",
+      "graphics",
+      "nlp",
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Rocket.Chat/GSoC%20Rocket.Chat%20Rich%20Text%20Editor%20Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:40.206Z"
+  },
+  {
+    "slug": "2025-rocket-chat-multi-step-reasoning",
+    "title": "Dhairyashil Shinde - AI Chat Workflows Automation App with multi-step reasoning",
+    "year": 2025,
+    "organization": "Rocket.Chat",
+    "orgSlug": "rocket-chat",
+    "contributor": {
+      "displayName": "Multi Step Reasoning"
+    },
+    "pdfPath": "/proposals/2025/Rocket.Chat/2025-rocket-chat-multi-step-reasoning.pdf",
+    "pdfPages": 38,
+    "pdfSizeKB": 1050,
+    "techTags": [
+      "nlp"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Rocket.Chat/Rocket%20Chat%20-%20AI%20Chat%20Workflows%20Automation%20App%20With%20Multi-Step%20Reasoning.pdf",
+    "addedAt": "2026-05-01T19:06:40.292Z"
+  },
+  {
+    "slug": "2025-society-for-arts-and-technology-sat-point-cloud",
+    "title": "GSoC 2025 Society for Arts and Technology (SAT) proposal · Point Cloud",
+    "year": 2025,
+    "organization": "Society for Arts and Technology (SAT)",
+    "orgSlug": "society-for-arts-and-technology-sat",
+    "contributor": {
+      "displayName": "Point Cloud"
+    },
+    "pdfPath": "/proposals/2025/Society%20for%20Arts%20and%20Technology%20(SAT)/2025-society-for-arts-and-technology-sat-point-cloud.pdf",
+    "pdfPages": 8,
+    "pdfSizeKB": 98,
+    "techTags": [
+      "accessibility",
+      "computer-vision",
+      "deep-learning",
+      "documentation",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/Society%20for%20Arts%20and%20Technology%20(SAT)/ObjectDetection%20on%20Point%20Cloud%20Stream.pdf",
+    "addedAt": "2026-05-01T19:06:40.327Z"
+  },
+  {
+    "slug": "2025-sympy-anonymous-contributor",
+    "title": "GSoC 2025 SymPy proposal · Anonymous Contributor",
+    "year": 2025,
+    "organization": "SymPy",
+    "orgSlug": "sympy",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/SymPy/2025-sympy-anonymous-contributor.pdf",
+    "pdfPages": 29,
+    "pdfSizeKB": 815,
+    "techTags": [
+      "computer-vision",
+      "cpp",
+      "data-science",
+      "ml",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/SymPy/GSOC%202025%20Application%20Krishnav%20Bajoria%20_%20Improving%20Relational%20Reasoning%20and%20Introducing%20Quantifier%20Support%20in%20SymPy's%20Assumptions%20Framework%20(5).pdf",
+    "addedAt": "2026-05-01T19:06:40.396Z"
+  },
+  {
+    "slug": "2025-tardis-sn-without-contacts",
+    "title": "Tardis GSoC'24 Proposal - Asish Kumar - Without contacts",
+    "year": 2025,
+    "organization": "TARDIS-SN",
+    "orgSlug": "tardis-sn",
+    "contributor": {
+      "displayName": "Without Contacts"
+    },
+    "pdfPath": "/proposals/2025/TARDIS-SN/2025-tardis-sn-without-contacts.pdf",
+    "pdfPages": 7,
+    "pdfSizeKB": 352,
+    "techTags": [
+      "cpp",
+      "data-science",
+      "documentation",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/TARDIS-SN/Tardis%20GSoC'24%20Proposal%20-%20Asish%20Kumar%20-%20Without%20contacts.pdf",
+    "addedAt": "2026-05-01T19:06:40.494Z"
+  },
+  {
+    "slug": "2025-the-jpf-team-anonymous-contributor",
+    "title": "JPF GSoC Proposal",
+    "year": 2025,
+    "organization": "The JPF team",
+    "orgSlug": "the-jpf-team",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2025/The%20JPF%20team/2025-the-jpf-team-anonymous-contributor.pdf",
+    "pdfPages": 27,
+    "pdfSizeKB": 859,
+    "techTags": [
+      "android",
+      "java"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/The%20JPF%20team/GSoC_Proposal_JPF_SAIF_ALI_KHAN.pdf",
+    "addedAt": "2026-05-01T19:06:40.537Z"
+  },
+  {
+    "slug": "2025-the-julia-language-shravan-goswami",
+    "title": "Shravan-Goswami-GSoC-2025-JuliaLang-Proposal",
+    "year": 2025,
+    "organization": "The Julia Language",
+    "orgSlug": "the-julia-language",
+    "contributor": {
+      "displayName": "Shravan Goswami"
+    },
+    "pdfPath": "/proposals/2025/The%20Julia%20Language/2025-the-julia-language-shravan-goswami.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 266,
+    "techTags": [
+      "documentation",
+      "julia",
+      "ml",
+      "typescript",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/The%20Julia%20Language/The-Julia-Language-Shravan-Goswami-GSoC-2025-Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:40.659Z"
+  },
+  {
+    "slug": "2025-videolan-arthur-henrique-norat",
+    "title": "GSoC 2025 VideoLAN proposal · Arthur Henrique Norat",
+    "year": 2025,
+    "organization": "VideoLAN",
+    "orgSlug": "videolan",
+    "contributor": {
+      "displayName": "Arthur Henrique Norat"
+    },
+    "pdfPath": "/proposals/2025/VideoLAN/2025-videolan-arthur-henrique-norat.pdf",
+    "pdfPages": 4,
+    "pdfSizeKB": 35,
+    "techTags": [
+      "accessibility",
+      "android",
+      "mobile"
+    ],
+    "status": "accepted",
+    "sourceRepo": "SammanSarkar/GSoC_archive_2025",
+    "sourceUrl": "https://github.com/SammanSarkar/GSoC_archive_2025/blob/HEAD/VideoLAN/VLC_GSoC_ParentalControl_Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:40.680Z"
+  },
+  {
+    "slug": "2024-52north-anonymous-contributor",
+    "title": "GSoC 2024 52north proposal · Anonymous Contributor",
+    "year": 2024,
+    "organization": "52north",
+    "orgSlug": "52north",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/52north/2024-52north-anonymous-contributor.pdf",
+    "pdfPages": 9,
+    "pdfSizeKB": 365,
+    "techTags": [
+      "android",
+      "documentation",
+      "mobile",
+      "networking"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/52north/Proposals/Accepted/Mapbox%20to%20MapLibre%20migration%20in%20enviroCar%20App.pdf",
+    "addedAt": "2026-05-01T19:06:42.797Z"
+  },
+  {
+    "slug": "2024-aossie-anonymous-contributor",
+    "title": "GSoC 2024 AOSSIE proposal · Anonymous Contributor",
+    "year": 2024,
+    "organization": "AOSSIE",
+    "orgSlug": "aossie",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/AOSSIE/2024-aossie-anonymous-contributor.pdf",
+    "pdfPages": 5,
+    "pdfSizeKB": 186,
+    "techTags": [
+      "computer-vision",
+      "docker",
+      "documentation",
+      "python",
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/AOSSIE/Proposals/Accepted/AOSSIE_PictoPy.pdf",
+    "addedAt": "2026-05-01T19:06:42.890Z"
+  },
+  {
+    "slug": "2024-circuitverse-jaydip-dey",
+    "title": "GSoC 2024 Circuitverse proposal · Jaydip Dey",
+    "year": 2024,
+    "organization": "Circuitverse",
+    "orgSlug": "circuitverse",
+    "contributor": {
+      "displayName": "Jaydip Dey"
+    },
+    "pdfPath": "/proposals/2024/Circuitverse/2024-circuitverse-jaydip-dey.pdf",
+    "pdfPages": 36,
+    "pdfSizeKB": 3689,
+    "techTags": [
+      "android",
+      "java",
+      "ruby",
+      "vue",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/Circuitverse/Proposals/Accepted/Circuitverse-practical-section_Jaydip-Dey.pdf",
+    "addedAt": "2026-05-01T19:06:42.967Z"
+  },
+  {
+    "slug": "2024-learningequaliity-anonymous-contributor",
+    "title": "GSoC 2024 LearningEqualiity proposal · Anonymous Contributor",
+    "year": 2024,
+    "organization": "LearningEqualiity",
+    "orgSlug": "learningequaliity",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/LearningEqualiity/2024-learningequaliity-anonymous-contributor.pdf",
+    "pdfPages": 16,
+    "pdfSizeKB": 887,
+    "techTags": [
+      "django",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/LearningEqualiity/Proposals/Accepted/Distributed_Error_reporting_thesujai.pdf",
+    "addedAt": "2026-05-01T19:06:43.005Z"
+  },
+  {
+    "slug": "2024-omegaup-anonymous-contributor",
+    "title": "Aritra-GSoC-proposal",
+    "year": 2024,
+    "organization": "omegaUp",
+    "orgSlug": "omegaup",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/omegaUp/2024-omegaup-anonymous-contributor.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 747,
+    "techTags": [
+      "cloud",
+      "databases",
+      "django",
+      "javascript",
+      "typescript",
+      "vue"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/omegaUp/Proposals/Accepted/Migrate_problem_creator-Aritra.pdf",
+    "addedAt": "2026-05-01T19:06:43.264Z"
+  },
+  {
+    "slug": "2024-oppia-anonymous-contributor",
+    "title": "GSoC'24 Proposal - 4.1. Code coverage support and enforcement (RD - Ramadevi)",
+    "year": 2024,
+    "organization": "Oppia",
+    "orgSlug": "oppia",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/Oppia/2024-oppia-anonymous-contributor.pdf",
+    "pdfPages": 38,
+    "pdfSizeKB": 3968,
+    "techTags": [
+      "android",
+      "devops",
+      "java",
+      "kotlin",
+      "python",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/Oppia/Proposals/Accepted/4.1_Code-coverage-enforcement-%26-support.pdf",
+    "addedAt": "2026-05-01T19:06:43.053Z"
+  },
+  {
+    "slug": "2024-sugarlabs-karan-acceptedprop",
+    "title": "Music Blocks 4 Builder Integration",
+    "year": 2024,
+    "organization": "Sugarlabs",
+    "orgSlug": "sugarlabs",
+    "contributor": {
+      "displayName": "Karan Acceptedprop"
+    },
+    "pdfPath": "/proposals/2024/Sugarlabs/2024-sugarlabs-karan-acceptedprop.pdf",
+    "pdfPages": 29,
+    "pdfSizeKB": 2350,
+    "techTags": [
+      "deep-learning",
+      "javascript",
+      "ml",
+      "nodejs",
+      "typescript",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/Sugarlabs/Proposals/Accepted/SugarLabs_MB4_Karan-AcceptedProp.pdf",
+    "addedAt": "2026-05-01T19:06:43.091Z"
+  },
+  {
+    "slug": "2024-the-jpf-team-anonymous-contributor",
+    "title": "GSOC Proporsal",
+    "year": 2024,
+    "organization": "the JPF Team",
+    "orgSlug": "the-jpf-team",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/the%20JPF%20Team/2024-the-jpf-team-anonymous-contributor.pdf",
+    "pdfPages": 20,
+    "pdfSizeKB": 1352,
+    "techTags": [
+      "cloud",
+      "documentation",
+      "java",
+      "testing"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/the%20JPF%20Team/Proposals/Accepted/Model-based-testing-with-Modbat-and-JPF_Harshvardhan.pdf",
+    "addedAt": "2026-05-01T19:06:43.302Z"
+  },
+  {
+    "slug": "2024-the-linux-foundation-anonymous-contributor",
+    "title": "GSoC 2024 The Linux Foundation proposal · Anonymous Contributor",
+    "year": 2024,
+    "organization": "The Linux Foundation",
+    "orgSlug": "the-linux-foundation",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/The%20Linux%20Foundation/2024-the-linux-foundation-anonymous-contributor.pdf",
+    "pdfPages": 6,
+    "pdfSizeKB": 81,
+    "techTags": [
+      "cpp",
+      "documentation"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/The%20Linux%20Foundation/Proposals/Accepted/OpenPrinting-for-Linux_Uddhav.pdf",
+    "addedAt": "2026-05-01T19:06:43.121Z"
+  },
+  {
+    "slug": "2024-thehoneynetproject-anonymous-contributor",
+    "title": "GSoC 2024 TheHoneynetProject proposal · Anonymous Contributor",
+    "year": 2024,
+    "organization": "TheHoneynetProject",
+    "orgSlug": "thehoneynetproject",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/TheHoneynetProject/2024-thehoneynetproject-anonymous-contributor.pdf",
+    "pdfPages": 11,
+    "pdfSizeKB": 736,
+    "techTags": [
+      "documentation",
+      "python",
+      "ruby",
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/TheHoneynetProject/Proposals/Accepted/Improve-websockets-and-TCP-in-mitmproxy_Gaurav-J.pdf",
+    "addedAt": "2026-05-01T19:06:43.171Z"
+  },
+  {
+    "slug": "2024-wikimedia-foundation-anonymous-contributor",
+    "title": "GSoC 2024 Wikimedia Foundation proposal · Anonymous Contributor",
+    "year": 2024,
+    "organization": "Wikimedia Foundation",
+    "orgSlug": "wikimedia-foundation",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2024/Wikimedia%20Foundation/2024-wikimedia-foundation-anonymous-contributor.pdf",
+    "pdfPages": 7,
+    "pdfSizeKB": 450,
+    "techTags": [
+      "android",
+      "documentation",
+      "java",
+      "mobile"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2024/Wikimedia%20Foundation/Proposals/Accepted/Improve%20upload%20queue%20management.pdf",
+    "addedAt": "2026-05-01T19:06:43.228Z"
+  },
+  {
+    "slug": "2023-ardupilot-arsh-pratap",
+    "title": "GSoC 23 Project proposal",
+    "year": 2023,
+    "organization": "Ardupilot",
+    "orgSlug": "ardupilot",
+    "contributor": {
+      "displayName": "Arsh Pratap"
+    },
+    "pdfPath": "/proposals/2023/Ardupilot/2023-ardupilot-arsh-pratap.pdf",
+    "pdfPages": 27,
+    "pdfSizeKB": 598,
+    "techTags": [
+      "android",
+      "cpp",
+      "deep-learning",
+      "embedded",
+      "ml",
+      "robotics"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/Ardupilot/Proposals/Accepted/GSoC-23_Proposal_Arsh_Pratap_Selected.pdf",
+    "addedAt": "2026-05-01T19:06:42.472Z"
+  },
+  {
+    "slug": "2023-cern-hsf-rooworkspace-yashnator",
+    "title": "GSoC 2023 CERN-HSF proposal · Rooworkspace Yashnator",
+    "year": 2023,
+    "organization": "CERN-HSF",
+    "orgSlug": "cern-hsf",
+    "contributor": {
+      "displayName": "Rooworkspace Yashnator"
+    },
+    "pdfPath": "/proposals/2023/CERN-HSF/2023-cern-hsf-rooworkspace-yashnator.pdf",
+    "pdfPages": 8,
+    "pdfSizeKB": 450,
+    "techTags": [
+      "cpp",
+      "documentation",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/CERN-HSF/Proposals/Accepted/RooFit-Pythonic%20interaction%20with%20the%20RooWorkspace_yashnator.pdf",
+    "addedAt": "2026-05-01T19:06:42.549Z"
+  },
+  {
+    "slug": "2023-cern-hsf-scientific-software-manas",
+    "title": "GSoC 2023 CERN-HSF proposal · Scientific Software Manas",
+    "year": 2023,
+    "organization": "CERN-HSF",
+    "orgSlug": "cern-hsf",
+    "contributor": {
+      "displayName": "Scientific Software Manas"
+    },
+    "pdfPath": "/proposals/2023/CERN-HSF/2023-cern-hsf-scientific-software-manas.pdf",
+    "pdfPages": 19,
+    "pdfSizeKB": 924,
+    "techTags": [
+      "cpp",
+      "data-science",
+      "deep-learning",
+      "java",
+      "ml",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/CERN-HSF/Proposals/Accepted/Estimating_the_energy_cost_of_scientific_software_manas.pdf",
+    "addedAt": "2026-05-01T19:06:42.520Z"
+  },
+  {
+    "slug": "2023-circuitverse-experience-tanmoy-sarkar",
+    "title": "Public | CircuitVerse GSoC Proposal | Project 4 | Tanmoy Sarkar",
+    "year": 2023,
+    "organization": "CircuitVerse",
+    "orgSlug": "circuitverse",
+    "contributor": {
+      "displayName": "Experience Tanmoy Sarkar"
+    },
+    "pdfPath": "/proposals/2023/CircuitVerse/2023-circuitverse-experience-tanmoy-sarkar.pdf",
+    "pdfPages": 35,
+    "pdfSizeKB": 1147,
+    "techTags": [
+      "android",
+      "computer-vision",
+      "cpp",
+      "javascript",
+      "python",
+      "ruby"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/CircuitVerse/Proposals/Accepted/Improve%20the%20development%20experience_Tanmoy_Sarkar.pdf",
+    "addedAt": "2026-05-01T19:06:42.575Z"
+  },
+  {
+    "slug": "2023-cloudcv-evalai-suryansh",
+    "title": "GSoC 2023 CloudCV proposal · Evalai Suryansh",
+    "year": 2023,
+    "organization": "CloudCV",
+    "orgSlug": "cloudcv",
+    "contributor": {
+      "displayName": "Evalai Suryansh"
+    },
+    "pdfPath": "/proposals/2023/CloudCV/2023-cloudcv-evalai-suryansh.pdf",
+    "pdfPages": 9,
+    "pdfSizeKB": 464,
+    "techTags": [
+      "cpp",
+      "deep-learning",
+      "django",
+      "nlp",
+      "python",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/CloudCV/Proposals/Accepted/Adversarial-Data-using-Gradio-and-EvalAI_Suryansh.pdf",
+    "addedAt": "2026-05-01T19:06:42.602Z"
+  },
+  {
+    "slug": "2023-gcc-rishi-raj",
+    "title": "Bypass assembler when generating LTO object files Proposal Rishi Raj",
+    "year": 2023,
+    "organization": "GCC",
+    "orgSlug": "gcc",
+    "contributor": {
+      "displayName": "Rishi Raj"
+    },
+    "pdfPath": "/proposals/2023/GCC/2023-gcc-rishi-raj.pdf",
+    "pdfPages": 6,
+    "pdfSizeKB": 116,
+    "techTags": [
+      "compilers",
+      "cpp",
+      "documentation",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/GCC/Proposals/Accepted/Bypass%20assembler%20when%20generating%20LTO%20object%20files%20Proposal%20Rishi%20Raj.pdf",
+    "addedAt": "2026-05-01T19:06:42.650Z"
+  },
+  {
+    "slug": "2023-kde-srirupa-datta",
+    "title": "Proposal - GSoC",
+    "year": 2023,
+    "organization": "KDE",
+    "orgSlug": "kde",
+    "contributor": {
+      "displayName": "Srirupa Datta"
+    },
+    "pdfPath": "/proposals/2023/KDE/2023-kde-srirupa-datta.pdf",
+    "pdfPages": 15,
+    "pdfSizeKB": 724,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/KDE/Proposals/Accepted/Improving_the_bundle_creator_Srirupa_Datta.pdf",
+    "addedAt": "2026-05-01T19:06:42.671Z"
+  },
+  {
+    "slug": "2023-mathesar-functions-aritra-majumder",
+    "title": "GSoC 2023 Mathesar proposal · Functions Aritra Majumder",
+    "year": 2023,
+    "organization": "Mathesar",
+    "orgSlug": "mathesar",
+    "contributor": {
+      "displayName": "Functions Aritra Majumder"
+    },
+    "pdfPath": "/proposals/2023/Mathesar/2023-mathesar-functions-aritra-majumder.pdf",
+    "pdfPages": 14,
+    "pdfSizeKB": 250,
+    "techTags": [
+      "databases"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/Mathesar/Proposals/Accepted/Add_more_summarization_functions_Aritra_Majumder.pdf",
+    "addedAt": "2026-05-01T19:06:42.715Z"
+  },
+  {
+    "slug": "2023-submitty-anonymous-contributor",
+    "title": "GSoC 2023 Submitty proposal · Anonymous Contributor",
+    "year": 2023,
+    "organization": "Submitty",
+    "orgSlug": "submitty",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2023/Submitty/2023-submitty-anonymous-contributor.pdf",
+    "pdfPages": 9,
+    "pdfSizeKB": 239,
+    "techTags": [
+      "docker",
+      "os-systems",
+      "security",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2023/Submitty/Proposals/Accepted/Containers-for-Automated-Grading_Suryansh.pdf",
+    "addedAt": "2026-05-01T19:06:42.741Z"
+  },
+  {
+    "slug": "2022-cc-extractor-anonymous-contributor",
+    "title": "CCExtractor - Its Urgent - Edited",
+    "year": 2022,
+    "organization": "CC Extractor",
+    "orgSlug": "cc-extractor",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2022/CC%20Extractor/2022-cc-extractor-anonymous-contributor.pdf",
+    "pdfPages": 10,
+    "pdfSizeKB": 1035,
+    "techTags": [
+      "android",
+      "devops"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2022/CC%20Extractor/CCExtractor_ItsUrgent_AkashJaiswal.pdf",
+    "addedAt": "2026-05-01T19:06:44.979Z"
+  },
+  {
+    "slug": "2022-libcamera-anonymous-contributor",
+    "title": "Libcamera GSoC Proposal_copy",
+    "year": 2022,
+    "organization": "libcamera",
+    "orgSlug": "libcamera",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2022/libcamera/2022-libcamera-anonymous-contributor.pdf",
+    "pdfPages": 10,
+    "pdfSizeKB": 193,
+    "techTags": [
+      "computer-vision",
+      "cpp",
+      "embedded",
+      "robotics"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2022/libcamera/Rishikesh%20Donadkar%20-%20Improve%20GStreamer%20element%20to%20add%20support%20for%20properties.pdf",
+    "addedAt": "2026-05-01T19:06:45.054Z"
+  },
+  {
+    "slug": "2022-sugar-labs-saumya-kushwaha",
+    "title": "GSoC’22 - Sugarizer Vue.js UI (Saumya Kushwaha)",
+    "year": 2022,
+    "organization": "Sugar Labs",
+    "orgSlug": "sugar-labs",
+    "contributor": {
+      "displayName": "Saumya Kushwaha"
+    },
+    "pdfPath": "/proposals/2022/Sugar%20Labs/2022-sugar-labs-saumya-kushwaha.pdf",
+    "pdfPages": 27,
+    "pdfSizeKB": 301,
+    "techTags": [
+      "cpp",
+      "ml",
+      "python",
+      "vue"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2022/Sugar%20Labs/Sugar%20Labs%20-%202022%20-%20Saumya%20Kushwaha.pdf",
+    "addedAt": "2026-05-01T19:06:45.016Z"
+  },
+  {
+    "slug": "2021-apertium-anonymous-contributor",
+    "title": "GSoC 2021 Apertium proposal · Anonymous Contributor",
+    "year": 2021,
+    "organization": "Apertium",
+    "orgSlug": "apertium",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/Apertium/2021-apertium-anonymous-contributor.pdf",
+    "pdfPages": 4,
+    "pdfSizeKB": 59,
+    "techTags": [
+      "compilers",
+      "cpp",
+      "deep-learning",
+      "documentation",
+      "ml",
+      "nlp"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/Apertium/Apertium.pdf",
+    "addedAt": "2026-05-01T19:06:43.560Z"
+  },
+  {
+    "slug": "2021-apertus-association-anonymous-contributor",
+    "title": "GSoC 2021 apertus° Association proposal · Anonymous Contributor",
+    "year": 2021,
+    "organization": "apertus° Association",
+    "orgSlug": "apertus-association",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/apertus%C2%B0%20Association/2021-apertus-association-anonymous-contributor.pdf",
+    "pdfPages": 10,
+    "pdfSizeKB": 186,
+    "techTags": [
+      "networking",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/apertus%C2%B0%20Association/VinayakSankar_proposal_GSoC2021.pdf",
+    "addedAt": "2026-05-01T19:06:44.751Z"
+  },
+  {
+    "slug": "2021-apertus-association-eppisai-firmware",
+    "title": "GSoC 2021 apertus° Association proposal · Eppisai Firmware",
+    "year": 2021,
+    "organization": "apertus° Association",
+    "orgSlug": "apertus-association",
+    "contributor": {
+      "displayName": "Eppisai Firmware"
+    },
+    "pdfPath": "/proposals/2021/apertus%C2%B0%20Association/2021-apertus-association-eppisai-firmware.pdf",
+    "pdfPages": 18,
+    "pdfSizeKB": 811,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/apertus%C2%B0%20Association/eppisai_firmware_improvement_GSoC_proposal_final.pdf",
+    "addedAt": "2026-05-01T19:06:44.785Z"
+  },
+  {
+    "slug": "2021-ardupilot-arsh-pratap",
+    "title": "Project proposal",
+    "year": 2021,
+    "organization": "Ardupilot",
+    "orgSlug": "ardupilot",
+    "contributor": {
+      "displayName": "Arsh Pratap"
+    },
+    "pdfPath": "/proposals/2021/Ardupilot/2021-ardupilot-arsh-pratap.pdf",
+    "pdfPages": 22,
+    "pdfSizeKB": 458,
+    "techTags": [
+      "android",
+      "cpp",
+      "documentation",
+      "embedded",
+      "robotics"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Aritra8438/GSoC_archive",
+    "sourceUrl": "https://github.com/Aritra8438/GSoC_archive/blob/HEAD/2021/Ardupilot/Proposals/Accepted/GSoC-21_Proposal_Arsh_Pratap_Selected.pdf",
+    "addedAt": "2026-05-01T19:06:42.441Z"
+  },
+  {
+    "slug": "2021-beagleboard-dhruva-gole",
+    "title": "GSoC 2021 BeagleBoard proposal · Dhruva Gole",
+    "year": 2021,
+    "organization": "BeagleBoard",
+    "orgSlug": "beagleboard",
+    "contributor": {
+      "displayName": "Dhruva Gole"
+    },
+    "pdfPath": "/proposals/2021/BeagleBoard/2021-beagleboard-dhruva-gole.pdf",
+    "pdfPages": 9,
+    "pdfSizeKB": 356,
+    "techTags": [
+      "cpp",
+      "embedded",
+      "iot",
+      "os-systems"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/BeagleBoard/BeagleBoard_GSoC_2021%20Proposal_bela%20on%20bbai%20-%20eLinux.org.pdf",
+    "addedAt": "2026-05-01T19:06:43.692Z"
+  },
+  {
+    "slug": "2021-beagleboard-omkar-bhilare",
+    "title": "GSoC 2021 BeagleBoard proposal · Omkar Bhilare",
+    "year": 2021,
+    "organization": "BeagleBoard",
+    "orgSlug": "beagleboard",
+    "contributor": {
+      "displayName": "Omkar Bhilare"
+    },
+    "pdfPath": "/proposals/2021/BeagleBoard/2021-beagleboard-omkar-bhilare.pdf",
+    "pdfPages": 8,
+    "pdfSizeKB": 284,
+    "techTags": [
+      "documentation"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/BeagleBoard/BeagleBoard_GSoC_2021%20Proposal_OmkarBhilare.pdf",
+    "addedAt": "2026-05-01T19:06:43.645Z"
+  },
+  {
+    "slug": "2021-boost-prathamesh-tagore",
+    "title": "GSoC 2021 Boost proposal · Prathamesh Tagore",
+    "year": 2021,
+    "organization": "Boost",
+    "orgSlug": "boost",
+    "contributor": {
+      "displayName": "Prathamesh Tagore"
+    },
+    "pdfPath": "/proposals/2021/Boost/2021-boost-prathamesh-tagore.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 257,
+    "techTags": [
+      "android",
+      "computer-vision",
+      "cpp",
+      "deep-learning",
+      "java",
+      "kubernetes"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/Boost/Prathamesh_Tagore%20Imroved%202D%20Convolution.pdf",
+    "addedAt": "2026-05-01T19:06:43.741Z"
+  },
+  {
+    "slug": "2021-casbin-anonymous-contributor",
+    "title": "GSoC 2021 Casbin proposal · Anonymous Contributor",
+    "year": 2021,
+    "organization": "Casbin",
+    "orgSlug": "casbin",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/Casbin/2021-casbin-anonymous-contributor.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 14265,
+    "techTags": [
+      "cloud",
+      "cpp",
+      "devops",
+      "go",
+      "javascript",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/Casbin/Yash%20Pandey%20-%20Benchmarking%2C%20Python%20bindings%20and%20Migrating%20to%20CTest%20for%20Casbin-CPP.pdf",
+    "addedAt": "2026-05-01T19:06:43.958Z"
+  },
+  {
+    "slug": "2021-castor-software-abhay-singh",
+    "title": "CASTOR: Project DepClean Proposal",
+    "year": 2021,
+    "organization": "CASTOR-Software",
+    "orgSlug": "castor-software",
+    "contributor": {
+      "displayName": "Abhay Singh"
+    },
+    "pdfPath": "/proposals/2021/CASTOR-Software/2021-castor-software-abhay-singh.pdf",
+    "pdfPages": 16,
+    "pdfSizeKB": 122,
+    "techTags": [
+      "android",
+      "documentation",
+      "java"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/CASTOR-Software/CASTOR_Project_DepClean_Proposal_By_Abhay_Singh.pdf",
+    "addedAt": "2026-05-01T19:06:43.777Z"
+  },
+  {
+    "slug": "2021-catrobat-awesome-demo-game",
+    "title": "Awesome Demo Game Project : King Of Batona",
+    "year": 2021,
+    "organization": "Catrobat",
+    "orgSlug": "catrobat",
+    "contributor": {
+      "displayName": "Awesome Demo Game"
+    },
+    "pdfPath": "/proposals/2021/Catrobat/2021-catrobat-awesome-demo-game.pdf",
+    "pdfPages": 20,
+    "pdfSizeKB": 1965,
+    "techTags": [
+      "android",
+      "developer-tools"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/Catrobat/Aman%20Gupta-%20Awesome%20Demo%20Game%20Project.pdf",
+    "addedAt": "2026-05-01T19:06:44.003Z"
+  },
+  {
+    "slug": "2021-cdli-anonymous-contributor",
+    "title": "CDLI-Digital Library Management-GSoC2021",
+    "year": 2021,
+    "organization": "CDLI",
+    "orgSlug": "cdli",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/CDLI/2021-cdli-anonymous-contributor.pdf",
+    "pdfPages": 30,
+    "pdfSizeKB": 862,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/CDLI/CDLI-Digital%20Library%20Management-GSoC2021.pdf",
+    "addedAt": "2026-05-01T19:06:43.801Z"
+  },
+  {
+    "slug": "2021-dbpedia-anonymous-contributor",
+    "title": "GSoC 2021 DBpedia proposal · Anonymous Contributor",
+    "year": 2021,
+    "organization": "DBpedia",
+    "orgSlug": "dbpedia",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/DBpedia/2021-dbpedia-anonymous-contributor.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 713,
+    "techTags": [
+      "cpp",
+      "deep-learning",
+      "nlp"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/DBpedia/Siddhant%20Jain%20-%20A%20Neural%20QA%20Model%20for%20DBpedia.pdf",
+    "addedAt": "2026-05-01T19:06:44.031Z"
+  },
+  {
+    "slug": "2021-digital-impact-alliance-dial-at-un-foundation-anonymous-contributor",
+    "title": "GSoC PSLab proposal",
+    "year": 2021,
+    "organization": "Digital Impact Alliance (DIAL) at UN Foundation",
+    "orgSlug": "digital-impact-alliance-dial-at-un-foundation",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/Digital%20Impact%20Alliance%20(DIAL)%20at%20UN%20Foundation/2021-digital-impact-alliance-dial-at-un-foundation-anonymous-contributor.pdf",
+    "pdfPages": 5,
+    "pdfSizeKB": 120,
+    "techTags": [
+      "android",
+      "documentation",
+      "java",
+      "mobile"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/Digital%20Impact%20Alliance%20(DIAL)%20at%20UN%20Foundation/PSLab%20-%20Create%20common%20backend%20for%20PSLab%20Desktop%20and%20Android%20app%20-%20kartikaysharma01.pdf",
+    "addedAt": "2026-05-01T19:06:44.065Z"
+  },
+  {
+    "slug": "2021-gfoss-open-technology-alliance-anonymous-contributor",
+    "title": "GSoC 2021 GFOSS Open Technology Alliance proposal · Anonymous Contributor",
+    "year": 2021,
+    "organization": "GFOSS Open Technology Alliance",
+    "orgSlug": "gfoss-open-technology-alliance",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/GFOSS%20Open%20Technology%20Alliance/2021-gfoss-open-technology-alliance-anonymous-contributor.pdf",
+    "pdfPages": 7,
+    "pdfSizeKB": 146,
+    "techTags": [
+      "cloud",
+      "django",
+      "documentation",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/GFOSS%20Open%20Technology%20Alliance/MediaCMS_shubhank-saxena.pdf",
+    "addedAt": "2026-05-01T19:06:44.105Z"
+  },
+  {
+    "slug": "2021-gnome-nishit-patel-file",
+    "title": "GSoC 2021 GNOME proposal · Nishit Patel File",
+    "year": 2021,
+    "organization": "GNOME",
+    "orgSlug": "gnome",
+    "contributor": {
+      "displayName": "Nishit Patel File"
+    },
+    "pdfPath": "/proposals/2021/GNOME/2021-gnome-nishit-patel-file.pdf",
+    "pdfPages": 9,
+    "pdfSizeKB": 179,
+    "techTags": [
+      "documentation",
+      "os-systems"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/GNOME/nishit_patel_GNOME_file_creation_proposal.pdf",
+    "addedAt": "2026-05-01T19:06:44.141Z"
+  },
+  {
+    "slug": "2021-joomla-yatharth-vyas",
+    "title": "Yatharth Vyas' Joomla GSoC proposal",
+    "year": 2021,
+    "organization": "Joomla",
+    "orgSlug": "joomla",
+    "contributor": {
+      "displayName": "Yatharth Vyas'"
+    },
+    "pdfPath": "/proposals/2021/Joomla/2021-joomla-yatharth-vyas.pdf",
+    "pdfPages": 22,
+    "pdfSizeKB": 2183,
+    "techTags": [
+      "databases",
+      "security",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/Joomla/Yatharth%20Vyas'%20Joomla%20GSoC%20proposal.pdf",
+    "addedAt": "2026-05-01T19:06:44.177Z"
+  },
+  {
+    "slug": "2021-kde-anonymous-contributor",
+    "title": "Port digiKam to Qt6 on Linux",
+    "year": 2021,
+    "organization": "KDE",
+    "orgSlug": "kde",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/KDE/2021-kde-anonymous-contributor.pdf",
+    "pdfPages": 13,
+    "pdfSizeKB": 185,
+    "techTags": [
+      "compilers",
+      "cpp"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/KDE/Port_digiKam_to_Qt6_on_Linux-AnjaniKumar.pdf",
+    "addedAt": "2026-05-01T19:06:44.219Z"
+  },
+  {
+    "slug": "2021-libcamera-gstreamer-element",
+    "title": "Libcamera-GSoC-Proposal",
+    "year": 2021,
+    "organization": "libcamera",
+    "orgSlug": "libcamera",
+    "contributor": {
+      "displayName": "Gstreamer Element"
+    },
+    "pdfPath": "/proposals/2021/libcamera/2021-libcamera-gstreamer-element.pdf",
+    "pdfPages": 7,
+    "pdfSizeKB": 176,
+    "techTags": [
+      "compilers",
+      "cpp",
+      "devops",
+      "docker",
+      "embedded",
+      "robotics"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/libcamera/Vedant%20Paranjape%20-%20Multistream%20support%20in%20GStreamer%20element.pdf",
+    "addedAt": "2026-05-01T19:06:44.834Z"
+  },
+  {
+    "slug": "2021-librecube-initiative-sidharth-shambu-usdlp",
+    "title": "SPP/USDLP - Librecube proposal",
+    "year": 2021,
+    "organization": "LibreCube-Initiative",
+    "orgSlug": "librecube-initiative",
+    "contributor": {
+      "displayName": "Sidharth Shambu Usdlp"
+    },
+    "pdfPath": "/proposals/2021/LibreCube-Initiative/2021-librecube-initiative-sidharth-shambu-usdlp.pdf",
+    "pdfPages": 8,
+    "pdfSizeKB": 153,
+    "techTags": [
+      "documentation",
+      "embedded",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/LibreCube-Initiative/sidharth_shambu_usdlp_protocol_proposal.pdf",
+    "addedAt": "2026-05-01T19:06:44.254Z"
+  },
+  {
+    "slug": "2021-librehealth-anonymous-contributor",
+    "title": "PROJECT : Create web components for FHIR Resources",
+    "year": 2021,
+    "organization": "LibreHealth",
+    "orgSlug": "librehealth",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/LibreHealth/2021-librehealth-anonymous-contributor.pdf",
+    "pdfPages": 30,
+    "pdfSizeKB": 916,
+    "techTags": [
+      "react"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/LibreHealth/Create_%20web_components_for_FHIR_Resources.pdf",
+    "addedAt": "2026-05-01T19:06:44.280Z"
+  },
+  {
+    "slug": "2021-metabrainz-akash-gupta-bookbrainz",
+    "title": "Project proposal",
+    "year": 2021,
+    "organization": "MetaBrainz",
+    "orgSlug": "metabrainz",
+    "contributor": {
+      "displayName": "Akash Gupta Bookbrainz"
+    },
+    "pdfPath": "/proposals/2021/MetaBrainz/2021-metabrainz-akash-gupta-bookbrainz.pdf",
+    "pdfPages": 31,
+    "pdfSizeKB": 1341,
+    "techTags": [],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/MetaBrainz/Akash%20Gupta%20-%20BookBrainz%20project%20proposal.pdf",
+    "addedAt": "2026-05-01T19:06:44.318Z"
+  },
+  {
+    "slug": "2021-metabrainz-akshat-tiwari",
+    "title": "GSoC 2021 MetaBrainz proposal · Akshat Tiwari",
+    "year": 2021,
+    "organization": "MetaBrainz",
+    "orgSlug": "metabrainz",
+    "contributor": {
+      "displayName": "Akshat Tiwari"
+    },
+    "pdfPath": "/proposals/2021/MetaBrainz/2021-metabrainz-akshat-tiwari.pdf",
+    "pdfPages": 7,
+    "pdfSizeKB": 332,
+    "techTags": [
+      "android",
+      "documentation",
+      "kotlin",
+      "mobile"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/MetaBrainz/Akshat%20Tiwari%20-%20MusicBrainz%20Android%20App.pdf",
+    "addedAt": "2026-05-01T19:06:44.355Z"
+  },
+  {
+    "slug": "2021-mlpack-aakash-kaushik",
+    "title": "GSoC 2021 mlpack proposal · Aakash Kaushik",
+    "year": 2021,
+    "organization": "mlpack",
+    "orgSlug": "mlpack",
+    "contributor": {
+      "displayName": "Aakash Kaushik"
+    },
+    "pdfPath": "/proposals/2021/mlpack/2021-mlpack-aakash-kaushik.pdf",
+    "pdfPages": 26,
+    "pdfSizeKB": 3025,
+    "techTags": [
+      "computer-vision",
+      "cpp",
+      "deep-learning",
+      "ml",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/mlpack/Ready_to_Use_Models_in_MLpack-Aakash_Kaushik.pdf",
+    "addedAt": "2026-05-01T19:06:44.946Z"
+  },
+  {
+    "slug": "2021-mlpack-anonymous-contributor",
+    "title": "GSOC Proposal - David Port Louis",
+    "year": 2021,
+    "organization": "mlpack",
+    "orgSlug": "mlpack",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/mlpack/2021-mlpack-anonymous-contributor.pdf",
+    "pdfPages": 27,
+    "pdfSizeKB": 3272,
+    "techTags": [
+      "cpp",
+      "data-science",
+      "deep-learning",
+      "ml",
+      "nlp",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/mlpack/Example_Zoo_Mlpack_proposal_David_Port_Louis.pdf",
+    "addedAt": "2026-05-01T19:06:44.907Z"
+  },
+  {
+    "slug": "2021-mlpack-roshan-nrusing-swain",
+    "title": "GSoC 2021 mlpack proposal · Roshan Nrusing Swain",
+    "year": 2021,
+    "organization": "mlpack",
+    "orgSlug": "mlpack",
+    "contributor": {
+      "displayName": "Roshan Nrusing Swain"
+    },
+    "pdfPath": "/proposals/2021/mlpack/2021-mlpack-roshan-nrusing-swain.pdf",
+    "pdfPages": 20,
+    "pdfSizeKB": 2246,
+    "techTags": [
+      "cpp",
+      "data-science",
+      "documentation",
+      "ml",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/mlpack/ExampleZoo_Mlpack_ProposalbyRoshanSwain.pdf",
+    "addedAt": "2026-05-01T19:06:44.865Z"
+  },
+  {
+    "slug": "2021-nrnb-sankha-das",
+    "title": "GSoC2021 Proposal- SBML4Humans - Interactive SBML Report for Humans",
+    "year": 2021,
+    "organization": "NRNB",
+    "orgSlug": "nrnb",
+    "contributor": {
+      "displayName": "Sankha Das"
+    },
+    "pdfPath": "/proposals/2021/NRNB/2021-nrnb-sankha-das.pdf",
+    "pdfPages": 14,
+    "pdfSizeKB": 761,
+    "techTags": [
+      "compilers",
+      "graphics",
+      "javascript",
+      "python",
+      "vue",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/NRNB/Sankha%20Das%20-%20SBML4Humans%20-%20Interactive%20SBML%20Report%20for%20Humans.pdf",
+    "addedAt": "2026-05-01T19:06:44.417Z"
+  },
+  {
+    "slug": "2021-numfocus-kush-mukesh-kothari",
+    "title": "GSoC 2021 NumFOCUS proposal · Kush Mukesh Kothari",
+    "year": 2021,
+    "organization": "NumFOCUS",
+    "orgSlug": "numfocus",
+    "contributor": {
+      "displayName": "Kush Mukesh Kothari"
+    },
+    "pdfPath": "/proposals/2021/NumFOCUS/2021-numfocus-kush-mukesh-kothari.pdf",
+    "pdfPages": 8,
+    "pdfSizeKB": 288,
+    "techTags": [
+      "databases",
+      "django",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/NumFOCUS/Kush%20Kothari%20-%20Adding%20Spatial%20Dataset%20Support.pdf",
+    "addedAt": "2026-05-01T19:06:44.440Z"
+  },
+  {
+    "slug": "2021-numfocus-simulations-saransh-chopra",
+    "title": "[PyBaMM] - Automated Twitter bot to run PyBaMM Simulations - Saransh Chopra",
+    "year": 2021,
+    "organization": "NumFOCUS",
+    "orgSlug": "numfocus",
+    "contributor": {
+      "displayName": "Simulations Saransh Chopra"
+    },
+    "pdfPath": "/proposals/2021/NumFOCUS/2021-numfocus-simulations-saransh-chopra.pdf",
+    "pdfPages": 11,
+    "pdfSizeKB": 1203,
+    "techTags": [
+      "data-science",
+      "devops",
+      "documentation"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/NumFOCUS/PyBaMM_-_Automated_Twitter_bot_to_run_PyBaMM_Simulations_-_Saransh_Chopra.pdf",
+    "addedAt": "2026-05-01T19:06:44.486Z"
+  },
+  {
+    "slug": "2021-python-software-foundation-eos-icons",
+    "title": "EOS PROJECT FInal",
+    "year": 2021,
+    "organization": "Python Software Foundation",
+    "orgSlug": "python-software-foundation",
+    "contributor": {
+      "displayName": "Eos Icons"
+    },
+    "pdfPath": "/proposals/2021/Python%20Software%20Foundation/2021-python-software-foundation-eos-icons.pdf",
+    "pdfPages": 22,
+    "pdfSizeKB": 255,
+    "techTags": [
+      "cpp",
+      "devops",
+      "documentation",
+      "python",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/Python%20Software%20Foundation/Eos%20icons%20React%20and%20Vue%20library%20-%20vinayaksh42.pdf",
+    "addedAt": "2026-05-01T19:06:44.517Z"
+  },
+  {
+    "slug": "2021-score-lab-abhi-kulshrestha",
+    "title": "SCORE GSoC 2021 Proposal",
+    "year": 2021,
+    "organization": "SCoRe Lab",
+    "orgSlug": "score-lab",
+    "contributor": {
+      "displayName": "Abhi Kulshrestha"
+    },
+    "pdfPath": "/proposals/2021/SCoRe%20Lab/2021-score-lab-abhi-kulshrestha.pdf",
+    "pdfPages": 20,
+    "pdfSizeKB": 1063,
+    "techTags": [
+      "docker",
+      "documentation"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/SCoRe%20Lab/Abhi%20Kulshrestha%20SCoRe%20Lab.pdf",
+    "addedAt": "2026-05-01T19:06:44.548Z"
+  },
+  {
+    "slug": "2021-tardis-sn-atharva-arya",
+    "title": "GSoC 2021 TARDIS SN proposal · Atharva Arya",
+    "year": 2021,
+    "organization": "TARDIS SN",
+    "orgSlug": "tardis-sn",
+    "contributor": {
+      "displayName": "Atharva Arya"
+    },
+    "pdfPath": "/proposals/2021/TARDIS%20SN/2021-tardis-sn-atharva-arya.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 1147,
+    "techTags": [
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/TARDIS%20SN/atharva_arya_tardis_proposal.pdf",
+    "addedAt": "2026-05-01T19:06:44.581Z"
+  },
+  {
+    "slug": "2021-tensorflow-anonymous-contributor",
+    "title": "TensorFlow Lite Task Library examples for Natural Language Processing Proposal",
+    "year": 2021,
+    "organization": "TensorFlow",
+    "orgSlug": "tensorflow",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/TensorFlow/2021-tensorflow-anonymous-contributor.pdf",
+    "pdfPages": 7,
+    "pdfSizeKB": 120,
+    "techTags": [
+      "android",
+      "deep-learning",
+      "documentation",
+      "ml",
+      "nlp",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/TensorFlow/Sunit%20Roy%20-%20TensorFlow%20Lite%20Task%20Library%20examples%20for%20Natural%20Language%20Processing.pdf",
+    "addedAt": "2026-05-01T19:06:44.641Z"
+  },
+  {
+    "slug": "2021-tensorflow-sayan-nath",
+    "title": "💻 GSoC 2021: TensorFlow Lite Proposal",
+    "year": 2021,
+    "organization": "TensorFlow",
+    "orgSlug": "tensorflow",
+    "contributor": {
+      "displayName": "Sayan Nath"
+    },
+    "pdfPath": "/proposals/2021/TensorFlow/2021-tensorflow-sayan-nath.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 1148,
+    "techTags": [
+      "android",
+      "deep-learning",
+      "ml",
+      "mobile",
+      "nlp",
+      "nodejs"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/TensorFlow/Sayan%20Nath%20-%20TensorFlow%20Lite%20Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:44.605Z"
+  },
+  {
+    "slug": "2021-the-apache-software-foundation-anonymous-contributor",
+    "title": "Project proposal-Bikram",
+    "year": 2021,
+    "organization": "The Apache Software Foundation",
+    "orgSlug": "the-apache-software-foundation",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2021/The%20Apache%20Software%20Foundation/2021-the-apache-software-foundation-anonymous-contributor.pdf",
+    "pdfPages": 4,
+    "pdfSizeKB": 57,
+    "techTags": [
+      "deep-learning",
+      "ml"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/The%20Apache%20Software%20Foundation/Project%20proposal-Bikram.pdf",
+    "addedAt": "2026-05-01T19:06:44.704Z"
+  },
+  {
+    "slug": "2021-the-apache-software-foundation-apurva-gupta",
+    "title": "Apache - CloudStack Proposal",
+    "year": 2021,
+    "organization": "The Apache Software Foundation",
+    "orgSlug": "the-apache-software-foundation",
+    "contributor": {
+      "displayName": "Apurva Gupta"
+    },
+    "pdfPath": "/proposals/2021/The%20Apache%20Software%20Foundation/2021-the-apache-software-foundation-apurva-gupta.pdf",
+    "pdfPages": 9,
+    "pdfSizeKB": 179,
+    "techTags": [
+      "documentation"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/The%20Apache%20Software%20Foundation/ApurvGupta-ApacheCloudStack_Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:44.674Z"
+  },
+  {
+    "slug": "2021-zulip-ganesh-pawar",
+    "title": "GSoC 2021 Zulip proposal · Ganesh Pawar",
+    "year": 2021,
+    "organization": "Zulip",
+    "orgSlug": "zulip",
+    "contributor": {
+      "displayName": "Ganesh Pawar"
+    },
+    "pdfPath": "/proposals/2021/Zulip/2021-zulip-ganesh-pawar.pdf",
+    "pdfPages": 11,
+    "pdfSizeKB": 116,
+    "techTags": [
+      "devops",
+      "docker",
+      "testing"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2021/Zulip/Ganesh_Pawar_Zulip_GSoC_Proposal.pdf",
+    "addedAt": "2026-05-01T19:06:44.725Z"
+  },
+  {
+    "slug": "2020-processingfoundation-anonymous-contributor",
+    "title": "GSOC'20-PROPOSAL",
+    "year": 2020,
+    "organization": "ProcessingFoundation",
+    "orgSlug": "processingfoundation",
+    "contributor": {
+      "displayName": "Anonymous Contributor"
+    },
+    "pdfPath": "/proposals/2020/ProcessingFoundation/2020-processingfoundation-anonymous-contributor.pdf",
+    "pdfPages": 9,
+    "pdfSizeKB": 147,
+    "techTags": [
+      "android",
+      "documentation",
+      "graphics",
+      "java",
+      "kotlin",
+      "testing"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2020/ProcessingFoundation/Support_For_Kotlin-Native_In_Processing-Android_AdityaRana.pdf",
+    "addedAt": "2026-05-01T19:06:43.481Z"
+  },
+  {
+    "slug": "2020-robocomp-mshawky-pose-estimation",
+    "title": "GSoC 2020 RoboComp proposal · Mshawky Pose Estimation",
+    "year": 2020,
+    "organization": "RoboComp",
+    "orgSlug": "robocomp",
+    "contributor": {
+      "displayName": "Mshawky Pose Estimation"
+    },
+    "pdfPath": "/proposals/2020/RoboComp/2020-robocomp-mshawky-pose-estimation.pdf",
+    "pdfPages": 6,
+    "pdfSizeKB": 95,
+    "techTags": [
+      "computer-vision",
+      "cpp",
+      "deep-learning",
+      "ml",
+      "python"
+    ],
+    "status": "accepted",
+    "sourceRepo": "Google-Summer-of-Code-Archive/gsoc-proposals-archive",
+    "sourceUrl": "https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive/blob/HEAD/2020/RoboComp/MShawky-Pose-Estimation-Proposal-GSoC-2020.pdf",
+    "addedAt": "2026-05-01T19:06:43.521Z"
+  }
+]
