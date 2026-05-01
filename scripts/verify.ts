@@ -35,32 +35,34 @@ interface Hit {
   description: string;
 }
 
-const ALLOWLIST: ReadonlyArray<{
-  file: string;
-  pattern: RegExp;
-  reason: string;
-}> = [
-  {
-    file: "scripts/verify.ts",
-    pattern: /./,
-    reason: "Verification script defines the patterns; the file is excluded.",
-  },
-  {
-    file: "PLAN.md",
-    pattern: /./,
-    reason: "Plan document references the rules.",
-  },
-  {
-    file: "scratchpad.md",
-    pattern: /./,
-    reason: "Scratchpad notes reference the rules.",
-  },
+const ALLOWLIST_FILES: ReadonlyArray<RegExp> = [
+  /scripts\/verify\.ts$/,
+  /scripts\/ingest\.ts$/, // ingest references "submitted" as a noise word for filename heuristics
+  /PLAN\.md$/,
+  /scratchpad\.md$/,
 ];
 
+/**
+ * Pages that are *legally allowed* to mention these tokens —
+ * specifically to disclaim that we DO NOT collect email or run a newsletter.
+ * Lines must be context-asserting that the feature is absent.
+ */
+const NEGATIVE_DISCLOSURE_FILES: ReadonlyArray<RegExp> = [
+  /app\/\(site\)\/disclosures\/page\.tsx$/,
+  /app\/\(site\)\/contribute\/page\.tsx$/,
+  /app\/\(site\)\/submit\/page\.tsx$/,
+  /app\/\(site\)\/about\/page\.tsx$/,
+  /README\.md$/,
+];
+
+const NEGATIVE_PATTERN =
+  /(no\s+(newsletter|email\s*signup|subscribe)|do not\s+(have|run|start)\s+(a\s+)?newsletter|never\s+share|don'?t\s+have\s+a\s+newsletter|newsletter widgets,?\s*email-collection|email-collection forms?)/i;
+
 function isAllowlisted(file: string, line: string): boolean {
-  return ALLOWLIST.some(
-    (a) => file.endsWith(a.file) && a.pattern.test(line),
-  );
+  if (ALLOWLIST_FILES.some((re) => re.test(file))) return true;
+  if (NEGATIVE_DISCLOSURE_FILES.some((re) => re.test(file)) && NEGATIVE_PATTERN.test(line))
+    return true;
+  return false;
 }
 
 function* walk(dir: string): Generator<string> {
