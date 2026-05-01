@@ -1,0 +1,324 @@
+[
+  {
+    "slug": "python",
+    "label": "Python",
+    "description": "Python is the most common implementation language across GSoC projects, especially in scientific computing, data, and web orgs.",
+    "aliases": ["python", "py3", "cpython", "pypy"],
+    "category": "language"
+  },
+  {
+    "slug": "rust",
+    "label": "Rust",
+    "description": "Rust appears in performance-sensitive GSoC projects: systems, embedded, security, and tooling.",
+    "aliases": ["rust", "rustlang", "cargo", "tokio"],
+    "category": "language"
+  },
+  {
+    "slug": "cpp",
+    "label": "C++",
+    "description": "C++ is widely used in graphics, robotics, scientific computing, and game-engine GSoC projects.",
+    "aliases": ["c\\+\\+", "cpp", "stl", "boost"],
+    "category": "language"
+  },
+  {
+    "slug": "javascript",
+    "label": "JavaScript",
+    "description": "JavaScript powers the web-facing GSoC projects across frontends, browser extensions, and tooling.",
+    "aliases": ["javascript", "ecmascript", "es6", "es2015"],
+    "category": "language"
+  },
+  {
+    "slug": "typescript",
+    "label": "TypeScript",
+    "description": "TypeScript is a popular pick for modern web GSoC projects requiring stronger type guarantees.",
+    "aliases": ["typescript", "tsconfig", "tsx"],
+    "category": "language"
+  },
+  {
+    "slug": "go",
+    "label": "Go",
+    "description": "Go shows up frequently in CNCF-aligned GSoC projects: cloud-native infrastructure, networking, and DevOps.",
+    "aliases": ["golang", "go-lang", "go module", "go.mod"],
+    "category": "language"
+  },
+  {
+    "slug": "java",
+    "label": "Java",
+    "description": "Java continues to power enterprise-grade GSoC projects in JVM ecosystems, Android, and large open-source frameworks.",
+    "aliases": ["java", "jdk", "jvm", "openjdk"],
+    "category": "language"
+  },
+  {
+    "slug": "kotlin",
+    "label": "Kotlin",
+    "description": "Kotlin is the modern JVM language of choice — common in Android-focused GSoC proposals.",
+    "aliases": ["kotlin", "ktor"],
+    "category": "language"
+  },
+  {
+    "slug": "swift",
+    "label": "Swift",
+    "description": "Swift appears in iOS / macOS GSoC contributions, especially around developer tools and accessibility.",
+    "aliases": ["swift", "swiftui"],
+    "category": "language"
+  },
+  {
+    "slug": "ruby",
+    "label": "Ruby",
+    "description": "Ruby continues to be a favorite for documentation tooling and Rails-backed GSoC projects.",
+    "aliases": ["ruby", "rails", "ruby on rails"],
+    "category": "language"
+  },
+  {
+    "slug": "haskell",
+    "label": "Haskell",
+    "description": "Haskell appears in compiler / proof-assistant GSoC proposals where strong static guarantees matter.",
+    "aliases": ["haskell", "ghc", "cabal", "stack"],
+    "category": "language"
+  },
+  {
+    "slug": "julia",
+    "label": "Julia",
+    "description": "Julia powers high-performance scientific computing GSoC projects — common across numerics-heavy orgs.",
+    "aliases": ["julia language", "julialang"],
+    "category": "language"
+  },
+  {
+    "slug": "ml",
+    "label": "Machine Learning",
+    "description": "Machine learning is one of the most-applied tags in GSoC, spanning classical ML and modern deep learning pipelines.",
+    "aliases": ["machine learning", "scikit-learn", "sklearn", "xgboost"],
+    "category": "domain"
+  },
+  {
+    "slug": "deep-learning",
+    "label": "Deep Learning",
+    "description": "Deep-learning GSoC projects use frameworks like PyTorch and TensorFlow to train neural networks at scale.",
+    "aliases": ["deep learning", "neural network", "pytorch", "tensorflow", "keras"],
+    "category": "domain"
+  },
+  {
+    "slug": "nlp",
+    "label": "NLP",
+    "description": "Natural-language-processing GSoC proposals tackle parsing, translation, summarization, and corpus tooling.",
+    "aliases": ["natural language", "nlp", "spacy", "transformers", "tokenizer"],
+    "category": "domain"
+  },
+  {
+    "slug": "computer-vision",
+    "label": "Computer Vision",
+    "description": "Computer-vision GSoC projects work on object detection, image segmentation, and visual reasoning.",
+    "aliases": ["computer vision", "opencv", "image segmentation", "object detection"],
+    "category": "domain"
+  },
+  {
+    "slug": "data-science",
+    "label": "Data Science",
+    "description": "Data-science GSoC proposals build analysis pipelines, dashboards, and notebook-friendly tooling.",
+    "aliases": ["pandas", "numpy", "jupyter", "data analysis"],
+    "category": "domain"
+  },
+  {
+    "slug": "web",
+    "label": "Web",
+    "description": "Web-focused GSoC projects span frontends, dashboards, browser tooling, and full-stack web frameworks.",
+    "aliases": ["web app", "frontend", "front-end", "html5", "single page"],
+    "category": "domain"
+  },
+  {
+    "slug": "mobile",
+    "label": "Mobile",
+    "description": "Mobile GSoC projects target Android and iOS — often building on top of community SDKs.",
+    "aliases": ["mobile app", "ios app", "android app"],
+    "category": "domain"
+  },
+  {
+    "slug": "ios",
+    "label": "iOS",
+    "description": "iOS GSoC contributions target Apple platforms via SwiftUI / UIKit.",
+    "aliases": [" ios ", "swiftui", "uikit"],
+    "category": "platform"
+  },
+  {
+    "slug": "android",
+    "label": "Android",
+    "description": "Android GSoC contributions span apps, accessibility, and platform tooling.",
+    "aliases": ["android", "jetpack", "gradle"],
+    "category": "platform"
+  },
+  {
+    "slug": "react",
+    "label": "React",
+    "description": "React-based GSoC projects power dashboards, admin UIs, and documentation portals.",
+    "aliases": ["react.js", "reactjs", "next.js", "create-react-app"],
+    "category": "framework"
+  },
+  {
+    "slug": "vue",
+    "label": "Vue",
+    "description": "Vue.js powers a number of community-friendly GSoC frontends and admin tools.",
+    "aliases": ["vue.js", "vuejs", "nuxt"],
+    "category": "framework"
+  },
+  {
+    "slug": "django",
+    "label": "Django",
+    "description": "Django powers many Python-backed GSoC web applications, often integrated with REST APIs.",
+    "aliases": ["django", "django rest framework", "drf"],
+    "category": "framework"
+  },
+  {
+    "slug": "flask",
+    "label": "Flask",
+    "description": "Flask is a lightweight backend framework popular for GSoC service prototypes and APIs.",
+    "aliases": ["flask"],
+    "category": "framework"
+  },
+  {
+    "slug": "nodejs",
+    "label": "Node.js",
+    "description": "Node.js powers backend services across JavaScript-leaning GSoC projects.",
+    "aliases": ["node.js", "nodejs", "express.js", "expressjs"],
+    "category": "framework"
+  },
+  {
+    "slug": "devops",
+    "label": "DevOps",
+    "description": "DevOps GSoC projects automate releases, containers, observability, and continuous integration.",
+    "aliases": ["devops", "ci/cd", "github actions", "ansible"],
+    "category": "domain"
+  },
+  {
+    "slug": "cloud",
+    "label": "Cloud",
+    "description": "Cloud-focused GSoC proposals build orchestration, deployment, and multi-cloud tooling.",
+    "aliases": ["aws", "gcp", "azure", "cloud-native"],
+    "category": "domain"
+  },
+  {
+    "slug": "kubernetes",
+    "label": "Kubernetes",
+    "description": "Kubernetes powers many CNCF GSoC projects: operators, schedulers, and platform tooling.",
+    "aliases": ["kubernetes", "k8s", "kubectl", "operator"],
+    "category": "infra"
+  },
+  {
+    "slug": "docker",
+    "label": "Docker",
+    "description": "Docker / OCI containers underpin most modern GSoC infrastructure projects.",
+    "aliases": ["docker", "containerd", "oci image", "dockerfile"],
+    "category": "infra"
+  },
+  {
+    "slug": "security",
+    "label": "Security",
+    "description": "Security-themed GSoC projects work on auditing, hardening, fuzzing, and supply-chain integrity.",
+    "aliases": ["security", "owasp", "fuzzing", "vulnerability"],
+    "category": "domain"
+  },
+  {
+    "slug": "cryptography",
+    "label": "Cryptography",
+    "description": "Cryptography GSoC proposals work on protocols, primitives, and zero-knowledge tooling.",
+    "aliases": ["cryptography", "tls", "x.509", "elliptic curve"],
+    "category": "domain"
+  },
+  {
+    "slug": "blockchain",
+    "label": "Blockchain",
+    "description": "Blockchain GSoC projects build wallets, indexers, and smart-contract tooling.",
+    "aliases": ["blockchain", "ethereum", "solidity", "web3"],
+    "category": "domain"
+  },
+  {
+    "slug": "graphics",
+    "label": "Graphics",
+    "description": "Graphics GSoC projects work on rendering, GPU pipelines, and visualization toolkits.",
+    "aliases": ["opengl", "vulkan", "webgl", "raytracing", "rendering"],
+    "category": "domain"
+  },
+  {
+    "slug": "gamedev",
+    "label": "Gamedev",
+    "description": "Game-development GSoC contributions touch engines, tooling, and procedural content systems.",
+    "aliases": ["godot", "unity", "game engine", "game dev"],
+    "category": "domain"
+  },
+  {
+    "slug": "embedded",
+    "label": "Embedded",
+    "description": "Embedded GSoC projects target microcontrollers and constrained-resource environments.",
+    "aliases": ["embedded", "microcontroller", "stm32", "esp32", "rtos"],
+    "category": "domain"
+  },
+  {
+    "slug": "iot",
+    "label": "IoT",
+    "description": "IoT GSoC projects connect sensors, gateways, and edge devices to community platforms.",
+    "aliases": ["iot", "mqtt", "lorawan", "edge device"],
+    "category": "domain"
+  },
+  {
+    "slug": "robotics",
+    "label": "Robotics",
+    "description": "Robotics GSoC contributions span perception, planning, and ROS-based simulation work.",
+    "aliases": ["robotics", "ros", "ros2", "moveit", "gazebo"],
+    "category": "domain"
+  },
+  {
+    "slug": "databases",
+    "label": "Databases",
+    "description": "Database-focused GSoC projects extend storage engines, query planners, and replication tooling.",
+    "aliases": ["postgres", "postgresql", "mysql", "mongodb", "sql engine"],
+    "category": "domain"
+  },
+  {
+    "slug": "compilers",
+    "label": "Compilers",
+    "description": "Compiler GSoC projects work on parsers, optimizers, IR transforms, and toolchain plumbing.",
+    "aliases": ["llvm", "compiler", "parser", "abstract syntax tree", "ast "],
+    "category": "domain"
+  },
+  {
+    "slug": "os-systems",
+    "label": "OS / Systems",
+    "description": "OS / systems GSoC projects work on kernels, schedulers, file systems, and low-level tooling.",
+    "aliases": ["kernel", "linux kernel", "freebsd", "scheduler", "filesystem"],
+    "category": "domain"
+  },
+  {
+    "slug": "networking",
+    "label": "Networking",
+    "description": "Networking GSoC projects span protocols, traffic shaping, observability, and routing tooling.",
+    "aliases": ["networking", "tcp/ip", "ipv6", "routing", "p2p"],
+    "category": "domain"
+  },
+  {
+    "slug": "accessibility",
+    "label": "Accessibility",
+    "description": "Accessibility-focused GSoC contributions improve screen-reader, keyboard, and inclusive design coverage.",
+    "aliases": ["accessibility", "a11y", "screen reader", "wcag"],
+    "category": "domain"
+  },
+  {
+    "slug": "documentation",
+    "label": "Documentation",
+    "description": "Documentation GSoC projects build content frameworks, doc-gen tools, and tutorials.",
+    "aliases": ["documentation", "docusaurus", "sphinx", "mkdocs"],
+    "category": "domain"
+  },
+  {
+    "slug": "testing",
+    "label": "Testing",
+    "description": "Testing GSoC projects build harnesses, generators, and benchmarks across community codebases.",
+    "aliases": ["unit test", "integration test", "pytest", "junit", "test harness"],
+    "category": "domain"
+  },
+  {
+    "slug": "developer-tools",
+    "label": "Developer Tools",
+    "description": "Developer-tooling GSoC projects build IDE extensions, linters, and debugging utilities.",
+    "aliases": ["developer tools", "ide", "lsp", "language server", "linter"],
+    "category": "domain"
+  }
+]

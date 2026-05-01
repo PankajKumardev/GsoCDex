@@ -1,0 +1,63 @@
+{
+  "name": "gsocdex",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An independent community archive of accepted Google Summer of Code proposals.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md,mdx,css,json}\"",
+    "ingest": "tsx scripts/ingest.ts",
+    "build-search-index": "tsx scripts/build-search-index.ts",
+    "verify": "tsx scripts/verify.ts",
+    "prebuild": "tsx scripts/build-search-index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
+    "framer-motion": "^12.38.0",
+    "geist": "^1.7.0",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^1.14.0",
+    "minisearch": "^7.2.0",
+    "next": "^15",
+    "next-mdx-remote": "^6.0.0",
+    "pdfjs-dist": "^5.7.284",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-pdf": "^10.4.1",
+    "react-virtuoso": "^4.18.6",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.4.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9",
+    "eslint-config-next": "^16.2.4",
+    "postcss": "^8.5.13",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

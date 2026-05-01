@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+/* ============================================================
+   GSoCDex — "Scholarly Glass" design tokens (Tailwind v4)
+   Spec: §11.1
+   ============================================================ */
+@theme {
+  /* Surfaces */
+  --color-app-bg: #ffffff;
+  --color-app-surface: #f8f9fa;
+  --color-app-border: #e8eaed;
+
+  /* Text */
+  --color-app-ink: #202124;
+  --color-app-muted: #5f6368;
+
+  /* Accent — Tailwind blue-600. NOT Google Blue. */
+  --color-app-accent: #2563eb;
+  --color-app-accent-hover: #1d4ed8;
+  --color-app-accent-subtle: #eff6ff;
+
+  /* Status colors */
+  --color-status-accepted: #1e8e3e;
+  --color-status-tech: #e8f0fe;
+  --color-status-tech-text: #1967d2;
+  --color-status-beginner: #fef7e0;
+  --color-status-beginner-text: #b06000;
+
+  /* Type */
+  --font-sans: var(--font-geist-sans), "Inter", system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), "JetBrains Mono", monospace;
+
+  /* Premium soft elevation, inspired by Google Material — lighter */
+  --shadow-header:
+    0 1px 2px 0 rgba(60, 64, 67, 0.08), 0 1px 3px 1px rgba(60, 64, 67, 0.04);
+  --shadow-card:
+    0 1px 2px 0 rgba(60, 64, 67, 0.06), 0 1px 3px 1px rgba(60, 64, 67, 0.03);
+  --shadow-card-hover:
+    0 1px 3px 0 rgba(60, 64, 67, 0.12), 0 4px 8px 3px rgba(60, 64, 67, 0.06);
+  --shadow-modal: 0 24px 48px -12px rgba(0, 0, 0, 0.18);
+
+  /* Radii */
+  --radius: 0.5rem;
+  --radius-lg: 0.875rem;
+  --radius-2xl: 1rem;
+}
+
+/* ============================================================
+   Base layer
+   ============================================================ */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-app-bg);
+    color: var(--color-app-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Focus rings for keyboard users only */
+  :focus-visible {
+    outline: 2px solid var(--color-app-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--color-app-accent-subtle);
+    color: var(--color-app-accent-hover);
+  }
+
+  /* Better default link color */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* ============================================================
+   Utilities
+   ============================================================ */
+@layer utilities {
+  .scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Reusable container for content pages */
+  .container-content {
+    width: 100%;
+    max-width: 48rem; /* 768px */
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+
+  .container-wide {
+    width: 100%;
+    max-width: 72rem; /* 1152px */
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+
+  /* Editorial prose for tips articles */
+  .prose-tips {
+    font-family: var(--font-sans);
+    color: var(--color-app-ink);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+  .prose-tips h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .prose-tips h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-tips p {
+    margin-block: 1rem;
+  }
+  .prose-tips ul,
+  .prose-tips ol {
+    padding-left: 1.5rem;
+    margin-block: 1rem;
+  }
+  .prose-tips ul {
+    list-style: disc;
+  }
+  .prose-tips ol {
+    list-style: decimal;
+  }
+  .prose-tips li {
+    margin-block: 0.375rem;
+  }
+  .prose-tips a {
+    color: var(--color-app-accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+  .prose-tips code {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+    background-color: var(--color-app-surface);
+    border: 1px solid var(--color-app-border);
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+  }
+  .prose-tips blockquote {
+    border-left: 3px solid var(--color-app-accent);
+    padding-left: 1rem;
+    color: var(--color-app-muted);
+    font-style: italic;
+    margin-block: 1.5rem;
+  }
+  .prose-tips strong {
+    font-weight: 600;
+    color: var(--color-app-ink);
+  }
+}

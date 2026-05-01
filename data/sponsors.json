@@ -1,0 +1,21 @@
+{
+  "active": [],
+  "placeholders": [
+    {
+      "id": "digitalocean",
+      "name": "DigitalOcean",
+      "logoUrl": "/sponsors/digitalocean.svg",
+      "tagline": "Deploy your GSoC project on DigitalOcean — students get $200 in credits.",
+      "ctaUrl": "https://m.do.co/c/REPLACE_REF",
+      "kind": "affiliate"
+    },
+    {
+      "id": "github-student",
+      "name": "GitHub Student Pack",
+      "logoUrl": "/sponsors/github.svg",
+      "tagline": "Free dev tools and credits for students from GitHub Education.",
+      "ctaUrl": "https://education.github.com/pack",
+      "kind": "affiliate"
+    }
+  ]
+}
