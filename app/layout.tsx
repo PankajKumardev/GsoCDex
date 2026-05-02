@@ -43,10 +43,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: SITE_NAME }],
   formatDetection: { email: false, address: false, telephone: false },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any", rel: "icon" },
+      { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+    shortcut: ["/favicon.ico"],
+  },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#FFFFFF",
+  themeColor: "#FBFBF9",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,

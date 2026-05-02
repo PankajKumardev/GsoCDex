@@ -12,8 +12,9 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#FBFBF9",
     theme_color: "#FBFBF9",
     icons: [
-      { src: "/icon", sizes: "32x32", type: "image/png" },
-      { src: "/apple-icon", sizes: "180x180", type: "image/png" },
+      { src: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { src: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { src: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
     categories: ["education", "productivity", "books"],
     lang: "en",
