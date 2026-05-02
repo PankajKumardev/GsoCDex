@@ -11,6 +11,7 @@ import { ChevronLeft, ChevronRight, Download, X } from "lucide-react";
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 
+import { pauseLenis, resumeLenis } from "@/components/LenisProvider";
 import { SponsorSlot } from "@/components/SponsorSlot";
 import { cn } from "@/lib/cn";
 
@@ -96,6 +97,15 @@ export function PDFViewer({ pdfPath, title, open, onOpenChange }: PDFViewerProps
     setChromeVisible(true);
   }, [numPages]);
 
+  // Pause global Lenis smooth-scroll while the viewer is open so the
+  // modal's native overflow scrolling isn't hijacked by the page's
+  // wheel-translation. Resume on close.
+  useEffect(() => {
+    if (!open) return;
+    pauseLenis();
+    return () => resumeLenis();
+  }, [open]);
+
   // Keyboard navigation
   useEffect(() => {
     if (!open) return;
@@ -164,6 +174,7 @@ export function PDFViewer({ pdfPath, title, open, onOpenChange }: PDFViewerProps
             </Dialog.Overlay>
             <Dialog.Content
               aria-describedby={undefined}
+              data-lenis-prevent
               className="fixed inset-0 z-[101] outline-none"
             >
               {/* Mobile = full-screen overlay; md+ = centered modal. */}
@@ -306,14 +317,20 @@ function PDFCanvas({
   return (
     <div
       ref={containerRef}
+      data-lenis-prevent
       className={cn(
-        "relative flex-1 overflow-auto bg-app-surface",
+        "relative flex-1 overflow-y-auto overflow-x-hidden bg-app-surface",
         "px-2 py-3 md:px-4 md:py-4",
-        // touch-action: pinch-zoom so the browser handles native pinch.
-        "touch-pan-y",
+        // overscroll-contain stops the scroll from bubbling to the page
+        "overscroll-contain",
       )}
       tabIndex={0}
-      style={{ touchAction: "pan-y pinch-zoom" }}
+      style={
+        {
+          touchAction: "pan-y pinch-zoom",
+          WebkitOverflowScrolling: "touch",
+        } as React.CSSProperties
+      }
     >
       {/* Subtle sun watermark behind the page (lightened for mobile). */}
       <div
