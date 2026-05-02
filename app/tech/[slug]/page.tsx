@@ -76,7 +76,8 @@ export default async function TechPage({ params }: PageProps) {
           ) : (
             <>
               <span className="font-mono">{proposals.length}</span>{" "}
-              accepted GSoC {pluralize(proposals.length, "proposal")} on GSoCDex {proposals.length === 1 ? "is" : "are"} tagged{" "}
+              accepted GSoC {proposals.length === 1 ? "proposal" : "proposals"} on GSoCDex{" "}
+              {proposals.length === 1 ? "is" : "are"} tagged{" "}
               {tech.label}. Tags are detected automatically by lexical match against a curated
               vocabulary in <code className="font-mono">data/tech-tags.json</code> — there is no
               AI involved.
