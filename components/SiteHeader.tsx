@@ -8,17 +8,17 @@ export function SiteHeader() {
     <header role="banner" className="sticky top-0 z-50 px-3 pt-3 md:px-4 md:pt-4">
       <div
         className="
-          mx-auto flex h-16 max-w-7xl items-center gap-3 rounded-2xl
-          border border-app-border bg-app-bg/85 px-4 backdrop-blur-xl
+          mx-auto flex h-16 w-full max-w-7xl items-center gap-2.5 rounded-2xl
+          border border-app-border bg-app-bg/85 px-3 backdrop-blur-xl
           shadow-header
           md:gap-6 md:px-6
         "
       >
-        <Wordmark />
-        <div className="flex-1">
+        <Wordmark className="shrink-0" />
+        <div className="min-w-0 flex-1">
           <SearchTrigger />
         </div>
-        <nav className="hidden items-center gap-1 md:flex" aria-label="Primary">
+        <nav className="hidden shrink-0 items-center gap-1 md:flex" aria-label="Primary">
           <NavLink href="/browse">Browse</NavLink>
           <NavLink href="/tips">Tips</NavLink>
           <NavLink href="/submit">Submit</NavLink>

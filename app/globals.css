@@ -171,7 +171,8 @@
   .viewport-frame-inner {
     background-color: var(--color-app-bg);
     border-radius: 1.25rem;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
     min-height: calc(100vh - 2rem);
     position: relative;
   }
