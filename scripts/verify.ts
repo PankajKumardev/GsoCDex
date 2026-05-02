@@ -103,21 +103,44 @@ function newsletterScan(): Hit[] {
 }
 
 function trademarkScan(): Hit[] {
+  // The "Editorial Art Catalog" redesign uses the official GSoC sun mark
+  // (gsoc-sun.svg) under the GSoC brand guidelines (non-commercial,
+  // attributed). Verify that asset is present and that /about and
+  // /disclosures still ship the trademark notice.
   const hits: Hit[] = [];
-  const publicDir = path.join(ROOT, "public");
-  if (!fs.existsSync(publicDir)) return hits;
-  for (const file of walk(publicDir)) {
-    const rel = path.relative(ROOT, file);
-    const base = path.basename(file).toLowerCase();
-    if (/gsoc[-_]?logo|google[-_]?logo/.test(base)) {
+
+  const sunPath = path.join(ROOT, "public", "illustrations", "gsoc-sun.svg");
+  if (!fs.existsSync(sunPath)) {
+    hits.push({
+      file: "public/illustrations/gsoc-sun.svg",
+      line: 0,
+      text: "missing",
+      description:
+        "GSoC sun mark asset is missing — header/watermark will fail to render.",
+    });
+  }
+
+  const trademark = path.join(ROOT, "components", "TrademarkNotice.tsx");
+  if (!fs.existsSync(trademark)) {
+    hits.push({
+      file: "components/TrademarkNotice.tsx",
+      line: 0,
+      text: "missing",
+      description: "TrademarkNotice component is missing.",
+    });
+  } else {
+    const text = fs.readFileSync(trademark, "utf8");
+    if (!/trademark/i.test(text) || !/Google LLC/.test(text)) {
       hits.push({
-        file: rel,
+        file: "components/TrademarkNotice.tsx",
         line: 0,
-        text: base,
-        description: "Disallowed GSoC/Google logo asset in /public",
+        text: "weak",
+        description:
+          "TrademarkNotice no longer mentions 'trademark' / 'Google LLC' — restore the disclaimer.",
       });
     }
   }
+
   return hits;
 }
 

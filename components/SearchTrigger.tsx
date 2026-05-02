@@ -41,22 +41,18 @@ export function SearchTrigger({ className }: SearchTriggerProps) {
         aria-label="Open search"
         onClick={() => setOpen(true)}
         className={cn(
-          "flex h-12 w-full max-w-xl items-center gap-2 rounded-full",
-          "bg-app-surface px-4 text-app-muted",
-          "hover:bg-app-bg hover:shadow-card",
-          "border border-transparent hover:border-app-border",
-          "transition",
+          "flex h-11 w-full max-w-xl items-center gap-3 rounded-full",
+          "border border-app-border bg-app-bg/70 px-4 text-app-muted",
+          "backdrop-blur-md transition-all",
+          "hover:border-app-accent/30 hover:bg-app-accent-soft/40 hover:text-app-ink",
           className,
         )}
       >
         <Search className="h-4 w-4 shrink-0" aria-hidden />
-        <span className="text-sm">Search proposals, orgs, tech tags…</span>
-        <span className="ml-auto hidden items-center gap-1 md:flex">
-          <kbd className="rounded-md border border-app-border bg-white px-1.5 py-0.5 font-mono text-[10px] text-app-muted">
-            ⌘
-          </kbd>
-          <kbd className="rounded-md border border-app-border bg-white px-1.5 py-0.5 font-mono text-[10px] text-app-muted">
-            K
+        <span className="truncate text-sm font-normal">Search proposals, orgs, tech tags…</span>
+        <span className="ml-auto inline-flex shrink-0 items-center gap-1">
+          <kbd className="rounded-md border border-app-border bg-app-bg px-1.5 py-0.5 font-mono text-[10px] tracking-[0.18em] text-app-muted">
+            ⌘K
           </kbd>
         </span>
       </button>

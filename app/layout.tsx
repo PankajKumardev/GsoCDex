@@ -2,12 +2,28 @@ import "./globals.css";
 
 import type { Metadata, Viewport } from "next";
 import { GeistMono } from "geist/font/mono";
-import { GeistSans } from "geist/font/sans";
+import { IBM_Plex_Serif, Inter } from "next/font/google";
 
+import { LenisProvider } from "@/components/LenisProvider";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { SunWatermark } from "@/components/SunWatermark";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/constants";
 import { jsonLdScript, websiteJsonLd } from "@/lib/seo";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const plexSerif = IBM_Plex_Serif({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-plex-serif",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -40,21 +56,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${GeistSans.variable} ${GeistMono.variable}`}
+      className={`${inter.variable} ${plexSerif.variable} ${GeistMono.variable}`}
       suppressHydrationWarning
     >
-      <body className="min-h-screen bg-app-bg font-sans text-app-ink">
+      <body className="font-sans text-app-ink">
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-app-accent focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-white"
         >
           Skip to main content
         </a>
-        <SiteHeader />
-        <main id="main" className="pt-16">
-          {children}
-        </main>
-        <SiteFooter />
+        <LenisProvider>
+          <div className="viewport-frame">
+            <div className="viewport-frame-inner">
+              <SunWatermark />
+              <SiteHeader />
+              <main id="main" className="relative z-[1]">
+                {children}
+              </main>
+              <SiteFooter />
+            </div>
+          </div>
+        </LenisProvider>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: jsonLdScript(websiteJsonLd()) }}

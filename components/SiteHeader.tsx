@@ -5,11 +5,15 @@ import { Wordmark } from "@/components/Wordmark";
 
 export function SiteHeader() {
   return (
-    <header
-      role="banner"
-      className="fixed inset-x-0 top-0 z-50 border-b border-app-border bg-white/80 shadow-header backdrop-blur-xl"
-    >
-      <div className="mx-auto flex h-16 max-w-6xl items-center gap-3 px-4 md:gap-6">
+    <header role="banner" className="sticky top-0 z-50 px-3 pt-3 md:px-4 md:pt-4">
+      <div
+        className="
+          mx-auto flex h-16 max-w-7xl items-center gap-3 rounded-2xl
+          border border-app-border bg-app-bg/85 px-4 backdrop-blur-xl
+          shadow-header
+          md:gap-6 md:px-6
+        "
+      >
         <Wordmark />
         <div className="flex-1">
           <SearchTrigger />
@@ -28,7 +32,7 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
   return (
     <Link
       href={href}
-      className="rounded-lg px-3 py-2 text-sm font-medium text-app-ink hover:bg-app-surface"
+      className="rounded-lg px-3 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-app-muted hover:text-app-ink"
     >
       {children}
     </Link>
