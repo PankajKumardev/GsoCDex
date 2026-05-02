@@ -26,15 +26,13 @@ export default function OrgIndexPage() {
   const letters = [...groups.keys()].sort();
 
   return (
-    <div className="container-wide pb-24 pt-8">
-      <header className="mb-8">
-        <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">
-          GSoC mentor orgs
-        </p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight text-app-ink md:text-5xl">
+    <div className="container-ledger pb-24 pt-12 md:pt-16">
+      <header className="mb-10">
+        <p className="label-caps">Mentor organizations</p>
+        <h1 className="mt-2 font-serif text-4xl tracking-tight text-app-ink md:text-7xl">
           Organizations
         </h1>
-        <p className="mt-3 text-app-muted">
+        <p className="mt-4 max-w-xl text-base leading-relaxed text-app-muted">
           {pluralize(orgs.length, "organization")} with at least one accepted proposal indexed.
         </p>
       </header>
@@ -61,14 +59,14 @@ export default function OrgIndexPage() {
                 <Link
                   key={org.slug}
                   href={`/org/${org.slug}`}
-                  className="group flex items-center gap-3 rounded-2xl border border-app-border bg-white p-4 shadow-card transition-shadow hover:shadow-card-hover"
+                  className="group flex items-center gap-3 rounded-2xl border border-app-border bg-app-surface-elevated p-4 shadow-card transition-all duration-300 hover:border-app-accent/30 hover:shadow-card-hover"
                 >
                   <OrgBadge name={org.name} slug={org.slug} logoUrl={org.logoUrl} size="md" />
                   <div className="min-w-0 flex-1">
-                    <span className="block truncate text-sm font-semibold text-app-ink group-hover:text-app-accent">
+                    <span className="block truncate font-serif text-base font-medium text-app-ink group-hover:text-app-accent">
                       {org.name}
                     </span>
-                    <span className="block font-mono text-[11px] uppercase tracking-wider text-app-muted">
+                    <span className="block font-mono text-[10px] uppercase tracking-[0.18em] text-app-muted">
                       {pluralize(org.proposalCount, "proposal")} ·{" "}
                       {org.yearsParticipated.length} yr
                     </span>

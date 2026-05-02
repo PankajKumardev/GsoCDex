@@ -14,9 +14,9 @@ export default function DisclosuresPage() {
   const tallyId = process.env.NEXT_PUBLIC_TALLY_REMOVAL_FORM_ID ?? "";
   const removalUrl = tallyId ? `https://tally.so/r/${tallyId}` : null;
   return (
-    <article className="container-content pb-24 pt-8 prose-tips">
-      <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">Legal</p>
-      <h1 className="mt-2 text-3xl font-semibold tracking-tight text-app-ink md:text-4xl">
+    <article className="container-content pb-24 pt-12 md:pt-16 prose-tips">
+      <p className="label-caps">Legal &amp; ethics</p>
+      <h1 className="mt-2 font-serif text-4xl tracking-tight text-app-ink md:text-6xl">
         Disclosures
       </h1>
       <p className="mt-3">

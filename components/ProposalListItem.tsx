@@ -12,10 +12,7 @@ interface ProposalListItemProps {
   className?: string;
 }
 
-/**
- * Denser variant of ProposalCard for long listings (e.g. /browse).
- * Same data; tighter padding; inline (single-row) on `md:` and up.
- */
+/** Denser variant of ProposalCard for long listings (e.g. /browse). */
 export function ProposalListItem({
   proposal,
   org,
@@ -28,12 +25,12 @@ export function ProposalListItem({
   return (
     <article
       className={cn(
-        "group relative rounded-2xl border border-app-border bg-white p-4",
-        "shadow-card transition-shadow hover:shadow-card-hover",
+        "group relative rounded-2xl border border-app-border bg-app-surface-elevated p-5",
+        "shadow-card transition-all duration-300 hover:border-app-accent/30 hover:shadow-card-hover",
         className,
       )}
     >
-      <div className="flex items-start gap-3">
+      <div className="flex items-start gap-4">
         <OrgBadge
           name={proposal.organization}
           slug={proposal.orgSlug}
@@ -45,13 +42,15 @@ export function ProposalListItem({
           <div className="flex items-center gap-2">
             <Link
               href={`/org/${proposal.orgSlug}`}
-              className="truncate text-sm font-medium text-app-muted hover:text-app-ink"
+              className="relative z-[2] truncate text-sm font-medium text-app-muted hover:text-app-ink"
             >
               {proposal.organization}
             </Link>
-            <span className="ml-auto font-mono text-xs text-app-muted">{proposal.year}</span>
+            <span className="ml-auto font-mono text-[11px] uppercase tracking-[0.18em] text-app-muted">
+              {proposal.year}
+            </span>
           </div>
-          <h3 className="mt-1 text-base font-semibold leading-snug text-app-ink">
+          <h3 className="mt-1.5 font-serif text-lg leading-snug tracking-tight text-app-ink md:text-xl">
             <Link
               href={href}
               prefetch={false}
@@ -60,9 +59,11 @@ export function ProposalListItem({
               {proposal.title}
             </Link>
           </h3>
-          <p className="mt-0.5 text-sm text-app-muted">{proposal.contributor.displayName}</p>
+          <p className="mt-1 font-sans text-sm italic text-app-muted">
+            by {proposal.contributor.displayName}
+          </p>
           {visibleTags.length > 0 && (
-            <div className="relative z-[1] mt-2 flex flex-wrap gap-1.5">
+            <div className="relative z-[1] mt-3 flex flex-wrap gap-1.5">
               {visibleTags.map((slug) => {
                 const tag = techTagsBySlug.get(slug);
                 return tag ? <TechTag key={slug} slug={slug} label={tag.label} /> : null;

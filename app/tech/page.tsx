@@ -28,15 +28,13 @@ export default function TechIndexPage() {
   }
 
   return (
-    <div className="container-wide pb-24 pt-8">
-      <header className="mb-10">
-        <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">
-          Curated vocabulary
-        </p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight text-app-ink md:text-5xl">
+    <div className="container-ledger pb-24 pt-12 md:pt-16">
+      <header className="mb-12">
+        <p className="label-caps">Curated vocabulary</p>
+        <h1 className="mt-2 font-serif text-4xl tracking-tight text-app-ink md:text-7xl">
           Tech tags
         </h1>
-        <p className="mt-3 text-app-muted">
+        <p className="mt-4 max-w-xl text-base leading-relaxed text-app-muted">
           {pluralize(tags.length, "tag")} we use to classify GSoC proposals. Tap a tag to find
           relevant proposals.
         </p>
@@ -47,8 +45,8 @@ export default function TechIndexPage() {
           .sort(([a], [b]) => a.localeCompare(b))
           .map(([cat, list]) => (
             <section key={cat}>
-              <h2 className="mb-4 font-mono text-xs uppercase tracking-wider text-app-muted">
-                {cat}
+              <h2 className="mb-4 font-mono text-[10px] uppercase tracking-[0.22em] text-app-muted">
+                § {cat}
               </h2>
               <div className="flex flex-wrap gap-2">
                 {list
@@ -58,11 +56,11 @@ export default function TechIndexPage() {
                     <Link
                       key={t.slug}
                       href={`/tech/${t.slug}`}
-                      className="inline-flex items-center gap-2 rounded-full border border-app-border bg-white px-4 py-1.5 text-sm font-medium text-app-ink shadow-sm hover:border-app-accent/30 hover:bg-app-accent-subtle hover:text-app-accent"
+                      className="inline-flex items-center gap-2 rounded-full border border-app-border bg-app-surface-elevated px-4 py-1.5 font-mono text-xs uppercase tracking-[0.16em] text-app-ink shadow-card transition-all hover:border-app-accent/30 hover:bg-app-accent-soft hover:text-app-accent"
                     >
                       {t.label}
                       <span className="font-mono text-[10px] text-app-muted">
-                        {counts.get(t.slug) ?? 0}
+                        [{counts.get(t.slug) ?? 0}]
                       </span>
                     </Link>
                   ))}

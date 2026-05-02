@@ -11,10 +11,12 @@ export default function SubmitPage() {
   const tallyId = process.env.NEXT_PUBLIC_TALLY_FORM_ID ?? "";
 
   return (
-    <article className="container-content pb-24 pt-8 prose-tips">
-      <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">Submit</p>
-      <h1 className="mt-2 text-3xl font-semibold tracking-tight text-app-ink md:text-4xl">
-        Add your accepted proposal
+    <article className="container-content pb-24 pt-12 md:pt-16 prose-tips">
+      <p className="label-caps">Submit</p>
+      <h1 className="mt-2 font-serif text-4xl tracking-tight text-app-ink md:text-6xl">
+        Add your{" "}
+        <span className="font-serif italic text-app-accent">accepted</span>{" "}
+        proposal
       </h1>
       <p className="mt-3">
         Submitted a GSoC proposal that was accepted? Share it with future applicants by adding

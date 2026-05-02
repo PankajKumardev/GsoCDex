@@ -50,28 +50,27 @@ export default async function YearPage({ params }: PageProps) {
   const contributorsThisYear = new Set(proposals.map((p) => p.contributor.displayName));
 
   return (
-    <div className="container-content pb-24 pt-8">
+    <div className="container-ledger pb-24 pt-12 md:pt-16">
       <Breadcrumbs
         items={[
           { label: "GSoCDex", href: "/" },
           { label: `${yearNum}` },
         ]}
-        className="mb-4"
+        className="mb-6 font-sans text-xs uppercase tracking-[0.22em]"
       />
 
       <header>
-        <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">
-          Year archive
-        </p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight text-app-ink md:text-5xl">
-          GSoC {yearNum}
+        <p className="label-caps">Year archive</p>
+        <h1 className="mt-2 font-serif text-4xl tracking-tight text-app-ink md:text-7xl">
+          GSoC <span className="font-mono text-app-accent">{yearNum}</span>
         </h1>
-        <p className="mt-3 text-base text-app-muted">
-          {pluralize(proposals.length, "accepted proposal")} from{" "}
+        <p className="mt-4 max-w-xl text-base leading-relaxed text-app-muted">
+          <span className="font-mono text-app-ink">{proposals.length}</span> accepted{" "}
+          {proposals.length === 1 ? "proposal" : "proposals"} from{" "}
           <span className="font-mono text-app-ink">{orgsThisYear.size}</span>{" "}
-          {pluralize(orgsThisYear.size, "organization")} —{" "}
+          {orgsThisYear.size === 1 ? "organization" : "organizations"} —{" "}
           <span className="font-mono text-app-ink">{contributorsThisYear.size}</span>{" "}
-          {pluralize(contributorsThisYear.size, "contributor")}.
+          {contributorsThisYear.size === 1 ? "contributor" : "contributors"}.
         </p>
       </header>
 
@@ -82,7 +81,7 @@ export default async function YearPage({ params }: PageProps) {
       {proposals.length === 0 ? (
         <p className="text-app-muted">No proposals indexed for this year yet.</p>
       ) : (
-        <section className="mt-6 flex flex-col gap-4">
+        <section className="mt-6 grid gap-4 md:grid-cols-2">
           {proposals.map((p) => (
             <ProposalCard
               key={p.slug}

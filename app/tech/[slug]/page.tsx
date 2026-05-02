@@ -50,22 +50,21 @@ export default async function TechPage({ params }: PageProps) {
   const topOrgs = getTopOrgsForTech(slug, 6);
 
   return (
-    <div className="container-content pb-24 pt-8">
+    <div className="container-ledger pb-24 pt-12 md:pt-16">
       <Breadcrumbs
         items={[
           { label: "GSoCDex", href: "/" },
           { label: "Tech", href: "/tech" },
           { label: tech.label },
         ]}
-        className="mb-4"
+        className="mb-6"
       />
 
       <header>
-        <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">
-          {tech.category ?? "Tech"}
-        </p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight text-app-ink md:text-5xl">
-          Proposals tagged with {tech.label}
+        <p className="label-caps">§ {tech.category ?? "Tech"}</p>
+        <h1 className="mt-2 max-w-3xl font-serif text-4xl tracking-tight text-app-ink md:text-6xl">
+          Tagged with{" "}
+          <span className="font-serif italic text-app-accent">{tech.label}</span>
         </h1>
       </header>
 
@@ -115,7 +114,7 @@ export default async function TechPage({ params }: PageProps) {
       )}
 
       {proposals.length > 0 && (
-        <section className="mt-10 flex flex-col gap-4">
+        <section className="mt-10 grid gap-4 md:grid-cols-2">
           {proposals.map((p) => (
             <ProposalCard
               key={p.slug}

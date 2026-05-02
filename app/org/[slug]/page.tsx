@@ -62,23 +62,21 @@ export default async function OrgPage({ params }: PageProps) {
     .filter((t): t is import("@/lib/schema").TechTag => !!t);
 
   return (
-    <div className="container-content pb-24 pt-8">
+    <div className="container-ledger pb-24 pt-12 md:pt-16">
       <Breadcrumbs
         items={[
           { label: "GSoCDex", href: "/" },
           { label: "Orgs", href: "/org" },
           { label: org.name },
         ]}
-        className="mb-4"
+        className="mb-6"
       />
 
-      <header className="flex flex-col items-start gap-4 md:flex-row md:items-center md:gap-6">
+      <header className="flex flex-col items-start gap-5 md:flex-row md:items-center md:gap-7">
         <OrgBadge name={org.name} slug={org.slug} logoUrl={org.logoUrl} size="lg" />
         <div className="flex-1">
-          <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">
-            Open-source organization
-          </p>
-          <h1 className="mt-1 text-3xl font-semibold tracking-tight text-app-ink md:text-4xl">
+          <p className="label-caps">Mentor organization</p>
+          <h1 className="mt-2 font-serif text-4xl tracking-tight text-app-ink md:text-6xl">
             {org.name}
           </h1>
           <div className="mt-2 flex flex-wrap gap-2 text-sm text-app-muted">
@@ -175,7 +173,7 @@ export default async function OrgPage({ params }: PageProps) {
         <SponsorSlot variant="inline" seed={`org-${slug}`} />
       </div>
 
-      <section className="mt-8 flex flex-col gap-4">
+      <section className="mt-8 grid gap-4 md:grid-cols-2">
         {proposals.map((p) => (
           <ProposalCard
             key={p.slug}

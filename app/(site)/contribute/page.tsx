@@ -13,10 +13,10 @@ export const metadata = buildMetadata({
 
 export default function ContributePage() {
   return (
-    <article className="container-content pb-24 pt-8 prose-tips">
-      <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">Contribute</p>
-      <h1 className="mt-2 text-3xl font-semibold tracking-tight text-app-ink md:text-4xl">
-        Help build GSoCDex
+    <article className="container-content pb-24 pt-12 md:pt-16 prose-tips">
+      <p className="label-caps">Contribute</p>
+      <h1 className="mt-2 font-serif text-4xl tracking-tight text-app-ink md:text-6xl">
+        Help build the catalog.
       </h1>
       <p className="mt-3">
         GSoCDex is open-source and runs on community contributions. Here&apos;s how to help.

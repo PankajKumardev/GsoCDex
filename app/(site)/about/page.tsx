@@ -13,12 +13,11 @@ export const metadata = buildMetadata({
 
 export default function AboutPage() {
   return (
-    <article className="container-content pb-24 pt-8 prose-tips">
-      <p className="font-mono text-[11px] uppercase tracking-wider text-app-muted">
-        About
-      </p>
-      <h1 className="mt-2 text-3xl font-semibold tracking-tight text-app-ink md:text-4xl">
-        We made it easy to read GSoC proposals.
+    <article className="container-content pb-24 pt-12 md:pt-16 prose-tips">
+      <p className="label-caps">About</p>
+      <h1 className="mt-2 font-serif text-4xl tracking-tight text-app-ink md:text-6xl">
+        We made it easy to read{" "}
+        <span className="font-serif italic text-app-accent">GSoC proposals.</span>
       </h1>
       <p className="mt-3">
         <strong>GSoCDex</strong> is an independent, community-curated archive of accepted Google

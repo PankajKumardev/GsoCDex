@@ -1,4 +1,4 @@
-import { ArrowUpRight, Calendar, FileText, GitBranch } from "lucide-react";
+import { ArrowUpRight, Calendar } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 

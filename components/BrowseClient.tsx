@@ -104,12 +104,13 @@ export function BrowseClient({ proposals, orgs, techTags, years }: BrowseClientP
     (q ? 1 : 0) + (year ? 1 : 0) + (orgSlug ? 1 : 0) + (techSlug ? 1 : 0);
 
   return (
-    <div className="container-wide pb-24 pt-8">
-      <header className="mb-6">
-        <h1 className="text-2xl font-semibold tracking-tight text-app-ink md:text-3xl">
+    <div className="container-ledger pb-24 pt-12 md:pt-16">
+      <header className="mb-8">
+        <p className="label-caps">The full ledger</p>
+        <h1 className="mt-2 font-serif text-3xl tracking-tight text-app-ink md:text-5xl">
           All proposals
         </h1>
-        <p className="mt-1 text-sm text-app-muted">
+        <p className="mt-3 text-sm text-app-muted md:text-base">
           Filter and read{" "}
           <span className="font-mono text-app-ink">{proposals.length}</span> accepted GSoC
           proposals.
@@ -117,9 +118,9 @@ export function BrowseClient({ proposals, orgs, techTags, years }: BrowseClientP
       </header>
 
       {/* Search input */}
-      <div className="relative mb-4">
+      <div className="relative mb-5">
         <Search
-          className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-app-muted"
+          className="pointer-events-none absolute left-5 top-1/2 h-4 w-4 -translate-y-1/2 text-app-muted"
           aria-hidden
         />
         <input
@@ -129,9 +130,9 @@ export function BrowseClient({ proposals, orgs, techTags, years }: BrowseClientP
           placeholder="Search by title, contributor, or organization…"
           aria-label="Search proposals"
           className={cn(
-            "h-12 w-full rounded-full border border-app-border bg-white pl-11 pr-4",
-            "text-base text-app-ink placeholder:text-app-muted",
-            "shadow-sm focus:border-app-accent focus:outline-none focus:ring-2 focus:ring-app-accent-subtle",
+            "h-12 w-full rounded-full border border-app-border bg-app-surface-elevated pl-12 pr-5",
+            "font-sans text-base text-app-ink placeholder:text-app-muted",
+            "shadow-card focus:border-app-accent/50 focus:outline-none focus:ring-2 focus:ring-app-accent-soft",
           )}
         />
       </div>
