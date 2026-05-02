@@ -10,7 +10,6 @@ import {
   getProposalsByYear,
   getYearsCovered,
 } from "@/lib/data";
-import { pluralize } from "@/lib/format";
 import {
   breadcrumbJsonLd,
   buildMetadata,
