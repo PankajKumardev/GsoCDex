@@ -2,7 +2,6 @@ import Link from "next/link";
 
 import { TrademarkNotice } from "@/components/TrademarkNotice";
 import { Wordmark } from "@/components/Wordmark";
-import { SOURCE_REPOS } from "@/lib/constants";
 
 export function SiteFooter() {
   const year = new Date().getFullYear();
@@ -36,24 +35,8 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-app-border">
-        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-6 text-xs text-app-muted md:flex-row md:items-center md:justify-between">
-          <p>
-            Curated from community archives by{" "}
-            {SOURCE_REPOS.map((r, i) => (
-              <span key={r.id}>
-                {i > 0 ? ", " : ""}
-                <Link
-                  href={r.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="underline decoration-app-border underline-offset-2 hover:text-app-ink hover:decoration-app-accent"
-                >
-                  {r.owner}
-                </Link>
-              </span>
-            ))}{" "}
-            and contributors.
-          </p>
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 py-6 text-xs text-app-muted">
+          <p className="font-serif italic">An independent community catalog.</p>
           <p className="font-mono text-[10px] uppercase tracking-[0.2em]">
             © {year} GSoCDex
           </p>

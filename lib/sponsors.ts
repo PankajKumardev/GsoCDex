@@ -20,15 +20,15 @@ function hashSeed(seed: string): number {
   return Math.abs(h);
 }
 
+/**
+ * Returns an active sponsor for the given seed, or null when no sponsors
+ * are configured. We intentionally do NOT fall back to the placeholders
+ * list at runtime — placeholders exist only as a configuration template
+ * for the owner; nothing renders until a real sponsor is set.
+ */
 export function pickSponsor(seed?: string): Sponsor | null {
   const cfg = getSponsorsConfig();
-  if (cfg.active.length > 0) {
-    const idx = seed ? hashSeed(seed) % cfg.active.length : 0;
-    return cfg.active[idx] ?? null;
-  }
-  if (cfg.placeholders.length > 0) {
-    const idx = seed ? hashSeed(seed) % cfg.placeholders.length : 0;
-    return cfg.placeholders[idx] ?? null;
-  }
-  return null;
+  if (cfg.active.length === 0) return null;
+  const idx = seed ? hashSeed(seed) % cfg.active.length : 0;
+  return cfg.active[idx] ?? null;
 }

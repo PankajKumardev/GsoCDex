@@ -12,12 +12,11 @@ interface SponsorSlotProps {
 
 export function SponsorSlot({ variant = "inline", seed, className }: SponsorSlotProps) {
   const sponsor = pickSponsor(seed);
+  // No active sponsor configured → render nothing. We never display
+  // placeholder rows so the owner can ship sponsor-free until a real
+  // partner is signed.
   if (!sponsor) return null;
 
-  const isPlaceholder = sponsor.ctaUrl.includes("REPLACE_REF");
-
-  // The sticky variant is a horizontal strip rendered at the bottom of the
-  // PDF viewer. Designed to be ≤56px tall on mobile so it doesn't dominate.
   if (variant === "sticky") {
     return (
       <a
@@ -37,7 +36,7 @@ export function SponsorSlot({ variant = "inline", seed, className }: SponsorSlot
         <span className="min-w-0 flex-1">
           <span className="block truncate text-sm font-medium text-app-ink">{sponsor.tagline}</span>
           <span className="font-mono text-[10px] uppercase tracking-wider text-app-muted">
-            Sponsored {isPlaceholder ? "· placeholder" : ""}
+            Sponsored
           </span>
         </span>
         <ArrowUpRight className="h-4 w-4 shrink-0 text-app-muted" aria-hidden />
@@ -54,7 +53,7 @@ export function SponsorSlot({ variant = "inline", seed, className }: SponsorSlot
       )}
     >
       <div className="font-mono text-[10px] uppercase tracking-wider text-app-muted">
-        Sponsored {isPlaceholder ? "· placeholder" : ""}
+        Sponsored
       </div>
       <a
         href={sponsor.ctaUrl}
