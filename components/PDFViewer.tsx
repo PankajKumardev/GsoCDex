@@ -193,10 +193,35 @@ function PDFCanvas({
   return (
     <div
       ref={containerRef}
-      className="flex-1 overflow-auto bg-app-surface px-2 py-4"
+      className="relative flex-1 overflow-auto bg-app-surface px-2 py-4"
       tabIndex={0}
     >
-      <div className="mx-auto flex max-w-3xl flex-col items-center">
+      {/* Sun watermark behind the page */}
+      <div
+        aria-hidden
+        className="pointer-events-none sticky top-0 z-0 mx-auto flex max-w-3xl items-center justify-center"
+        style={{ height: 0 }}
+      >
+        <div
+          className="absolute"
+          style={{
+            top: "20vh",
+            opacity: 0.06,
+            filter: "saturate(0) brightness(0.9)",
+          }}
+        >
+          {/* Static (non-rotating in viewer to avoid distraction) */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/illustrations/gsoc-sun.svg"
+            alt=""
+            width={520}
+            height={520}
+            className="select-none"
+          />
+        </div>
+      </div>
+      <div className="relative z-[1] mx-auto flex max-w-3xl flex-col items-center">
         <Document
           file={pdfPath}
           onLoadSuccess={onLoad}
