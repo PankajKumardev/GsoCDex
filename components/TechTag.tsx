@@ -11,8 +11,9 @@ interface TechTagProps {
 
 export function TechTag({ slug, label, className, asLink = true }: TechTagProps) {
   const cls = cn(
-    "inline-block rounded-md bg-status-tech px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-status-tech-text",
-    asLink && "transition-colors hover:bg-app-accent-subtle hover:text-app-accent",
+    "inline-block rounded-md border border-status-tech-text/15 bg-status-tech px-2 py-0.5",
+    "font-mono text-[10px] uppercase tracking-[0.16em] text-status-tech-text",
+    asLink && "transition-colors hover:bg-app-accent-soft hover:text-app-accent-hover hover:border-app-accent/30",
     className,
   );
   if (asLink) {
