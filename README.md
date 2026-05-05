@@ -162,6 +162,7 @@ Every proposal indexed here was originally collected by community archive mainta
 - [satwiksps/GSoC_archive_2026](https://github.com/satwiksps/GSoC_archive_2026) — MIT
 - [Aritra8438/GSoC_archive](https://github.com/Aritra8438/GSoC_archive) — MIT
 - [Google-Summer-of-Code-Archive/gsoc-proposals-archive](https://github.com/Google-Summer-of-Code-Archive/gsoc-proposals-archive) — MIT
+- [SDSLabs · IIT Roorkee](https://blog.sdslabs.co/gsoc/) — proposals contributed with explicit permission from the SDSLabs team, covering 13 years of GSoC alumni
 
 Each individual proposal page links back to its source repo. Original authors retain full ownership of their proposals.
 

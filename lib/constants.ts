@@ -33,6 +33,30 @@ export interface SourceRepo {
   layoutHint: string;
 }
 
+/**
+ * Curated community blogs / archives that aren't git repos. We ingest them
+ * via a separate pipeline (scripts/ingest-sdslabs.ts and similar) and credit
+ * them on the /about page just like git source repos.
+ */
+export interface ExternalSource {
+  id: string;
+  label: string;
+  sourceRepo: string;
+  url: string;
+  description: string;
+}
+
+export const EXTERNAL_SOURCES: ReadonlyArray<ExternalSource> = [
+  {
+    id: "sdslabs-blog",
+    label: "SDSLabs · IIT Roorkee",
+    sourceRepo: "sdslabs/gsoc-blog",
+    url: "https://blog.sdslabs.co/gsoc/",
+    description:
+      "Curated by SDSLabs at IIT Roorkee — 13 years (2012–2025) of GSoC alumni from one of India's strongest open-source student labs.",
+  },
+];
+
 export const SOURCE_REPOS: ReadonlyArray<SourceRepo> = [
   {
     id: "samman-2025",

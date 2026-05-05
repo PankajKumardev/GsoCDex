@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { TrademarkNotice } from "@/components/TrademarkNotice";
-import { SOURCE_REPOS } from "@/lib/constants";
+import { EXTERNAL_SOURCES, SOURCE_REPOS } from "@/lib/constants";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -59,6 +59,14 @@ export default function AboutPage() {
               <strong>{r.owner}</strong> — {r.ownerRepo}
             </a>
             : {r.layoutHint}
+          </li>
+        ))}
+        {EXTERNAL_SOURCES.map((s) => (
+          <li key={s.id}>
+            <a href={s.url} target="_blank" rel="noreferrer">
+              <strong>{s.label}</strong>
+            </a>
+            : {s.description}
           </li>
         ))}
       </ul>

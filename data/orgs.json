@@ -138,6 +138,14 @@
     "proposalCount": 1
   },
   {
+    "slug": "ceph",
+    "name": "Ceph",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "cern-hsf",
     "name": "CERN-HSF",
     "yearsParticipated": [
@@ -162,6 +170,14 @@
     "proposalCount": 2
   },
   {
+    "slug": "cilium",
+    "name": "Cilium",
+    "yearsParticipated": [
+      2021
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "circuitverse",
     "name": "CircuitVerse",
     "yearsParticipated": [
@@ -182,18 +198,44 @@
     "slug": "cloudcv",
     "name": "CloudCV",
     "yearsParticipated": [
+      2021,
       2023
     ],
-    "proposalCount": 1
+    "proposalCount": 2
   },
   {
     "slug": "cncf",
     "name": "CNCF",
     "yearsParticipated": [
+      2023,
       2025,
       2026
     ],
-    "proposalCount": 2
+    "proposalCount": 3
+  },
+  {
+    "slug": "codecomat",
+    "name": "CodeComat",
+    "yearsParticipated": [
+      2014
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "continuous-delivery-foundation",
+    "name": "Continuous Delivery Foundation",
+    "yearsParticipated": [
+      2020
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "creative-commons",
+    "name": "Creative Commons",
+    "yearsParticipated": [
+      2020
+    ],
+    "proposalCount": 1
   },
   {
     "slug": "dbpedia",
@@ -208,6 +250,14 @@
     "name": "Debian",
     "yearsParticipated": [
       2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "dept-of-biomedical-informatics-emory-university",
+    "name": "Dept. of Biomedical Informatics, Emory University",
+    "yearsParticipated": [
+      2013
     ],
     "proposalCount": 1
   },
@@ -244,6 +294,14 @@
     "proposalCount": 1
   },
   {
+    "slug": "freifunk-net",
+    "name": "Freifunk.net",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "gcc",
     "name": "GCC",
     "yearsParticipated": [
@@ -268,12 +326,29 @@
     "proposalCount": 1
   },
   {
+    "slug": "gnome-foundation",
+    "name": "GNOME Foundation",
+    "yearsParticipated": [
+      2023,
+      2024
+    ],
+    "proposalCount": 2
+  },
+  {
     "slug": "google-deepmind",
     "name": "Google DeepMind",
     "yearsParticipated": [
       2025
     ],
     "proposalCount": 4
+  },
+  {
+    "slug": "graphite",
+    "name": "Graphite",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
   },
   {
     "slug": "haskell",
@@ -284,10 +359,26 @@
     "proposalCount": 1
   },
   {
+    "slug": "honeynet-project",
+    "name": "Honeynet Project",
+    "yearsParticipated": [
+      2017
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "human-ai",
     "name": "Human AI",
     "yearsParticipated": [
       2026
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "inkscape",
+    "name": "Inkscape",
+    "yearsParticipated": [
+      2023
     ],
     "proposalCount": 1
   },
@@ -304,6 +395,14 @@
     "name": "Joomla",
     "yearsParticipated": [
       2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "jquery-mobile",
+    "name": "jQuery Mobile",
+    "yearsParticipated": [
+      2015
     ],
     "proposalCount": 1
   },
@@ -382,6 +481,14 @@
     "proposalCount": 1
   },
   {
+    "slug": "libssh",
+    "name": "libssh",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "machine-learning-for-science-ml4sci",
     "name": "Machine Learning for Science (ML4SCI)",
     "yearsParticipated": [
@@ -414,6 +521,22 @@
     "proposalCount": 2
   },
   {
+    "slug": "metacall",
+    "name": "MetaCall",
+    "yearsParticipated": [
+      2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "mit-app-inventor",
+    "name": "MIT App Inventor",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "ml4sci",
     "name": "ML4SCI",
     "yearsParticipated": [
@@ -444,7 +567,7 @@
       2021,
       2026
     ],
-    "proposalCount": 3
+    "proposalCount": 4
   },
   {
     "slug": "omegaup",
@@ -491,9 +614,10 @@
     "slug": "owasp",
     "name": "OWASP",
     "yearsParticipated": [
+      2020,
       2026
     ],
-    "proposalCount": 2
+    "proposalCount": 3
   },
   {
     "slug": "owasp-foundation",
@@ -512,6 +636,14 @@
     "proposalCount": 1
   },
   {
+    "slug": "pitivi",
+    "name": "Pitivi",
+    "yearsParticipated": [
+      2023
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "processingfoundation",
     "name": "ProcessingFoundation",
     "yearsParticipated": [
@@ -524,6 +656,14 @@
     "name": "Project Mesa",
     "yearsParticipated": [
       2025
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "public-lab-outreachy",
+    "name": "Public Lab (Outreachy)",
+    "yearsParticipated": [
+      2020
     ],
     "proposalCount": 1
   },
@@ -557,6 +697,14 @@
     "name": "SCoRe Lab",
     "yearsParticipated": [
       2021
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "scummvm",
+    "name": "ScummVM",
+    "yearsParticipated": [
+      2022
     ],
     "proposalCount": 1
   },
@@ -601,6 +749,14 @@
     "proposalCount": 1
   },
   {
+    "slug": "tardis",
+    "name": "TARDIS",
+    "yearsParticipated": [
+      2016
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "tardis-sn",
     "name": "TARDIS-SN",
     "yearsParticipated": [
@@ -626,6 +782,14 @@
     "proposalCount": 2
   },
   {
+    "slug": "the-honeynet-project",
+    "name": "The Honeynet Project",
+    "yearsParticipated": [
+      2025
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "the-jpf-team",
     "name": "The JPF team",
     "yearsParticipated": [
@@ -638,7 +802,16 @@
     "slug": "the-julia-language",
     "name": "The Julia Language",
     "yearsParticipated": [
+      2019,
       2025
+    ],
+    "proposalCount": 2
+  },
+  {
+    "slug": "the-libreswan-project",
+    "name": "The Libreswan Project",
+    "yearsParticipated": [
+      2020
     ],
     "proposalCount": 1
   },
@@ -671,6 +844,14 @@
     "name": "Wikimedia Foundation",
     "yearsParticipated": [
       2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "xrdesktop",
+    "name": "xrdesktop",
+    "yearsParticipated": [
+      2021
     ],
     "proposalCount": 1
   },

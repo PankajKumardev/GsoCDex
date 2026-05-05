@@ -10,6 +10,7 @@
     "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,md,mdx,css,json}\"",
     "ingest": "tsx scripts/ingest.ts",
+    "ingest:sdslabs": "tsx scripts/ingest-sdslabs.ts",
     "build-search-index": "tsx scripts/build-search-index.ts",
     "verify": "tsx scripts/verify.ts",
     "prebuild": "tsx scripts/build-search-index.ts",
