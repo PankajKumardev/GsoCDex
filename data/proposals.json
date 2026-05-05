@@ -709,6 +709,27 @@
     "addedAt": "2026-05-01T19:06:39.374Z"
   },
   {
+    "slug": "2025-gnome-foundation-varun-r-mallya",
+    "title": "GSoC Proposal - final",
+    "year": 2025,
+    "organization": "GNOME Foundation",
+    "orgSlug": "gnome-foundation",
+    "contributor": {
+      "displayName": "Varun R Mallya"
+    },
+    "pdfPath": "/proposals/2025/GNOME%20Foundation/2025-gnome-foundation-varun-r-mallya.pdf",
+    "pdfPages": 21,
+    "pdfSizeKB": 971,
+    "techTags": [
+      "os-systems",
+      "rust"
+    ],
+    "status": "accepted",
+    "sourceRepo": "sdslabs/gsoc-blog",
+    "sourceUrl": "https://gitlab.gnome.org/varunrmallya/gsoc-proposal-sysprof-2025/-/blob/main/gsoc_proposal.pdf?ref_type=heads",
+    "addedAt": "2026-05-05T17:39:39.540Z"
+  },
+  {
     "slug": "2025-google-deepmind-anonymous-contributor",
     "title": "GSoC 2025 Google DeepMind proposal · Anonymous Contributor",
     "year": 2025,

@@ -179,13 +179,19 @@ async function fetchPdf(url: string): Promise<Buffer | null> {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
   try {
+    // GitLab's anti-bot rules reject Mozilla-style UAs from headless
+    // environments. Use a plain curl-style UA for gitlab.com / gitlab.gnome.org;
+    // keep the Mozilla UA elsewhere because Drive/Docs check for it.
+    const isGitLab = /gitlab\./.test(url);
+    const ua = isGitLab
+      ? "GSoCDex-Ingest/1.0 (+https://gsoc-dex.vercel.app)"
+      : "Mozilla/5.0 (compatible; GSoCDex-Ingest/1.0; +https://gsoc-dex.vercel.app)";
     const res = await fetch(url, {
       signal: ctrl.signal,
       redirect: "follow",
       headers: {
-        "User-Agent":
-          "Mozilla/5.0 (compatible; GSoCDex-Ingest/1.0; +https://gsoc-dex.vercel.app)",
-        Accept: "application/pdf,*/*;q=0.8",
+        "User-Agent": ua,
+        Accept: "text/plain, application/pdf, application/octet-stream, */*",
       },
     });
     if (!res.ok) {
