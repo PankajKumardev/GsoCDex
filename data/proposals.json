@@ -3170,6 +3170,70 @@
     "addedAt": "2026-05-05T16:29:37.705Z"
   },
   {
+    "slug": "2017-mozilla-harkirat-singh",
+    "title": "GSoC 2017 Mozilla proposal · Harkirat Singh",
+    "year": 2017,
+    "organization": "Mozilla",
+    "orgSlug": "mozilla",
+    "contributor": {
+      "displayName": "Harkirat Singh"
+    },
+    "pdfPath": "/proposals/2017/Mozilla/2017-mozilla-harkirat-singh.pdf",
+    "pdfPages": 9,
+    "pdfSizeKB": 220,
+    "techTags": [
+      "security"
+    ],
+    "status": "accepted",
+    "sourceRepo": "sdslabs/gsoc-blog",
+    "sourceUrl": "https://goo.gl/c6U1Q1",
+    "addedAt": "2026-05-05T17:07:18.773Z"
+  },
+  {
+    "slug": "2017-tiled-ketan-gupta",
+    "title": "Tiled - GSoC Proposal",
+    "year": 2017,
+    "organization": "Tiled",
+    "orgSlug": "tiled",
+    "contributor": {
+      "displayName": "Ketan Gupta"
+    },
+    "pdfPath": "/proposals/2017/Tiled/2017-tiled-ketan-gupta.pdf",
+    "pdfPages": 6,
+    "pdfSizeKB": 303,
+    "techTags": [
+      "cpp",
+      "nodejs"
+    ],
+    "status": "accepted",
+    "sourceRepo": "sdslabs/gsoc-blog",
+    "sourceUrl": "https://goo.gl/v23EHz",
+    "addedAt": "2026-05-05T17:07:15.562Z"
+  },
+  {
+    "slug": "2016-gambit-harkirat-singh",
+    "title": "Re-Design of GTE in HTML5/JavaScript",
+    "year": 2016,
+    "organization": "Gambit",
+    "orgSlug": "gambit",
+    "contributor": {
+      "displayName": "Harkirat Singh"
+    },
+    "pdfPath": "/proposals/2016/Gambit/2016-gambit-harkirat-singh.pdf",
+    "pdfPages": 12,
+    "pdfSizeKB": 380,
+    "techTags": [
+      "graphics",
+      "java",
+      "javascript",
+      "web"
+    ],
+    "status": "accepted",
+    "sourceRepo": "sdslabs/gsoc-blog",
+    "sourceUrl": "https://goo.gl/S6wmLv",
+    "addedAt": "2026-05-05T17:07:25.664Z"
+  },
+  {
     "slug": "2016-tardis-karan-desai",
     "title": "GSoC 2016 TARDIS proposal · Karan Desai",
     "year": 2016,

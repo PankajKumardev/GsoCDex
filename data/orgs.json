@@ -302,6 +302,14 @@
     "proposalCount": 1
   },
   {
+    "slug": "gambit",
+    "name": "Gambit",
+    "yearsParticipated": [
+      2016
+    ],
+    "proposalCount": 1
+  },
+  {
     "slug": "gcc",
     "name": "GCC",
     "yearsParticipated": [
@@ -551,6 +559,14 @@
       2021
     ],
     "proposalCount": 3
+  },
+  {
+    "slug": "mozilla",
+    "name": "Mozilla",
+    "yearsParticipated": [
+      2017
+    ],
+    "proposalCount": 1
   },
   {
     "slug": "nrnb",
@@ -828,6 +844,14 @@
     "name": "TheHoneynetProject",
     "yearsParticipated": [
       2024
+    ],
+    "proposalCount": 1
+  },
+  {
+    "slug": "tiled",
+    "name": "Tiled",
+    "yearsParticipated": [
+      2017
     ],
     "proposalCount": 1
   },

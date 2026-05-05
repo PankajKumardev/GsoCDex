@@ -106,7 +106,7 @@ async function scrapeBlog(): Promise<BlogEntry[]> {
 // --------------------------------------------------------------- URL classify
 
 interface FetchPlan {
-  kind: "drive" | "docs" | "direct" | "gitlab" | "skip";
+  kind: "drive" | "docs" | "direct" | "gitlab" | "shortlink" | "skip";
   fetchUrl: string;
   reason?: string;
 }
@@ -130,7 +130,45 @@ function planFetch(url: string): FetchPlan {
   }
   // direct .pdf
   if (/\.pdf(\?|#|$)/i.test(url)) return { kind: "direct", fetchUrl: url };
+  // Shortlinks (goo.gl, bit.ly, t.co) — resolve at runtime via HEAD redirect.
+  if (/(?:goo\.gl|bit\.ly|t\.co|tinyurl\.com)\//.test(url)) {
+    return { kind: "shortlink", fetchUrl: url };
+  }
   return { kind: "skip", fetchUrl: url, reason: "unsupported link type" };
+}
+
+/**
+ * Resolve a shortlink to its final destination, then re-classify.
+ * Follows redirects manually (not via fetch's redirect:'follow') so we
+ * can inspect the final URL and route it through the right fetcher.
+ */
+async function resolveShortlink(url: string): Promise<FetchPlan> {
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 15_000);
+    const res = await fetch(url, {
+      method: "GET",
+      redirect: "follow",
+      signal: ctrl.signal,
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (compatible; GSoCDex-Ingest/1.0; +https://gsoc-dex.vercel.app)",
+      },
+    });
+    clearTimeout(t);
+    const finalUrl = res.url;
+    if (!finalUrl || finalUrl === url) {
+      return { kind: "skip", fetchUrl: url, reason: "shortlink did not resolve" };
+    }
+    // Re-classify the resolved URL.
+    return planFetch(finalUrl);
+  } catch (err) {
+    return {
+      kind: "skip",
+      fetchUrl: url,
+      reason: `shortlink resolution failed: ${(err as Error).message}`,
+    };
+  }
 }
 
 // ------------------------------------------------------------------- fetching
@@ -294,14 +332,19 @@ async function main() {
       continue;
     }
 
-    const plan = planFetch(e.proposalUrl);
-    if (plan.kind === "skip" || plan.kind === "gitlab") {
-      // GitLab raw fetches usually 200 but may be HTML; we still try if it's gitlab.
-      if (plan.kind === "skip") {
-        unsupported++;
-        log(`  skip [${e.year}] ${e.contributor} → ${e.organization}: ${plan.reason}`);
-        continue;
-      }
+    let plan = planFetch(e.proposalUrl);
+    // Resolve shortlinks at runtime, then re-route through the proper fetcher.
+    if (plan.kind === "shortlink") {
+      log(
+        `[${i + 1}/${entries.length}] [${e.year}] ${e.contributor} → ${e.organization} (resolving shortlink…)`,
+      );
+      plan = await resolveShortlink(e.proposalUrl);
+      await sleep(THROTTLE_MS);
+    }
+    if (plan.kind === "skip") {
+      unsupported++;
+      log(`  skip [${e.year}] ${e.contributor} → ${e.organization}: ${plan.reason}`);
+      continue;
     }
 
     log(
