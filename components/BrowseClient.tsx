@@ -1,8 +1,16 @@
 "use client";
 
-import { Search, X } from "lucide-react";
+import * as Popover from "@radix-ui/react-popover";
+import { Command } from "cmdk";
+import { Check, ChevronDown, Search, X } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useDeferredValue, useEffect, useMemo, useState } from "react";
+import {
+  useCallback,
+  useDeferredValue,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import { Virtuoso } from "react-virtuoso";
 
 import { ProposalListItem } from "@/components/ProposalListItem";
@@ -215,6 +223,19 @@ export function BrowseClient({ proposals, orgs, techTags, years }: BrowseClientP
   );
 }
 
+/**
+ * FilterSelect — a custom dropdown built on Radix Popover + cmdk.
+ *
+ * Why not a native <select>? Because the OS picker can't be styled
+ * (system blue highlight, system font, system scrollbar, system
+ * positioning, auto-scroll-to-focused-item that hides surrounding
+ * options). This implementation gives us:
+ *   - Editorial Art Catalog tokens (alabaster, charcoal, gold, hairlines)
+ *   - cmdk-driven type-to-filter (huge wins for the 84-org / 46-tag lists)
+ *   - Capped max-height with scroll, never overflowing the viewport
+ *   - Radix portal so it always lays out above other content
+ *   - Full keyboard nav (↑↓ to move, Enter to pick, Esc to close)
+ */
 function FilterSelect({
   label,
   value,
@@ -228,33 +249,110 @@ function FilterSelect({
   onChange(v: string): void;
   allowAny?: boolean;
 }) {
-  const active = !!value && (allowAny ? value !== "" : true);
-  const display = active ? options.find((o) => o.value === value)?.label ?? value : null;
+  const [open, setOpen] = useState(false);
+  const active = !!value;
+  const display = active
+    ? options.find((o) => o.value === value)?.label ?? value
+    : null;
+
+  function pick(v: string) {
+    onChange(v);
+    setOpen(false);
+  }
+
   return (
-    <label
-      className={cn(
-        "relative inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full",
-        "border bg-white px-4 py-1.5 text-sm font-medium shadow-sm transition-colors",
-        active
-          ? "border-app-accent/30 bg-app-accent-subtle text-app-accent"
-          : "border-app-border text-app-ink hover:bg-app-surface",
-      )}
-    >
-      <span className="font-mono text-[10px] uppercase tracking-wider opacity-80">{label}</span>
-      <span>{display ?? "Any"}</span>
-      <select
-        aria-label={label}
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        className="absolute inset-0 cursor-pointer appearance-none bg-transparent text-transparent opacity-0"
-      >
-        {allowAny && <option value="">Any</option>}
-        {options.map((o) => (
-          <option key={o.value} value={o.value}>
-            {o.label}
-          </option>
-        ))}
-      </select>
-    </label>
+    <Popover.Root open={open} onOpenChange={setOpen}>
+      <Popover.Trigger asChild>
+        <button
+          type="button"
+          aria-label={label}
+          className={cn(
+            "inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full",
+            "border bg-app-surface-elevated px-4 py-1.5 text-sm font-medium",
+            "shadow-card transition-all",
+            active
+              ? "border-app-accent/30 bg-app-accent-soft text-app-accent-hover"
+              : "border-app-border text-app-ink hover:border-app-accent/30 hover:bg-app-accent-soft/40",
+          )}
+        >
+          <span className="font-mono text-[10px] uppercase tracking-[0.18em] opacity-80">
+            {label}
+          </span>
+          <span className="max-w-[10rem] truncate">{display ?? "Any"}</span>
+          <ChevronDown
+            className={cn(
+              "h-3 w-3 shrink-0 transition-transform",
+              open && "rotate-180",
+            )}
+            aria-hidden
+          />
+        </button>
+      </Popover.Trigger>
+      <Popover.Portal>
+        <Popover.Content
+          align="start"
+          sideOffset={6}
+          collisionPadding={12}
+          className={cn(
+            "z-[60] w-[min(92vw,18rem)] overflow-hidden rounded-xl",
+            "border border-app-border bg-app-surface-elevated",
+            "shadow-modal",
+            "data-[state=open]:animate-in data-[state=closed]:animate-out",
+          )}
+        >
+          <Command shouldFilter={true} className="flex flex-col">
+            <div className="border-b border-app-border px-3 py-2">
+              <Command.Input
+                placeholder={`Filter ${label.toLowerCase()}…`}
+                className="h-8 w-full bg-transparent text-sm text-app-ink outline-none placeholder:text-app-muted"
+              />
+            </div>
+            <Command.List className="max-h-72 overflow-y-auto overscroll-contain p-1.5">
+              <Command.Empty className="px-3 py-6 text-center text-sm text-app-muted">
+                No matches.
+              </Command.Empty>
+              {allowAny && (
+                <Command.Item
+                  value="__any__"
+                  onSelect={() => pick("")}
+                  className={cn(
+                    "flex cursor-pointer items-center justify-between gap-2 rounded-lg px-3 py-2",
+                    "font-mono text-[11px] uppercase tracking-[0.18em]",
+                    "data-[selected=true]:bg-app-accent-soft/60 data-[selected=true]:text-app-accent",
+                    "aria-selected:bg-app-accent-soft/60 aria-selected:text-app-accent",
+                    !value
+                      ? "text-app-accent"
+                      : "text-app-muted",
+                  )}
+                >
+                  <span>Any</span>
+                  {!value && <Check className="h-3.5 w-3.5" aria-hidden />}
+                </Command.Item>
+              )}
+              {options.map((o) => {
+                const selected = o.value === value;
+                return (
+                  <Command.Item
+                    key={o.value}
+                    value={`${o.label} ${o.value}`}
+                    onSelect={() => pick(o.value)}
+                    className={cn(
+                      "flex cursor-pointer items-center justify-between gap-2 rounded-lg px-3 py-2",
+                      "font-mono text-[11px] uppercase tracking-[0.16em]",
+                      "data-[selected=true]:bg-app-accent-soft/60 data-[selected=true]:text-app-accent",
+                      "aria-selected:bg-app-accent-soft/60 aria-selected:text-app-accent",
+                      selected ? "text-app-accent" : "text-app-ink",
+                    )}
+                  >
+                    <span className="truncate">{o.label}</span>
+                    {selected && <Check className="h-3.5 w-3.5 shrink-0" aria-hidden />}
+                  </Command.Item>
+                );
+              })}
+            </Command.List>
+          </Command>
+        </Popover.Content>
+      </Popover.Portal>
+    </Popover.Root>
   );
 }
