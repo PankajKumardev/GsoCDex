@@ -8,7 +8,8 @@ export const SITE_DESCRIPTION =
   "Browse and read accepted Google Summer of Code proposals from across the years. Curated from open community archives. Free, fast, no signup.";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://gsocdex.com";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
+  "https://gsoc-dex.vercel.app";
 
 export const TWITTER_HANDLE = "@gsocdex";
 

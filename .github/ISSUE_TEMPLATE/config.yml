@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🌐 Live site
+    url: https://gsoc-dex.vercel.app
+    about: Browse the catalog
+  - name: 📜 Disclosures, sponsorship & trademark policy
+    url: https://gsoc-dex.vercel.app/disclosures
+    about: Read our policies before opening an issue
