@@ -293,6 +293,7 @@ function FilterSelect({
           align="start"
           sideOffset={6}
           collisionPadding={12}
+          data-lenis-prevent
           className={cn(
             "z-[60] w-[min(92vw,18rem)] overflow-hidden rounded-xl",
             "border border-app-border bg-app-surface-elevated",
@@ -307,7 +308,10 @@ function FilterSelect({
                 className="h-8 w-full bg-transparent text-sm text-app-ink outline-none placeholder:text-app-muted"
               />
             </div>
-            <Command.List className="max-h-72 overflow-y-auto overscroll-contain p-1.5">
+            <Command.List
+              data-lenis-prevent
+              className="max-h-72 overflow-y-auto overscroll-contain p-1.5"
+            >
               <Command.Empty className="px-3 py-6 text-center text-sm text-app-muted">
                 No matches.
               </Command.Empty>

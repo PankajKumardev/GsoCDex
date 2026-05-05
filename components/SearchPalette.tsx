@@ -65,6 +65,7 @@ export function SearchPalette({ open, onOpenChange }: SearchPaletteProps) {
         />
         <Dialog.Content
           aria-describedby={undefined}
+          data-lenis-prevent
           className={cn(
             "fixed z-[100]",
             "inset-0 md:inset-auto md:left-1/2 md:top-24 md:-translate-x-1/2",
@@ -93,7 +94,7 @@ export function SearchPalette({ open, onOpenChange }: SearchPaletteProps) {
                 Esc
               </button>
             </div>
-            <Command.List className="flex-1 overflow-y-auto p-2">
+            <Command.List data-lenis-prevent className="flex-1 overflow-y-auto p-2">
               {error && <EmptyState text={error} />}
               {!error && !ready && <EmptyState text="Loading index…" />}
               {!error && ready && !query.trim() && (
